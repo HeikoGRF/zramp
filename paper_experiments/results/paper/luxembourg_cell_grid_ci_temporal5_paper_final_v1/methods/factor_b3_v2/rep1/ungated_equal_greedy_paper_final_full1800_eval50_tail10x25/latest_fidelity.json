@@ -1,0 +1,15 @@
+{
+  "eval_is_final": 1,
+  "eval_n_pairs_per_zone": 10000,
+  "greedy_active_experienced_models": 49,
+  "greedy_feasible_recall": 0.9996580133685683,
+  "greedy_feasible_rmse": 13.860183859734974,
+  "greedy_infeasible_rmse": 29.862218293457463,
+  "greedy_max_local_experience": 4610,
+  "greedy_mean_local_experience": 2003.408163265306,
+  "greedy_mean_model_rmse": 21.756457426110092,
+  "greedy_non_feasible_false_positive_rate": 0.9765334440899394,
+  "greedy_predicted_feasible_fraction": 0.9871591836734694,
+  "greedy_total": 23.880203183424396,
+  "step": 1799
+}

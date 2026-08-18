@@ -1,0 +1,5 @@
+zone	full_dataset_epochs	job_id	results_dir
+factor_b2_v1	2	2196900	/home/hgraef/zramp-workspace/artifacts/luxembourg_factorial_3x3_benchmark/training_intensity_test/factor_b2_v1/full_epochs2_kappa1_steps300
+factor_b2_v1	3	2196901	/home/hgraef/zramp-workspace/artifacts/luxembourg_factorial_3x3_benchmark/training_intensity_test/factor_b2_v1/full_epochs3_kappa1_steps300
+factor_b3_v2	2	2196902	/home/hgraef/zramp-workspace/artifacts/luxembourg_factorial_3x3_benchmark/training_intensity_test/factor_b3_v2/full_epochs2_kappa1_steps300
+factor_b3_v2	3	2196903	/home/hgraef/zramp-workspace/artifacts/luxembourg_factorial_3x3_benchmark/training_intensity_test/factor_b3_v2/full_epochs3_kappa1_steps300

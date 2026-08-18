@@ -1,0 +1,282 @@
+{
+  "checkpoint": {
+    "final_step": 1799,
+    "step": 1700
+  },
+  "evaluation": {
+    "noise_floor_dbm": -100.0,
+    "non_feasible_false_positive_rate": 0.3665866095590957,
+    "predicted_feasible_fraction": 0.6569815791594426,
+    "true_feasible_rule": "rssi_dbm > -100"
+  },
+  "expert_bank": {
+    "advertisement": "product-quantized aligned patch codes on first sight; model key and experience thereafter",
+    "advertisement_cached_per_receiver": true,
+    "capacity_including_local": null,
+    "coverage_recalculations_latest": 1557036,
+    "deployment_probe_set": false,
+    "deterministic_model_id_prefilter": true,
+    "full_support_shared_only_after_pull": true,
+    "gain_grid_layout": "regular",
+    "gain_grid_points": 90000,
+    "gain_grid_resolution": 300,
+    "gain_validation_points_are_map_independent": true,
+    "gain_validation_uses_deployment_positions": false,
+    "geometric_dominance": false,
+    "internal_expanded_advertisement_dim": 14401,
+    "iterative_pull_until_no_positive_candidate": true,
+    "mean_size_tail": 28.20418463421956,
+    "model_transfers_latest": 1557036,
+    "patch_codebook_groups": 4,
+    "post_pull_exact_validation": true,
+    "post_pull_gain_measure": "fixed normalized point-grid support weighted by maximum sample count",
+    "post_pull_gain_threshold": "same kappa as predicted acquisition gain",
+    "post_pull_grid_validation": "after every pulled model",
+    "pruning": "remove an expert only when its removal leaves the pointwise grid maximum unchanged",
+    "routing": "maximum support intensity",
+    "sampled_gain_validation": true,
+    "selection": "frozen aligned-grid scalar-gain acquisition",
+    "transfer_cost": 0.0,
+    "unique_coverage_threshold": null
+  },
+  "latest_fidelity": {
+    "eval_is_final": 0,
+    "eval_n_pairs_per_zone": 10000,
+    "expert_bank_coverage_recalculations": 1557036,
+    "expert_bank_manifest_records": 139692723,
+    "expert_bank_max_size": 45,
+    "expert_bank_mean_size": 26.658227848101266,
+    "expert_bank_model_transfers": 1557036,
+    "expert_bank_unique_versions": 501,
+    "greedy_active_experienced_models": 79,
+    "greedy_coverage_at_0_5": 0.6616974683544303,
+    "greedy_feasible_coverage_at_0_5": 0.7987028486607043,
+    "greedy_feasible_rmse": 18.417040218144546,
+    "greedy_infeasible_leakage_at_0_5": 0.37216056875325126,
+    "greedy_infeasible_rmse": 15.511302149985124,
+    "greedy_max_capsules": 1715438,
+    "greedy_max_experience": 511495,
+    "greedy_mean_capsules": 1038573.7088607595,
+    "greedy_mean_confidence": 0.6616974683544303,
+    "greedy_mean_experience": 329222.2405063291,
+    "greedy_mean_model_rmse": 17.517377974111824,
+    "greedy_non_feasible_false_positive_rate": 0.34191008402036666,
+    "greedy_predicted_feasible_fraction": 0.6447417721518988,
+    "greedy_total": 17.53628421988268,
+    "step": 1700
+  },
+  "learned_acquisition": {
+    "accepted_pulls": 41283,
+    "advertisement_bytes": 23029604948,
+    "advertisement_scalar_values": 5757401237,
+    "bank_grid_profile_evaluations": 41210,
+    "bundle": "/home/hgraef/zramp-workspace/artifacts/support_acquisition_pretraining/cell_grid_patch_acquisition_v1_c16_pq4x256/bundle.pt",
+    "expert_grid_profile_evaluations": 0,
+    "gain_upper_bound_rejections": 8206,
+    "grid_redundancy_evaluations": 5604565,
+    "post_pull_gain_rejections": 1515753,
+    "pretraining_step": 1950,
+    "probability_threshold": null,
+    "pull_attempts": 1557036,
+    "pulled_model_parameter_values": 7076728620,
+    "pulled_support_scalar_values": 103302333702,
+    "rejected_pulls": 1515753,
+    "relative_gain_penalty": 0.02,
+    "teacher_batches_per_step": 0,
+    "teacher_distillation_passes": 0,
+    "teacher_distillation_samples": 0,
+    "teacher_support_merges": 0,
+    "variant": "spatial_grid_encoding_relative_gain"
+  },
+  "method": {
+    "id": "cell_grid_expert_bank_learned_acquisition_step1950_cell_grid_expert_kappa2",
+    "model": "bank of 4-64-64-1 MLP experts",
+    "name": "Cell-grid learned-acquisition expert bank (pretrained step 1950, cell_grid_expert_kappa2)"
+  },
+  "metrics_db": {
+    "feasible_rmse": 17.88773884576874,
+    "non_feasible_rmse": 15.631812692960454,
+    "overall_rmse": 17.20316901740191
+  },
+  "metrics_db_standard_deviation": {
+    "feasible_rmse": 0.6025360018311767,
+    "non_feasible_rmse": 0.7273132720918836,
+    "overall_rmse": 0.3874798492005782
+  },
+  "schema": "place_wallis_benchmark_result_v1",
+  "status": "running",
+  "support": {
+    "gate": "all query-traversed cells reach the minimum intensity",
+    "intensity_aggregation": "pointwise maximum",
+    "minimum_cell_intensity": 1.0,
+    "prediction_confidence": "binary",
+    "resolution": 300,
+    "semantics": "normalized_square_cell_traversal_v1"
+  },
+  "support_plane_params": {
+    "angle_deg": 7.0,
+    "initial_half_width_m": 1.75,
+    "lateral_merge_m": 1.0,
+    "link_length_margin_m": 0.0,
+    "longitudinal_gap_m": 3.0,
+    "mass_scale": 3.0,
+    "max_corridor_width_m": 12.0,
+    "max_envelope_inflation": 1.2
+  },
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": false,
+    "evaluation_steps": [
+      1574,
+      1599,
+      1624,
+      1649,
+      1674,
+      1699,
+      1724,
+      1749,
+      1774,
+      1799
+    ],
+    "expected_evaluations": 10,
+    "mean": {
+      "expert_bank_mean_size": 28.20418463421956,
+      "greedy_coverage_at_0_5": 0.6711205686467162,
+      "greedy_feasible_coverage_at_0_5": 0.8029677966850332,
+      "greedy_feasible_rmse": 17.88773884576874,
+      "greedy_infeasible_leakage_at_0_5": 0.39248452134780715,
+      "greedy_infeasible_rmse": 15.631812692960454,
+      "greedy_mean_capsules": 1081484.54665447,
+      "greedy_mean_confidence": 0.6711205686467162,
+      "greedy_non_feasible_false_positive_rate": 0.3665866095590957,
+      "greedy_predicted_feasible_fraction": 0.6569815791594426,
+      "greedy_total": 17.20316901740191
+    },
+    "observed_evaluations": 6,
+    "observed_steps": [
+      1574,
+      1599,
+      1624,
+      1649,
+      1674,
+      1699
+    ],
+    "period_start_step": 1549,
+    "standard_deviation": {
+      "expert_bank_mean_size": 1.2004988945791273,
+      "greedy_coverage_at_0_5": 0.015340833816812678,
+      "greedy_feasible_coverage_at_0_5": 0.013781364989922648,
+      "greedy_feasible_rmse": 0.6025360018311767,
+      "greedy_infeasible_leakage_at_0_5": 0.018763112102604628,
+      "greedy_infeasible_rmse": 0.7273132720918836,
+      "greedy_mean_capsules": 36374.83620175906,
+      "greedy_mean_confidence": 0.015340833816812678,
+      "greedy_non_feasible_false_positive_rate": 0.019637188178984823,
+      "greedy_predicted_feasible_fraction": 0.016098039404383317,
+      "greedy_total": 0.3874798492005782
+    },
+    "values": {
+      "expert_bank_mean_size": [
+        29.323809523809523,
+        29.506666666666668,
+        28.80952380952381,
+        28.283783783783782,
+        27.149425287356323,
+        26.151898734177216
+      ],
+      "greedy_coverage_at_0_5": [
+        0.6893095238095238,
+        0.685136,
+        0.6770095238095238,
+        0.6723702702702703,
+        0.6575563218390804,
+        0.6453417721518987
+      ],
+      "greedy_feasible_coverage_at_0_5": [
+        0.819186519628476,
+        0.814423492437635,
+        0.8085978056514297,
+        0.8051390370924844,
+        0.7915388210432203,
+        0.7789211042569538
+      ],
+      "greedy_feasible_rmse": [
+        17.492048279819688,
+        17.441110852539627,
+        17.528923031636193,
+        17.602365988255954,
+        18.127399429667282,
+        19.134585492693713
+      ],
+      "greedy_infeasible_leakage_at_0_5": [
+        0.4148372175769436,
+        0.41190950601909504,
+        0.39892071398920714,
+        0.39178671199219145,
+        0.37440775253718095,
+        0.36304522597222444
+      ],
+      "greedy_infeasible_rmse": [
+        16.998408407038355,
+        16.077379217687813,
+        15.484985949716418,
+        15.15731488738807,
+        14.760675931520014,
+        15.312111764412046
+      ],
+      "greedy_mean_capsules": [
+        1091323.980952381,
+        1126516.5466666666,
+        1108899.746031746,
+        1092341.5405405406,
+        1052330.2758620689,
+        1017495.1898734177
+      ],
+      "greedy_mean_confidence": [
+        0.6893095238095238,
+        0.685136,
+        0.6770095238095238,
+        0.6723702702702703,
+        0.6575563218390804,
+        0.6453417721518987
+      ],
+      "greedy_non_feasible_false_positive_rate": [
+        0.3900670106149558,
+        0.3855832295558323,
+        0.37324813694676706,
+        0.36688011174312546,
+        0.35009518901819325,
+        0.3336459794757003
+      ],
+      "greedy_predicted_feasible_fraction": [
+        0.6766438095238095,
+        0.6703866666666667,
+        0.662763492063492,
+        0.6589202702702702,
+        0.644319540229885,
+        0.6288556962025317
+      ],
+      "greedy_total": [
+        17.335023788905072,
+        17.01499990204721,
+        16.899381457639024,
+        16.855724817450646,
+        17.118344641812246,
+        17.995539496557246
+      ]
+    }
+  },
+  "testset": {
+    "path": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/factor_b2_v3_300m_30min_opaque_buildings_no_vehicle_blockers/testset/factor_b2_v3_300m_street_pairs_10000_opaque_no_vehicle_blockers_static_floor100.npz",
+    "samples": 10000
+  },
+  "training": {
+    "full_dataset_epochs": 1,
+    "gradient_clip_norm": 1.0,
+    "new_data_epochs": 2,
+    "recent_replay_batches": 4,
+    "recent_window": 512,
+    "replay_batches": 8,
+    "replay_capacity": 0
+  }
+}

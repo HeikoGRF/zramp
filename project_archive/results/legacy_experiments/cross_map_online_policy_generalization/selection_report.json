@@ -1,0 +1,762 @@
+{
+  "candidates": {
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h16e64g128_seed_01/policy_best_validation.pt": {
+      "onpolicy_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2589560398403834,
+          "oracle_gain_db": 3.4974184341602026,
+          "oracle_gap_closed": 0.8807881105976222,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.833255049318929,
+          "pearson": 0.9678580561923054,
+          "random_gain_db": 2.0680666698792667,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.32702270971965,
+          "spearman": 0.8653460497629257,
+          "top_provider_accuracy": 0.7540983606557377,
+          "within_opportunity_spearman": 0.6631798074421025
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 0.9792746298558361,
+          "oracle_gain_db": 4.212705317976112,
+          "oracle_gap_closed": 0.8719511052254786,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8268398268398268,
+          "pearson": 0.9410338277779796,
+          "random_gain_db": 3.089620979889741,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 4.068895609745577,
+          "spearman": 0.8365213501712646,
+          "top_provider_accuracy": 0.7504553734061931,
+          "within_opportunity_spearman": 0.5751799809176859
+        }
+      },
+      "random_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.1495591070786013,
+          "oracle_gain_db": 3.1584344307397463,
+          "oracle_gap_closed": 0.8827881356646118,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8637858149365899,
+          "pearson": 0.9667710729278254,
+          "random_gain_db": 1.8562430434334936,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.005802150512095,
+          "spearman": 0.873885080670866,
+          "top_provider_accuracy": 0.8051001821493625,
+          "within_opportunity_spearman": 0.756605082834591
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 0.9230594551259093,
+          "oracle_gain_db": 3.946002780861741,
+          "oracle_gap_closed": 0.8813341456374455,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8477157360406091,
+          "pearson": 0.9335926217086786,
+          "random_gain_db": 2.898659432490409,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.8217188876163184,
+          "spearman": 0.8407672941805809,
+          "top_provider_accuracy": 0.7996357012750456,
+          "within_opportunity_spearman": 0.626194813080059
+        }
+      },
+      "untouched_test": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2843518140604098,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.8936306568760122,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8711853517507228,
+          "pearson": 0.9581367862636887,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.913610126091569,
+          "spearman": 0.9056936991456525,
+          "top_provider_accuracy": 0.8014101057579318,
+          "within_opportunity_spearman": 0.7640255161994293
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.042011047764257,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9098982563262735,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8774916943521595,
+          "pearson": 0.9198423432204678,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.96499315870245,
+          "spearman": 0.8533232064191751,
+          "top_provider_accuracy": 0.8213866039952996,
+          "within_opportunity_spearman": 0.613023893458676
+        }
+      }
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_onpolicy_augmented_policy_v1/mixed_r1_seed_1701/policy_best_validation.pt": {
+      "onpolicy_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.245038964040349,
+          "oracle_gain_db": 3.4974184341602026,
+          "oracle_gap_closed": 0.8710514760281496,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8271488961953969,
+          "pearson": 0.9706224795651524,
+          "random_gain_db": 2.0680666698792667,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.3131056339196157,
+          "spearman": 0.8699112619795089,
+          "top_provider_accuracy": 0.7358834244080146,
+          "within_opportunity_spearman": 0.656687483736664
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 0.9857946758828531,
+          "oracle_gain_db": 4.212705317976112,
+          "oracle_gap_closed": 0.8777565873303457,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8257575757575758,
+          "pearson": 0.9427442905983427,
+          "random_gain_db": 3.089620979889741,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 4.075415655772594,
+          "spearman": 0.8369179109477839,
+          "top_provider_accuracy": 0.7431693989071039,
+          "within_opportunity_spearman": 0.5736664064532917
+        }
+      },
+      "random_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.1595406141757458,
+          "oracle_gain_db": 3.1584344307397463,
+          "oracle_gap_closed": 0.8904532970183453,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8614372945044622,
+          "pearson": 0.9706443848850724,
+          "random_gain_db": 1.8562430434334936,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.0157836576092394,
+          "spearman": 0.8865352424547639,
+          "top_provider_accuracy": 0.8087431693989071,
+          "within_opportunity_spearman": 0.7732934339491717
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 0.9239768676419651,
+          "oracle_gain_db": 3.946002780861741,
+          "oracle_gap_closed": 0.882210088104147,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8527918781725888,
+          "pearson": 0.9371568920319157,
+          "random_gain_db": 2.898659432490409,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.822636300132374,
+          "spearman": 0.8530780919265656,
+          "top_provider_accuracy": 0.8051001821493625,
+          "within_opportunity_spearman": 0.6242865816636308
+        }
+      },
+      "untouched_test": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2832515812804557,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.8928651331845257,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8708641182139415,
+          "pearson": 0.9602186872468726,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.912509893311615,
+          "spearman": 0.9061558347988806,
+          "top_provider_accuracy": 0.8166862514688602,
+          "within_opportunity_spearman": 0.7696379609423087
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0489376455826518,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9159466559960788,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8758305647840532,
+          "pearson": 0.922466588455201,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.971919756520845,
+          "spearman": 0.8554410221082123,
+          "top_provider_accuracy": 0.8401880141010576,
+          "within_opportunity_spearman": 0.6074478204912988
+        }
+      }
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_onpolicy_augmented_policy_v1/mixed_r1_seed_1702/policy_best_validation.pt": {
+      "onpolicy_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.259239582413139,
+          "oracle_gain_db": 3.4974184341602026,
+          "oracle_gap_closed": 0.8809864820411264,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8459370596524189,
+          "pearson": 0.9719211439611235,
+          "random_gain_db": 2.0680666698792667,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.3273062522924057,
+          "spearman": 0.8842267209816407,
+          "top_provider_accuracy": 0.7814207650273224,
+          "within_opportunity_spearman": 0.7005724694249286
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 0.9966003157559102,
+          "oracle_gain_db": 4.212705317976112,
+          "oracle_gap_closed": 0.8873779839669232,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8333333333333334,
+          "pearson": 0.9444860612863862,
+          "random_gain_db": 3.089620979889741,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 4.086221295645651,
+          "spearman": 0.8487485551618259,
+          "top_provider_accuracy": 0.7632058287795993,
+          "within_opportunity_spearman": 0.5939196808049266
+        }
+      },
+      "random_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.1700044378259051,
+          "oracle_gain_db": 3.1584344307397463,
+          "oracle_gap_closed": 0.8984888467479477,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8590887740723344,
+          "pearson": 0.9673334838725798,
+          "random_gain_db": 1.8562430434334936,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.0262474812593987,
+          "spearman": 0.8870641410493002,
+          "top_provider_accuracy": 0.8087431693989071,
+          "within_opportunity_spearman": 0.7585393355885159
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 0.9322594650695382,
+          "oracle_gain_db": 3.946002780861741,
+          "oracle_gap_closed": 0.8901182850105893,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.85053581500282,
+          "pearson": 0.9328590777504583,
+          "random_gain_db": 2.898659432490409,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.8309188975599473,
+          "spearman": 0.8524850775784172,
+          "top_provider_accuracy": 0.8087431693989071,
+          "within_opportunity_spearman": 0.6214892878827304
+        }
+      },
+      "untouched_test": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.3198535154477566,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.9183321509554985,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8785737230966912,
+          "pearson": 0.9627099750885392,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.949111827478916,
+          "spearman": 0.9097982797387328,
+          "top_provider_accuracy": 0.8319623971797885,
+          "within_opportunity_spearman": 0.7930362039057691
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0582224207827076,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9240542483129153,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.877906976744186,
+          "pearson": 0.9211332203159183,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.9812045317209006,
+          "spearman": 0.8568346071045454,
+          "top_provider_accuracy": 0.8472385428907168,
+          "within_opportunity_spearman": 0.6258351519221085
+        }
+      }
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_onpolicy_augmented_policy_v1/mixed_r2_seed_1701/policy_best_validation.pt": {
+      "onpolicy_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2533182972045598,
+          "oracle_gain_db": 3.4974184341602026,
+          "oracle_gap_closed": 0.8768438452483156,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8374823860967591,
+          "pearson": 0.9717630686464448,
+          "random_gain_db": 2.0680666698792667,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.3213849670838265,
+          "spearman": 0.8803282705561715,
+          "top_provider_accuracy": 0.7577413479052824,
+          "within_opportunity_spearman": 0.691608118657299
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0011256718128436,
+          "oracle_gain_db": 4.212705317976112,
+          "oracle_gap_closed": 0.8914073839892263,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8268398268398268,
+          "pearson": 0.9452325610738039,
+          "random_gain_db": 3.089620979889741,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 4.090746651702585,
+          "spearman": 0.8474827009366049,
+          "top_provider_accuracy": 0.7504553734061931,
+          "within_opportunity_spearman": 0.5728380605429785
+        }
+      },
+      "random_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.145573807155935,
+          "oracle_gain_db": 3.1584344307397463,
+          "oracle_gap_closed": 0.8797276792973565,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8539220291216534,
+          "pearson": 0.9693546723185957,
+          "random_gain_db": 1.8562430434334936,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.0018168505894285,
+          "spearman": 0.8853315610301542,
+          "top_provider_accuracy": 0.7978142076502732,
+          "within_opportunity_spearman": 0.7580969728510712
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 0.9157493674638206,
+          "oracle_gain_db": 3.946002780861741,
+          "oracle_gap_closed": 0.8743544978710696,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8454596728708403,
+          "pearson": 0.9379192430703149,
+          "random_gain_db": 2.898659432490409,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.8144087999542298,
+          "spearman": 0.8507001582031678,
+          "top_provider_accuracy": 0.7905282331511839,
+          "within_opportunity_spearman": 0.6268757047445572
+        }
+      },
+      "untouched_test": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.276549119007222,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.8882016712745207,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8625120462576293,
+          "pearson": 0.9592733477922029,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.9058074310383812,
+          "spearman": 0.9052359957002309,
+          "top_provider_accuracy": 0.7884841363102233,
+          "within_opportunity_spearman": 0.7439371048066701
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0173402271641945,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.8883553593538283,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8617109634551495,
+          "pearson": 0.9214918553963296,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.9403223381023875,
+          "spearman": 0.854008911113793,
+          "top_provider_accuracy": 0.8119858989424207,
+          "within_opportunity_spearman": 0.5898970398970399
+        }
+      }
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_onpolicy_augmented_policy_v1/mixed_r2_seed_1702/policy_best_validation.pt": {
+      "onpolicy_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2705549443876492,
+          "oracle_gain_db": 3.4974184341602026,
+          "oracle_gap_closed": 0.8889029111926323,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8525129168623767,
+          "pearson": 0.9734546479472642,
+          "random_gain_db": 2.0680666698792667,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.338621614266916,
+          "spearman": 0.8882510174563304,
+          "top_provider_accuracy": 0.7923497267759563,
+          "within_opportunity_spearman": 0.7133662936941625
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0048125736260953,
+          "oracle_gain_db": 4.212705317976112,
+          "oracle_gap_closed": 0.8946902200935333,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8382034632034632,
+          "pearson": 0.9466119671539044,
+          "random_gain_db": 3.089620979889741,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 4.094433553515836,
+          "spearman": 0.8544410734567798,
+          "top_provider_accuracy": 0.7741347905282332,
+          "within_opportunity_spearman": 0.600021684447914
+        }
+      },
+      "random_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.162791120141099,
+          "oracle_gain_db": 3.1584344307397463,
+          "oracle_gap_closed": 0.8929494784529939,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8661343353687178,
+          "pearson": 0.969733159614426,
+          "random_gain_db": 1.8562430434334936,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.0190341635745925,
+          "spearman": 0.8907835295365475,
+          "top_provider_accuracy": 0.8032786885245902,
+          "within_opportunity_spearman": 0.7668705004770578
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 0.924470246238323,
+          "oracle_gain_db": 3.946002780861741,
+          "oracle_gap_closed": 0.8826811643726172,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.856175972927242,
+          "pearson": 0.9368058369806589,
+          "random_gain_db": 2.898659432490409,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.823129678728732,
+          "spearman": 0.8586641716618302,
+          "top_provider_accuracy": 0.7996357012750456,
+          "within_opportunity_spearman": 0.6263249197675427
+        }
+      },
+      "untouched_test": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2958407679142878,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.9016244801157683,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8747189206553164,
+          "pearson": 0.9626593824432751,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.925099079945447,
+          "spearman": 0.9101207850221175,
+          "top_provider_accuracy": 0.8096357226792009,
+          "within_opportunity_spearman": 0.7720021263499524
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0386175690193231,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9069350244109108,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8683554817275747,
+          "pearson": 0.9237495873050618,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.961599679957516,
+          "spearman": 0.8565623194439204,
+          "top_provider_accuracy": 0.8249118683901293,
+          "within_opportunity_spearman": 0.60782272956186
+        }
+      }
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_onpolicy_augmented_policy_v1/onpolicy_only_seed_1701/policy_best_validation.pt": {
+      "onpolicy_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2644486684360143,
+          "oracle_gain_db": 3.4974184341602026,
+          "oracle_gap_closed": 0.8846308515749589,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8346641615782058,
+          "pearson": 0.9725784595073818,
+          "random_gain_db": 2.0680666698792667,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.332515338315281,
+          "spearman": 0.8756030902379258,
+          "top_provider_accuracy": 0.7668488160291439,
+          "within_opportunity_spearman": 0.6903504206782894
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 0.9938838256423637,
+          "oracle_gain_db": 4.212705317976112,
+          "oracle_gap_closed": 0.884959207369811,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.829004329004329,
+          "pearson": 0.9456095329229909,
+          "random_gain_db": 3.089620979889741,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 4.083504805532105,
+          "spearman": 0.8423458027739263,
+          "top_provider_accuracy": 0.7449908925318761,
+          "within_opportunity_spearman": 0.5675123601353109
+        }
+      },
+      "random_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.1458621429642275,
+          "oracle_gain_db": 3.1584344307397463,
+          "oracle_gap_closed": 0.879949102823194,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8492249882573979,
+          "pearson": 0.9694078238665842,
+          "random_gain_db": 1.8562430434334936,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.002105186397721,
+          "spearman": 0.8797564879710523,
+          "top_provider_accuracy": 0.7832422586520947,
+          "within_opportunity_spearman": 0.7461878740567265
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 0.9120113359469344,
+          "oracle_gain_db": 3.946002780861741,
+          "oracle_gap_closed": 0.8707854376171432,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8477157360406091,
+          "pearson": 0.936607653283583,
+          "random_gain_db": 2.898659432490409,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.8106707684373435,
+          "spearman": 0.8449669921785459,
+          "top_provider_accuracy": 0.8032786885245902,
+          "within_opportunity_spearman": 0.6402940411137134
+        }
+      },
+      "untouched_test": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2753628399352541,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.8873762780024316,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8512688724702859,
+          "pearson": 0.9640694294336377,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.9046211519664134,
+          "spearman": 0.8925767969043527,
+          "top_provider_accuracy": 0.7955346650998825,
+          "within_opportunity_spearman": 0.7371803480499133
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.01912795621788,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.8899164287419336,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8496677740863787,
+          "pearson": 0.9256854437419285,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.942110067156073,
+          "spearman": 0.8395469656692425,
+          "top_provider_accuracy": 0.8166862514688602,
+          "within_opportunity_spearman": 0.5926752839796318
+        }
+      }
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_onpolicy_augmented_policy_v1/onpolicy_only_seed_1702/policy_best_validation.pt": {
+      "onpolicy_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.271590375711086,
+          "oracle_gain_db": 3.4974184341602026,
+          "oracle_gap_closed": 0.8896273174230034,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8393612024424613,
+          "pearson": 0.9731416760478357,
+          "random_gain_db": 2.0680666698792667,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.3396570455903527,
+          "spearman": 0.8871134337330278,
+          "top_provider_accuracy": 0.7632058287795993,
+          "within_opportunity_spearman": 0.6868028449995663
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 0.9968773431133169,
+          "oracle_gain_db": 4.212705317976112,
+          "oracle_gap_closed": 0.8876246505332817,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8382034632034632,
+          "pearson": 0.9458723275131928,
+          "random_gain_db": 3.089620979889741,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 4.086498323003058,
+          "spearman": 0.8539905491103917,
+          "top_provider_accuracy": 0.75591985428051,
+          "within_opportunity_spearman": 0.5946135831381734
+        }
+      },
+      "random_validation": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.1623625921192968,
+          "oracle_gain_db": 3.1584344307397463,
+          "oracle_gap_closed": 0.8926203962412856,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8487552841709722,
+          "pearson": 0.9675527010972547,
+          "random_gain_db": 1.8562430434334936,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.0186056355527904,
+          "spearman": 0.8791961867801069,
+          "top_provider_accuracy": 0.7868852459016393,
+          "within_opportunity_spearman": 0.745615404631798
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 0.9075536337620353,
+          "oracle_gain_db": 3.946002780861741,
+          "oracle_gap_closed": 0.8665292381656158,
+          "pairs": 1920,
+          "pairwise_order_accuracy": 0.8420755781161873,
+          "pearson": 0.9352935961022647,
+          "random_gain_db": 2.898659432490409,
+          "rankable_opportunities": 549,
+          "selected_gain_db": 3.8062130662524445,
+          "spearman": 0.8443841690088348,
+          "top_provider_accuracy": 0.785063752276867,
+          "within_opportunity_spearman": 0.6165755919854281
+        }
+      },
+      "untouched_test": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2891939716490142,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.8969997496893916,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8538387407645358,
+          "pearson": 0.9564983047000244,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.9184522836801734,
+          "spearman": 0.8924687511013959,
+          "top_provider_accuracy": 0.7873090481786134,
+          "within_opportunity_spearman": 0.7507078507078507
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0068381788159981,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.8791848275246494,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8509136212624585,
+          "pearson": 0.9181379948328925,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.929820289754191,
+          "spearman": 0.8337499352474683,
+          "top_provider_accuracy": 0.8061104582843713,
+          "within_opportunity_spearman": 0.6069665939231157
+        }
+      }
+    }
+  },
+  "original_checkpoint": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h16e64g128_seed_01/policy_best_validation.pt",
+  "protocol": {
+    "fit_and_selection": "artificial maps only",
+    "kirchberg_labels_used": false,
+    "onpolicy_validation_maps": [
+      "source_valid_00_ring_spokes",
+      "source_valid_01_staggered"
+    ],
+    "random_validation_floor_db": 1.0495591070786012,
+    "random_validation_maps": [
+      "source_valid_00_ring_spokes",
+      "source_valid_01_staggered"
+    ],
+    "selection_rule": "maximize policy-induced validation gain subject to random-state validation being within 0.100 dB of the original policy",
+    "untouched_test_maps": [
+      "source_test_00_cross_core",
+      "source_test_01_sparse_campus",
+      "source_test_02_dense_irregular"
+    ]
+  },
+  "selected_checkpoint": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_onpolicy_augmented_policy_v1/selected_policy.pt",
+  "selected_result": {
+    "onpolicy_validation": {
+      "deployable_geometry_alpha": {
+        "gain_over_random_db": 1.271590375711086,
+        "oracle_gain_db": 3.4974184341602026,
+        "oracle_gap_closed": 0.8896273174230034,
+        "pairs": 1920,
+        "pairwise_order_accuracy": 0.8393612024424613,
+        "pearson": 0.9731416760478357,
+        "random_gain_db": 2.0680666698792667,
+        "rankable_opportunities": 549,
+        "selected_gain_db": 3.3396570455903527,
+        "spearman": 0.8871134337330278,
+        "top_provider_accuracy": 0.7632058287795993,
+        "within_opportunity_spearman": 0.6868028449995663
+      },
+      "oracle_provider_audit": {
+        "gain_over_random_db": 0.9968773431133169,
+        "oracle_gain_db": 4.212705317976112,
+        "oracle_gap_closed": 0.8876246505332817,
+        "pairs": 1920,
+        "pairwise_order_accuracy": 0.8382034632034632,
+        "pearson": 0.9458723275131928,
+        "random_gain_db": 3.089620979889741,
+        "rankable_opportunities": 549,
+        "selected_gain_db": 4.086498323003058,
+        "spearman": 0.8539905491103917,
+        "top_provider_accuracy": 0.75591985428051,
+        "within_opportunity_spearman": 0.5946135831381734
+      }
+    },
+    "random_validation": {
+      "deployable_geometry_alpha": {
+        "gain_over_random_db": 1.1623625921192968,
+        "oracle_gain_db": 3.1584344307397463,
+        "oracle_gap_closed": 0.8926203962412856,
+        "pairs": 1920,
+        "pairwise_order_accuracy": 0.8487552841709722,
+        "pearson": 0.9675527010972547,
+        "random_gain_db": 1.8562430434334936,
+        "rankable_opportunities": 549,
+        "selected_gain_db": 3.0186056355527904,
+        "spearman": 0.8791961867801069,
+        "top_provider_accuracy": 0.7868852459016393,
+        "within_opportunity_spearman": 0.745615404631798
+      },
+      "oracle_provider_audit": {
+        "gain_over_random_db": 0.9075536337620353,
+        "oracle_gain_db": 3.946002780861741,
+        "oracle_gap_closed": 0.8665292381656158,
+        "pairs": 1920,
+        "pairwise_order_accuracy": 0.8420755781161873,
+        "pearson": 0.9352935961022647,
+        "random_gain_db": 2.898659432490409,
+        "rankable_opportunities": 549,
+        "selected_gain_db": 3.8062130662524445,
+        "spearman": 0.8443841690088348,
+        "top_provider_accuracy": 0.785063752276867,
+        "within_opportunity_spearman": 0.6165755919854281
+      }
+    },
+    "untouched_test": {
+      "deployable_geometry_alpha": {
+        "gain_over_random_db": 1.2891939716490142,
+        "oracle_gain_db": 3.0664872210642216,
+        "oracle_gap_closed": 0.8969997496893916,
+        "pairs": 2880,
+        "pairwise_order_accuracy": 0.8538387407645358,
+        "pearson": 0.9564983047000244,
+        "random_gain_db": 1.6292583120311592,
+        "rankable_opportunities": 851,
+        "selected_gain_db": 2.9184522836801734,
+        "spearman": 0.8924687511013959,
+        "top_provider_accuracy": 0.7873090481786134,
+        "within_opportunity_spearman": 0.7507078507078507
+      },
+      "oracle_provider_audit": {
+        "gain_over_random_db": 1.0068381788159981,
+        "oracle_gain_db": 4.0681772363485775,
+        "oracle_gap_closed": 0.8791848275246494,
+        "pairs": 2880,
+        "pairwise_order_accuracy": 0.8509136212624585,
+        "pearson": 0.9181379948328925,
+        "random_gain_db": 2.922982110938193,
+        "rankable_opportunities": 851,
+        "selected_gain_db": 3.929820289754191,
+        "spearman": 0.8337499352474683,
+        "top_provider_accuracy": 0.8061104582843713,
+        "within_opportunity_spearman": 0.6069665939231157
+      }
+    }
+  },
+  "selected_source_checkpoint": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_onpolicy_augmented_policy_v1/onpolicy_only_seed_1702/policy_best_validation.pt"
+}

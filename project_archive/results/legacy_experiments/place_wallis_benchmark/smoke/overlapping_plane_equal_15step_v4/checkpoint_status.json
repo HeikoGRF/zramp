@@ -1,0 +1,94 @@
+{
+  "experienced_models": 41,
+  "format": "place_wallis_overlapping_plane_greedy_checkpoint_v1",
+  "latest_fidelity": {
+    "eval_is_final": 0,
+    "eval_n_pairs_per_zone": 10000,
+    "greedy_active_experienced_models": 38,
+    "greedy_coverage_at_0_5": 0.3592105263157895,
+    "greedy_feasible_coverage_at_0_5": 0.7822141560798548,
+    "greedy_feasible_rmse": 24.837991610606412,
+    "greedy_infeasible_leakage_at_0_5": 0.10638154741382935,
+    "greedy_infeasible_rmse": 13.528980059627601,
+    "greedy_max_capsules": 121,
+    "greedy_mean_capsules": 109.89473684210526,
+    "greedy_mean_confidence": 0.3592105263157895,
+    "greedy_non_feasible_false_positive_rate": 0.10443908140698446,
+    "greedy_predicted_feasible_fraction": 0.35017631578947367,
+    "greedy_total": 18.58366200244324,
+    "step": 10
+  },
+  "max_capsules": 121,
+  "mean_capsules": 109.89473684210526,
+  "path": "/home/hgraef/zramp-workspace/artifacts/place_wallis_benchmark/smoke/overlapping_plane_equal_15step_v4/checkpoint_latest.pt",
+  "step": 10,
+  "support_temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": false,
+    "evaluation_steps": [
+      14,
+      15
+    ],
+    "expected_evaluations": 2,
+    "mean": {
+      "greedy_coverage_at_0_5": null,
+      "greedy_feasible_coverage_at_0_5": null,
+      "greedy_infeasible_leakage_at_0_5": null,
+      "greedy_max_capsules": null,
+      "greedy_mean_capsules": null,
+      "greedy_mean_confidence": null
+    },
+    "observed_evaluations": 0,
+    "observed_steps": [],
+    "period_start_step": 13,
+    "standard_deviation": {
+      "greedy_coverage_at_0_5": null,
+      "greedy_feasible_coverage_at_0_5": null,
+      "greedy_infeasible_leakage_at_0_5": null,
+      "greedy_max_capsules": null,
+      "greedy_mean_capsules": null,
+      "greedy_mean_confidence": null
+    },
+    "values": {
+      "greedy_coverage_at_0_5": [],
+      "greedy_feasible_coverage_at_0_5": [],
+      "greedy_infeasible_leakage_at_0_5": [],
+      "greedy_max_capsules": [],
+      "greedy_mean_capsules": [],
+      "greedy_mean_confidence": []
+    }
+  },
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": false,
+    "evaluation_steps": [
+      14,
+      15
+    ],
+    "expected_evaluations": 2,
+    "mean": {
+      "greedy_feasible_rmse": null,
+      "greedy_infeasible_rmse": null,
+      "greedy_non_feasible_false_positive_rate": null,
+      "greedy_predicted_feasible_fraction": null,
+      "greedy_total": null
+    },
+    "observed_evaluations": 0,
+    "observed_steps": [],
+    "period_start_step": 13,
+    "standard_deviation": {
+      "greedy_feasible_rmse": null,
+      "greedy_infeasible_rmse": null,
+      "greedy_non_feasible_false_positive_rate": null,
+      "greedy_predicted_feasible_fraction": null,
+      "greedy_total": null
+    },
+    "values": {
+      "greedy_feasible_rmse": [],
+      "greedy_infeasible_rmse": [],
+      "greedy_non_feasible_false_positive_rate": [],
+      "greedy_predicted_feasible_fraction": [],
+      "greedy_total": []
+    }
+  }
+}

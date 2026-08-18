@@ -1,0 +1,119 @@
+{
+  "checkpoint_kind": "metrics-only",
+  "experienced_models": 46,
+  "format": "place_wallis_overlapping_plane_greedy_checkpoint_v1",
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "greedy_active_experienced_models": 46,
+    "greedy_coverage_at_0_5": 0.019876086956521738,
+    "greedy_feasible_coverage_at_0_5": 0.037339858691476394,
+    "greedy_feasible_rmse": 39.64399263990462,
+    "greedy_infeasible_leakage_at_0_5": 0.0009114654187299342,
+    "greedy_infeasible_rmse": 2.7182257571564787,
+    "greedy_max_capsules": 15,
+    "greedy_mean_capsules": 8.282608695652174,
+    "greedy_mean_confidence": 0.019876086956521738,
+    "greedy_non_feasible_false_positive_rate": 0.0009114654187299342,
+    "greedy_predicted_feasible_fraction": 0.019876086956521738,
+    "greedy_total": 28.666027783999713,
+    "step": 2
+  },
+  "max_capsules": 15,
+  "mean_capsules": 8.282608695652174,
+  "path": null,
+  "step": 2,
+  "support_temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      2
+    ],
+    "expected_evaluations": 1,
+    "mean": {
+      "greedy_coverage_at_0_5": 0.019876086956521738,
+      "greedy_feasible_coverage_at_0_5": 0.037339858691476394,
+      "greedy_infeasible_leakage_at_0_5": 0.0009114654187299342,
+      "greedy_max_capsules": 15.0,
+      "greedy_mean_capsules": 8.282608695652174,
+      "greedy_mean_confidence": 0.019876086956521738
+    },
+    "observed_evaluations": 1,
+    "observed_steps": [
+      2
+    ],
+    "period_start_step": 1,
+    "standard_deviation": {
+      "greedy_coverage_at_0_5": 0.0,
+      "greedy_feasible_coverage_at_0_5": 0.0,
+      "greedy_infeasible_leakage_at_0_5": 0.0,
+      "greedy_max_capsules": 0.0,
+      "greedy_mean_capsules": 0.0,
+      "greedy_mean_confidence": 0.0
+    },
+    "values": {
+      "greedy_coverage_at_0_5": [
+        0.019876086956521738
+      ],
+      "greedy_feasible_coverage_at_0_5": [
+        0.037339858691476394
+      ],
+      "greedy_infeasible_leakage_at_0_5": [
+        0.0009114654187299342
+      ],
+      "greedy_max_capsules": [
+        15.0
+      ],
+      "greedy_mean_capsules": [
+        8.282608695652174
+      ],
+      "greedy_mean_confidence": [
+        0.019876086956521738
+      ]
+    }
+  },
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      2
+    ],
+    "expected_evaluations": 1,
+    "mean": {
+      "greedy_feasible_rmse": 39.64399263990462,
+      "greedy_infeasible_rmse": 2.7182257571564787,
+      "greedy_non_feasible_false_positive_rate": 0.0009114654187299342,
+      "greedy_predicted_feasible_fraction": 0.019876086956521738,
+      "greedy_total": 28.666027783999713
+    },
+    "observed_evaluations": 1,
+    "observed_steps": [
+      2
+    ],
+    "period_start_step": 1,
+    "standard_deviation": {
+      "greedy_feasible_rmse": 0.0,
+      "greedy_infeasible_rmse": 0.0,
+      "greedy_non_feasible_false_positive_rate": 0.0,
+      "greedy_predicted_feasible_fraction": 0.0,
+      "greedy_total": 0.0
+    },
+    "values": {
+      "greedy_feasible_rmse": [
+        39.64399263990462
+      ],
+      "greedy_infeasible_rmse": [
+        2.7182257571564787
+      ],
+      "greedy_non_feasible_false_positive_rate": [
+        0.0009114654187299342
+      ],
+      "greedy_predicted_feasible_fraction": [
+        0.019876086956521738
+      ],
+      "greedy_total": [
+        28.666027783999713
+      ]
+    }
+  }
+}

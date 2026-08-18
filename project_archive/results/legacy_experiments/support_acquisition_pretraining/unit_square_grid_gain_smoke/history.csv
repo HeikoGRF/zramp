@@ -1,0 +1,2 @@
+step,training_loss,examples,groups,gain_log_mae,gain_log_rmse,gain_relative_mae,gain_relative_rmse,gain_prediction_bias_log,top1_accuracy,mean_selection_regret_log,positive_target_fraction,plane_count_min,plane_count_max,plane_count_mean
+1,0.3242851793766022,4,2,0.8600035905838013,0.9251409769058228,2.566187620162964,3.4760854244232178,-0.14054210484027863,0.5,0.640332818031311,0.5,1,38,10.333333333333334

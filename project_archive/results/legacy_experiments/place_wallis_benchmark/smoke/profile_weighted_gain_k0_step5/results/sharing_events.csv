@@ -1,0 +1,6 @@
+step,capsule_payload_bytes,capsule_scalar_values_sent,contact_threshold_rx_power_dbm,contact_threshold_snr_db,expert_advertisement_bytes,expert_advertisement_scalar_values,expert_bank_accepted_pulls,expert_bank_coverage_recalculations,expert_bank_manifest_records,expert_bank_model_messages,expert_bank_receivers,expert_bank_rejected_pulls,feasible_contact_decisions,feasible_contact_pairs,greedy_comm_bytes,greedy_comm_cumulative_mb,greedy_comm_mb,greedy_events,local_policy_initial_pull_probability,model_parameter_values_pulled,model_payload_bytes,model_transfer_snr_min_db,noise_floor_dbm,propagation_loss_contact_threshold_db,rssi_gossip_threshold_dbm,snr_min_db
+1,0,0,-100.0,0.0,0,0,0,0,0,0,26,0,352,176,0,0.0,0.0,0,1.0,0,0,0.0,-100.0,123.0,-100.0,0.0
+2,80124,20031,-100.0,0.0,95744,23936,350,352,352,352,26,2,352,176,6402176,6.402176,6.402176,352,1.0,1599840,6399360,0.0,-100.0,123.0,-100.0,0.0
+3,160556,40139,-100.0,0.0,1488928,372232,573,996,5474,644,26,71,352,176,11713072,18.115248,11.713072,644,1.0,2926980,11707920,0.0,-100.0,123.0,-100.0,0.0
+4,245080,61270,-100.0,0.0,2123504,530876,528,1808,7807,812,26,284,320,160,14768656,32.883904,14.768656,812,1.0,3690540,14762160,0.0,-100.0,123.0,-100.0,0.0
+5,360360,90090,-100.0,0.0,2266848,566712,611,2775,8334,967,28,356,340,170,17587796,50.4717,17.587796,967,1.0,4395015,17580060,0.0,-100.0,123.0,-100.0,0.0

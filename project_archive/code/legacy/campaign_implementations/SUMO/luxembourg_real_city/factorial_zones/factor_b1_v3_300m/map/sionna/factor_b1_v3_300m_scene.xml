@@ -1,0 +1,20 @@
+<scene version="2.1.0">
+    <bsdf type="itu-radio-material" id="mat-concrete">
+        <string name="type" value="concrete"/>
+        <float name="thickness" value="0.3"/>
+    </bsdf>
+    <bsdf type="itu-radio-material" id="mat-ground">
+        <string name="type" value="medium_dry_ground"/>
+        <float name="thickness" value="0.5"/>
+    </bsdf>
+    <shape type="ply" id="luxembourg_buildings">
+        <string name="filename" value="/home/hgraef/zramp-workspace/SUMO/luxembourg_real_city/factorial_zones/factor_b1_v3_300m/map/sionna/factor_b1_v3_300m_buildings_buffer200m.ply"/>
+        <boolean name="face_normals" value="true"/>
+        <ref id="mat-concrete" name="bsdf"/>
+    </shape>
+    <shape type="ply" id="luxembourg_terrain_ground">
+        <string name="filename" value="/home/hgraef/zramp-workspace/SUMO/luxembourg_real_city/factorial_zones/factor_b1_v3_300m/map/sionna/factor_b1_v3_300m_terrain_ground_buffer200m.ply"/>
+        <boolean name="face_normals" value="true"/>
+        <ref id="mat-ground" name="bsdf"/>
+    </shape>
+</scene>

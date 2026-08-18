@@ -1,0 +1,73 @@
+{
+  "bridge_deck_edge_ids": [],
+  "bridge_deck_lane_count": 0,
+  "bridge_deck_mesh": "",
+  "bridge_deck_mesh_included": false,
+  "bridge_deck_mesh_triangles": 0,
+  "bridge_deck_mesh_vertices": 0,
+  "bridge_deck_source": "LuST3D lanes whose edge type contains bridge",
+  "bridge_deck_thickness_m": 1.0,
+  "building_base_elevation_max_m": 312.46449286617343,
+  "building_base_elevation_median_m": 304.67856503255075,
+  "building_base_elevation_min_m": 239.43159876755936,
+  "building_base_method": "bilinear interpolation of official terrain grid at footprint centroid",
+  "building_count": 704,
+  "building_height_max_m": 54.829060007963164,
+  "building_height_median_m": 19.587265853085853,
+  "building_height_min_m": 0.6004718825958548,
+  "building_mesh": "/home/hgraef/zramp-workspace/SUMO/luxembourg_real_city/evaluation_zones/ville_haute_300m/map/sionna/ville_haute_300m_buildings_buffer200m.ply",
+  "crop": "ville_haute_300m",
+  "format": "radiodiff_luxembourg_sionna_scene_v2",
+  "geometry_bounds_local_xy_m": [
+    -200.0,
+    -200.0,
+    500.0,
+    500.0
+  ],
+  "lane_elevation_max_m": 311.48,
+  "lane_elevation_median_m": 304.08,
+  "lane_elevation_min_m": 237.71,
+  "measurement_bounds_local_xy_m": [
+    0.0,
+    0.0,
+    300.0,
+    300.0
+  ],
+  "mesh_triangles": 15890,
+  "mesh_vertices": 38322,
+  "pilot_limitations": "Terrain/ground uses the official Luxembourg 2024 DTM and the deck uses LuST3D bridge-lane elevations. Bridge piers, railings, vegetation, and spatially varying road-surface materials are not modeled.",
+  "radio_bounds_net": "/home/hgraef/zramp-workspace/SUMO/luxembourg_real_city/evaluation_zones/ville_haute_300m/map/sionna/ville_haute_300m_radio_bounds.net.xml",
+  "road_conditioned_terrain_vertices": 1544,
+  "road_conditioning_clearance_m": 0.5,
+  "road_conditioning_method": "minimum nearby densified non-bridge LuST3D lane elevation",
+  "road_conditioning_radius_m": 10.0,
+  "scene_xml": "/home/hgraef/zramp-workspace/SUMO/luxembourg_real_city/evaluation_zones/ville_haute_300m/map/sionna/ville_haute_300m_scene.xml",
+  "source_bounds_sumo_xy_m": [
+    6950.0,
+    7000.0,
+    7250.0,
+    7300.0
+  ],
+  "terrain_elevation_max_m": 312.4079895019531,
+  "terrain_elevation_median_m": 304.3849182128906,
+  "terrain_elevation_min_m": 237.21,
+  "terrain_grid_shape": [
+    70,
+    70
+  ],
+  "terrain_grid_spacing_m": [
+    10.0,
+    10.0
+  ],
+  "terrain_material": "itu_medium_dry_ground",
+  "terrain_mesh": "/home/hgraef/zramp-workspace/SUMO/luxembourg_real_city/evaluation_zones/ville_haute_300m/map/sionna/ville_haute_300m_terrain_ground_buffer200m.ply",
+  "terrain_mesh_included": true,
+  "terrain_mesh_triangles": 9522,
+  "terrain_mesh_vertices": 4900,
+  "terrain_source_url": "https://download.data.public.lu/resources/bd-l-lidar2024-releve-3d-du-territoire-luxembourgeois/20241223-093912/MNT_Lidar2024.tif",
+  "terrain_source_xyz": "/home/hgraef/zramp-workspace/SUMO/luxembourg_real_city/evaluation_zones/ville_haute_300m/map/terrain/ville_haute_300m_buffer200m_dtm_2024_10m_utm32.xyz",
+  "terrain_unconditioned_elevation_max_m": 312.4079895019531,
+  "terrain_unconditioned_elevation_median_m": 304.5771484375,
+  "terrain_unconditioned_elevation_min_m": 237.4127197265625,
+  "z_reference_m": 230.0
+}

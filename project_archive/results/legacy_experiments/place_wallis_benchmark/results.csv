@@ -1,0 +1,19 @@
+method_id,method_name,status,checkpoint,overall_rmse_db,feasible_rmse_db,non_feasible_rmse_db,feasible_samples,non_feasible_samples,predicted_feasible_fraction
+noise_floor,Noise-floor baseline,complete,static,25.678986,41.984019,0.000000,3741,6259,0.000000
+equal_greedy,Equal-weight greedy sharing,complete,1799,26.759523,12.256543,32.465057,3741,6259,0.999137
+bounded_rbf_greedy,Bounded pair-RBF greedy sharing,complete,1799,24.297463,39.651807,1.864152,3741,6259,
+capsule_greedy,Finite corridor-capsule greedy sharing,incomplete,,,,,3741,6259,
+experience_weighted_capsule_greedy,Experience-weighted corridor-capsule greedy sharing,incomplete,,,,,3741,6259,
+support_plane_greedy,Equal-weight variable-width support-plane sharing,incomplete,,,,,3741,6259,
+experience_weighted_support_plane_greedy,Experience-weighted variable-width support-plane sharing,incomplete,,,,,3741,6259,
+overlapping_plane_greedy,Equal-weight overlapping straight-plane sharing,incomplete,,,,,3741,6259,
+experience_weighted_overlapping_plane_greedy,Experience-based greedy legacy overlapping planes 7deg,incomplete,,,,,3741,6259,
+support_expert_bank_k3,Support-driven expert bank (K=3),complete,1799,15.378330,23.304251,7.296275,3741,6259,0.271465
+support_expert_bank_k6,Support-driven expert bank (K=6),complete,1799,14.490490,20.202654,9.566768,3741,6259,0.322583
+support_expert_bank_k9,Support-driven expert bank (K=9),complete,1799,14.476313,19.173705,10.727797,3741,6259,0.348699
+support_expert_bank_k3_bounded_angle8,Support-driven expert bank K=3 bounded angle 8deg,complete,1799,16.242040,23.955091,8.858302,3741,6259,0.287148
+support_expert_bank_k3_bounded_angle12,Support-driven expert bank K=3 bounded angle 12deg,complete,1799,14.879425,21.971752,8.072656,3741,6259,0.289339
+support_expert_bank_k3_bounded_angle16,Support-driven expert bank K=3 bounded angle 16deg,complete,1799,16.011805,23.626843,8.715024,3741,6259,0.289623
+support_expert_bank_dominance_unbounded_bounded_angle12_minunique005,Dominance-pruned expert bank uncapped 12deg min-unique 0.5%,complete,1799,14.676863,17.308754,12.848904,3741,6259,0.395119
+experience_weighted_overlapping_plane_greedy_optimized_angle12,Experience-based greedy optimized current overlapping planes 12deg,incomplete,,,,,3741,6259,
+support_expert_bank_learned_acquisition_unbounded_step1800_synthetic_v2_step1800_angle12_iterative,Learned-acquisition expert bank uncapped synthetic-v2 step1800 12deg iterative pulls,complete,1799,14.884119,18.715561,11.989025,3741,6259,0.382465

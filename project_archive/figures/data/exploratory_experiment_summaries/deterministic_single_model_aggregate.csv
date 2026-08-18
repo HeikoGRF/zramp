@@ -1,0 +1,13 @@
+rank_among_complete_methods,method_id,method_label,method_family,completed_maps,expected_maps,mean_tail_rmse_db,mean_model_transfers,note
+1,centralized_reference,Centralized reference,reference,9,9,11.294343,0.0,Idealized accuracy reference; model-transfer count is not a communication estimate.
+2,intensity_top1,"Grid intensity, Top-1",deterministic_grid_intensity,9,9,14.752261,66823.9,Final deterministic selection and merge rule at one pull per event.
+3,intensity_top5,"Grid intensity, Top-5",deterministic_grid_intensity,9,9,14.781656,331129.4,At most five highest-intensity models per event.
+4,intensity_all,"Grid intensity, all available",deterministic_grid_intensity,9,9,14.843541,2600027.4,All available models are pulled at each event.
+5,sample_count_top4,"Sample count, Top-4",deterministic_sample_count,9,9,14.865563,265626.8,"At most four models, ranked and merged by cumulative sample count."
+6,sample_count_top1,"Sample count, Top-1",deterministic_sample_count,9,9,14.887336,66823.9,"At most one model, ranked and merged by cumulative sample count."
+7,sample_count_top2,"Sample count, Top-2",deterministic_sample_count,9,9,14.941869,133408.7,"At most two models, ranked and merged by cumulative sample count."
+8,sample_count_all,"Sample count, all available",deterministic_sample_count,9,9,14.984683,2600027.4,All available models are pulled and merged by cumulative sample count.
+9,learned_expert_bank_kappa10,"Learned Expert Bank, kappa=0.10",pretrained_learned_acquisition,9,9,19.349943,61970.4,Pretrained relative-gain acquisition with an uncapped expert bank.
+10,learned_expert_bank_kappa50,"Learned Expert Bank, kappa=0.50",pretrained_learned_acquisition,9,9,20.320397,14089.2,Pretrained relative-gain acquisition with an uncapped expert bank.
+11,local_only,Local only,reference,9,9,28.076269,0.0,No peer model sharing.
+,learned_expert_bank_kappa2,"Learned Expert Bank, kappa=0.02",pretrained_learned_acquisition,8,9,18.365193,291925.6,Only eight of nine maps completed; factor_b2_v3 has no final result.

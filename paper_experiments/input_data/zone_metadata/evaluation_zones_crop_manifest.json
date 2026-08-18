@@ -1,0 +1,26 @@
+{
+  "format": "radiodiff_luxembourg_crop_manifest_v1",
+  "selected_crop": "ville_haute_300m",
+  "crops": {
+    "ville_haute_300m": {
+      "bounds_sumo_xy_m": [6950.0, 7000.0, 7250.0, 7300.0],
+      "map_height_m": 300.0,
+      "map_width_m": 300.0
+    },
+    "belair_300m": {
+      "bounds_sumo_xy_m": [5450.0, 6350.0, 5750.0, 6650.0],
+      "map_height_m": 300.0,
+      "map_width_m": 300.0
+    },
+    "limpertsberg_s_300m": {
+      "bounds_sumo_xy_m": [6650.0, 7650.0, 6950.0, 7950.0],
+      "map_height_m": 300.0,
+      "map_width_m": 300.0
+    },
+    "hollerich_w_300m": {
+      "bounds_sumo_xy_m": [6050.0, 5450.0, 6350.0, 5750.0],
+      "map_height_m": 300.0,
+      "map_width_m": 300.0
+    }
+  }
+}

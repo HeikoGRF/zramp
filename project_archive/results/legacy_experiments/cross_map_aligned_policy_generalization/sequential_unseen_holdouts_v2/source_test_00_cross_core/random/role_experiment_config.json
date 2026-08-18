@@ -1,0 +1,59 @@
+{
+  "aggregation_validation_samples_used": false,
+  "all_link_trace": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_test_00_cross_core/seed_01/clear_contacts.npz",
+  "all_real_observations_train_predictor": true,
+  "artificial_full_weight_samples": 2048,
+  "artificial_high_weight_range": [
+    0.05,
+    0.75
+  ],
+  "artificial_label_dbm": -105.0,
+  "artificial_low_weight_range": [
+    0.02,
+    0.3
+  ],
+  "artificial_maturity_exponent": 2.0,
+  "artificial_max_new_per_vehicle_step": 32,
+  "artificial_min_real_samples": 256,
+  "artificial_ratio": 0.236,
+  "artificial_split": {
+    "fedavg_optimization": 0.0,
+    "predictor_training": 1.0,
+    "pull_reward": 0.0
+  },
+  "artificial_support_high_m": 10.0,
+  "artificial_support_min_m": 7.5,
+  "artificial_validation_or_reward": false,
+  "communication_contact_rule": "bidirectionally feasible and direct_path_blocked=false",
+  "communication_penalty_beta_db": 0.0,
+  "fedavg_alpha_grid": [
+    0.0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0
+  ],
+  "format": "merge_test_role_exact_sequential_v1",
+  "local_observations": "all privately received feasible links",
+  "maximum_pull_tokens_per_vehicle_step": 0.1,
+  "parameter_geometry_alpha_counts": {},
+  "parameter_geometry_last": {},
+  "parameter_geometry_sample_count_used": false,
+  "policy_decision_rule": "pull iff predicted parameter-geometry improvement minus communication cost exceeds the configured trigger",
+  "policy_gossip": "none",
+  "policy_reward_source": "parameter-geometry",
+  "predictor_inputs": [
+    "tx_x",
+    "tx_y",
+    "rx_x",
+    "rx_y"
+  ],
+  "predictors_per_vehicle": 1,
+  "real_sample_rx_threshold_dbm": -100.0,
+  "receiver_noise_floor_dbm": -105.0,
+  "role_labels_visible_to_policy": false
+}

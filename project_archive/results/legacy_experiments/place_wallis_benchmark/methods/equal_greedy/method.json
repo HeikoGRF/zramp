@@ -1,0 +1,34 @@
+{
+  "schema": "place_wallis_benchmark_method_v1",
+  "id": "equal_greedy",
+  "name": "Equal-weight greedy sharing",
+  "status": "complete",
+  "slurm_job_id": 2166292,
+  "model": "4-64-64-1 MLP",
+  "aggregation": {
+    "frequency": "once per second",
+    "members": "self plus all currently feasible neighbours",
+    "weights": "equal",
+    "synchronous": true,
+    "optimizer_state_after_aggregation": "reset"
+  },
+  "training": {
+    "data": "new local receiver measurements plus local replay only",
+    "new_data_epochs": 2,
+    "replay_batches_per_active_step": 8,
+    "recent_replay_batches": 4,
+    "batch_size": 64,
+    "learning_rate": 0.0005,
+    "replay_capacity": 4096
+  },
+  "shared_data": [
+    "MLP parameters"
+  ],
+  "not_shared": [
+    "raw measurements",
+    "replay samples",
+    "experience counts",
+    "support summaries",
+    "Adam optimizer state"
+  ]
+}

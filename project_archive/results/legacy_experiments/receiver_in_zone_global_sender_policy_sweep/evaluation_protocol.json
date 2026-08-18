@@ -1,0 +1,25 @@
+{
+  "schema": "receiver_in_zone_global_sender_protocol_v1",
+  "source_trace_format": "sumo_rssi_trace_v3_shard",
+  "map": "Gare-Bonnevoie, Luxembourg",
+  "map_size_m": 800,
+  "zone_layout": {
+    "type": "equal-square-grid",
+    "zones_per_side": 2,
+    "cell_size_m": 400,
+    "numbering": "row-major"
+  },
+  "total_zones": 4,
+  "evaluated_zone": 1,
+  "receiver_candidates": "inside zone 1",
+  "transmitter_candidates": "entire 800 m scene",
+  "global_sender_candidates": true,
+  "held_out_pairs": 10000,
+  "held_out_transmitters": 20,
+  "targets_used_for_training": false,
+  "dynamic_vehicle_blockers": true,
+  "original_trace_campaign_id": "global_sender_fidelity_zone1_r20k_d3_llvm",
+  "generator": "code/legacy/campaign_implementations/SUMO/luxembourg_real_city/generate_pilot_rssi_trace.py",
+  "required_generator_option": "--fidelity-global-senders",
+  "scope_note": "This asymmetric receiver/transmitter rule defines the held-out fidelity evaluation pairs; it is not a claim that every training or contact link followed the same rule."
+}

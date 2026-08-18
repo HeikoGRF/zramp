@@ -1,0 +1,17 @@
+{
+  "attempts": 10649,
+  "decision_opportunities": 34871,
+  "gain_prediction_mae": 0.17203456390144803,
+  "gain_prediction_pearson": 0.10702895971468297,
+  "gain_prediction_rmse": 0.2535896494581805,
+  "gain_sign_accuracy": 0.8563245375152596,
+  "prediction_target_pairs": 10649,
+  "selected_predicted_top_fraction": 0.8941684665226782,
+  "selection_mode": "policy",
+  "timing_reason_counts": {
+    "network_half_duplex_conflict": 23945,
+    "network_scheduled": 10649,
+    "network_sinr_or_airtime": 277
+  },
+  "token_window_steps": 1
+}

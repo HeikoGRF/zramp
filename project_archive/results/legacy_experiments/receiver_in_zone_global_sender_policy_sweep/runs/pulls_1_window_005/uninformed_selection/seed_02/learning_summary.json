@@ -1,0 +1,11 @@
+{
+  "attempts": 15455,
+  "decision_opportunities": 65907,
+  "selection_mode": "random",
+  "timing_reason_counts": {
+    "random_scheduled": 15455,
+    "random_wait": 25237,
+    "token_spent": 25215
+  },
+  "token_window_steps": 5
+}

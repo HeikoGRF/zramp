@@ -1,0 +1,33 @@
+{
+  "background": "/home/hgraef/zramp-workspace/SUMO/luxembourg_real_city/place_wallis/place_wallis_map_300m.png",
+  "bounds_local_xy_m": [
+    0.0,
+    0.0,
+    300.0,
+    300.0
+  ],
+  "format": "sumo_traffic_video_v1",
+  "frame_size_px": [
+    900,
+    900
+  ],
+  "output": "/home/hgraef/zramp-workspace/SUMO/luxembourg_real_city/place_wallis/place_wallis_traffic_0745_0815.mp4",
+  "playback_speedup": 30.0,
+  "source_end_clock": "08:14:59",
+  "source_end_step": 1799,
+  "source_end_time_s": 29699.0,
+  "source_frame_period_s": 1.0,
+  "source_mobility": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/place_wallis_300m_30min_opaque_buildings_no_vehicle_blockers/mobility/place_wallis_all_vehicles_0745_0815_1s_full1800.json",
+  "source_start_clock": "07:45:00",
+  "source_start_step": 0,
+  "source_start_time_s": 27900.0,
+  "vehicle_color": "#E4572E",
+  "vehicle_marker": "oriented SUMO length/width rectangle",
+  "video_duration_s": 60.0,
+  "video_fps": 30,
+  "visible_vehicle_min_median_max": [
+    13,
+    48.0,
+    103
+  ]
+}

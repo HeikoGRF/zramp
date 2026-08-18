@@ -1,0 +1,16 @@
+{
+  "format": "radiodiff_luxembourg_crop_manifest_v1",
+  "selected_crop": "matched_b2v3_a_300m",
+  "crops": {
+    "matched_b2v3_a_300m": {
+      "bounds_sumo_xy_m": [6400.0, 7000.0, 6700.0, 7300.0],
+      "map_height_m": 300.0,
+      "map_width_m": 300.0
+    },
+    "matched_b2v3_b_300m": {
+      "bounds_sumo_xy_m": [7200.0, 6200.0, 7500.0, 6500.0],
+      "map_height_m": 300.0,
+      "map_width_m": 300.0
+    }
+  }
+}

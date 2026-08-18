@@ -1,0 +1,13 @@
+Greedy Flooding Baseline (with Adapters) Summary
+==================================================
+Single anchor zone: Zone_0_0
+Total pings logged: 38000
+Total share events: 15200
+Eval samples (last 20% steps): 7600
+
+--- Baseline Accuracy (vs Sionna ground truth) ---
+RMSE: 23.3767 dB
+MAE:  18.1025 dB
+
+Final adapter params (Zone_0_0, node 0): a=6.9544, b=-55.8866
+Training buffer size: 28174 samples

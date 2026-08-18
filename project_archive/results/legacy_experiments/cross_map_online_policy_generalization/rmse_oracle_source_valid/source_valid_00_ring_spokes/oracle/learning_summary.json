@@ -1,0 +1,13 @@
+{
+  "attempts": 454,
+  "decision_opportunities": 4573,
+  "oracle_provider_headroom_mean": 1.7032019869821642,
+  "oracle_provider_headroom_p90": 3.144205575272215,
+  "selection_mode": "oracle",
+  "timing_reason_counts": {
+    "oracle_matched_top1": 454,
+    "random_wait": 2280,
+    "token_spent": 1839
+  },
+  "token_window_steps": 10
+}

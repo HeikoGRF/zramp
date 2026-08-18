@@ -1,0 +1,4 @@
+step,eval_is_final,eval_n_pairs_per_zone,greedy_active_experienced_models,greedy_feasible_recall,greedy_feasible_rmse,greedy_infeasible_rmse,greedy_max_local_experience,greedy_mean_local_experience,greedy_mean_model_rmse,greedy_non_feasible_false_positive_rate,greedy_predicted_feasible_fraction,greedy_total
+1,0,10000,26,1.0,61.08462322768049,100.0,23,13.576923076923077,87.49223327636719,1.0,1.0,87.49223508403475
+2,1,10000,26,1.0,53.9181951300742,93.05654407534287,46,27.307692307692307,80.66758405245267,1.0,1.0,80.6694906583457
+3,1,10000,26,1.0,41.79094184517979,79.58337351978278,68,40.03846153846154,67.89353121243991,1.0,1.0,67.95222711016004

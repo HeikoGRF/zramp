@@ -1,0 +1,129 @@
+{
+  "checkpoint_kind": "metrics-only",
+  "experienced_models": 644,
+  "format": "place_wallis_equal_greedy_checkpoint_v1",
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "greedy_active_experienced_models": 4,
+    "greedy_feasible_recall": 0.9999657862323799,
+    "greedy_feasible_rmse": 10.81687345941415,
+    "greedy_infeasible_rmse": 28.12898422495317,
+    "greedy_max_local_experience": 827,
+    "greedy_mean_local_experience": 376.75,
+    "greedy_mean_model_rmse": 17.268792629241943,
+    "greedy_non_feasible_false_positive_rate": 0.9968436687708875,
+    "greedy_predicted_feasible_fraction": 0.999125,
+    "greedy_total": 17.279358531207112,
+    "step": 1799
+  },
+  "path": null,
+  "step": 1799,
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      1574,
+      1599,
+      1624,
+      1649,
+      1674,
+      1699,
+      1724,
+      1749,
+      1774,
+      1799
+    ],
+    "expected_evaluations": 10,
+    "mean": {
+      "greedy_feasible_rmse": 8.748033204591382,
+      "greedy_infeasible_rmse": 35.02682248964141,
+      "greedy_non_feasible_false_positive_rate": 0.9996843668770887,
+      "greedy_predicted_feasible_fraction": 0.9999125,
+      "greedy_total": 19.698003897090235
+    },
+    "observed_evaluations": 10,
+    "observed_steps": [
+      1574,
+      1599,
+      1624,
+      1649,
+      1674,
+      1699,
+      1724,
+      1749,
+      1774,
+      1799
+    ],
+    "period_start_step": 1549,
+    "standard_deviation": {
+      "greedy_feasible_rmse": 1.9200308089996303,
+      "greedy_infeasible_rmse": 4.416307632238758,
+      "greedy_non_feasible_false_positive_rate": 0.0009468993687337557,
+      "greedy_predicted_feasible_fraction": 0.00026249999999998773,
+      "greedy_total": 2.500428663181245
+    },
+    "values": {
+      "greedy_feasible_rmse": [
+        7.943709098941667,
+        7.673258306481482,
+        7.4885400780935285,
+        10.478461351051482,
+        7.137867304613965,
+        7.021254582516737,
+        7.687801728911408,
+        13.118591572090777,
+        8.113974563798612,
+        10.81687345941415
+      ],
+      "greedy_infeasible_rmse": [
+        36.529054628673485,
+        34.661939296685624,
+        33.184068219867726,
+        40.46823475898083,
+        34.93568275856069,
+        32.221671021979475,
+        30.741204676536725,
+        44.29034613937278,
+        35.10703917080359,
+        28.12898422495317
+      ],
+      "greedy_non_feasible_false_positive_rate": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9968436687708875
+      ],
+      "greedy_predicted_feasible_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.999125
+      ],
+      "greedy_total": [
+        20.135921674129214,
+        19.146104088971057,
+        18.37184747229996,
+        22.831035872250737,
+        19.128766691857454,
+        17.76567035554297,
+        17.253416418929906,
+        25.573811742851777,
+        19.494106122862156,
+        17.279358531207112
+      ]
+    }
+  }
+}

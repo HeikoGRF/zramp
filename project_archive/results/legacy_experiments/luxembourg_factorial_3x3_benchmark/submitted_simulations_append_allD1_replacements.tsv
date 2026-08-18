@@ -1,0 +1,8 @@
+zone	penalty_pct	old_job_id	new_job_id	dependency
+factor_b1_v2_300m	10	2192689	2192722	none
+factor_b1_v2_300m	50	2192690	2192723	none
+factor_b1_v3_300m	2	2192691	2192724	none
+factor_b1_v3_300m	10	2192692	2192725	none
+factor_b3_v1_300m	2	2192703	2192726	afterok:2192720
+factor_b3_v1_300m	10	2192704	2192727	afterok:2192720
+factor_b3_v1_300m	50	2192705	2192728	afterok:2192720

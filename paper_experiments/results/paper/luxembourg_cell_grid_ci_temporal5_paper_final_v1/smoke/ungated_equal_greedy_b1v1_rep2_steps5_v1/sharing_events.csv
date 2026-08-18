@@ -1,0 +1,6 @@
+step,contact_threshold_rx_power_dbm,contact_threshold_snr_db,equal_weight_model_transfers,feasible_contact_decisions,feasible_contact_pairs,greedy_comm_bytes,greedy_comm_cumulative_mb,greedy_comm_mb,greedy_events,local_policy_initial_pull_probability,model_payload_bytes,model_transfer_snr_min_db,noise_floor_dbm,propagation_loss_contact_threshold_db,rssi_gossip_threshold_dbm,snr_min_db,synchronous_greedy_receivers
+1,-100.0,0.0,532,532,266,9676016,9.676016,9.676016,532,1.0,9671760,0.0,-100.0,123.0,-100.0,0.0,26
+2,-100.0,0.0,490,490,245,8912120,18.588136,8.91212,490,1.0,8908200,0.0,-100.0,123.0,-100.0,0.0,25
+3,-100.0,0.0,500,500,250,9094000,27.682136,9.094,500,1.0,9090000,0.0,-100.0,123.0,-100.0,0.0,25
+4,-100.0,0.0,512,512,256,9312256,36.994392,9.312256,512,1.0,9308160,0.0,-100.0,123.0,-100.0,0.0,26
+5,-100.0,0.0,472,472,236,8584736,45.579128,8.584736,472,1.0,8580960,0.0,-100.0,123.0,-100.0,0.0,25

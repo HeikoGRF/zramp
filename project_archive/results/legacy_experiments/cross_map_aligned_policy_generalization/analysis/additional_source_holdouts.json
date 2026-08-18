@@ -1,0 +1,595 @@
+{
+  "all_candidates": {
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_encoder32_head128_seed_01/policy_best_validation.pt": {
+      "additional_holdout": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.283955492507602,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.893354902923168,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8657243816254417,
+          "pearson": 0.9562255489796837,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.913213804538761,
+          "spearman": 0.9120690289515451,
+          "top_provider_accuracy": 0.8061104582843713,
+          "within_opportunity_spearman": 0.7533434055173185
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0467164869991148,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.914007110032031,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8729235880398671,
+          "pearson": 0.9176053685698621,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.969698597937308,
+          "spearman": 0.8577636954166299,
+          "top_provider_accuracy": 0.8260869565217391,
+          "within_opportunity_spearman": 0.5975574953835823
+        }
+      },
+      "architecture": {
+        "embedding_dim": 32,
+        "gain_hidden_dim": 128,
+        "hidden_dim": 8
+      },
+      "source_validation_gain_db": 1.1100301347503432
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_encoder32_head128_seed_02/policy_best_validation.pt": {
+      "additional_holdout": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2444379073673342,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.865859223639306,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8515901060070671,
+          "pearson": 0.9502300270083389,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.8736962193984934,
+          "spearman": 0.8976698166035497,
+          "top_provider_accuracy": 0.7955346650998825,
+          "within_opportunity_spearman": 0.7418415309719658
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0415218837014,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9094711115960846,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8650332225913622,
+          "pearson": 0.9139219306827981,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.964503994639593,
+          "spearman": 0.8454544074461172,
+          "top_provider_accuracy": 0.8284371327849589,
+          "within_opportunity_spearman": 0.6081304907391865
+        }
+      },
+      "architecture": {
+        "embedding_dim": 32,
+        "gain_hidden_dim": 128,
+        "hidden_dim": 8
+      },
+      "source_validation_gain_db": 1.1236228184658728
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_encoder64_head64_seed_01/policy_best_validation.pt": {
+      "additional_holdout": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2753170944114314,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.8873444490268695,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8740764535817539,
+          "pearson": 0.9550683634853014,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.9045754064425906,
+          "spearman": 0.9001764453739605,
+          "top_provider_accuracy": 0.8155111633372503,
+          "within_opportunity_spearman": 0.7794163728946338
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0522945346468031,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9188779373032259,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8882890365448505,
+          "pearson": 0.9150042213272693,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.975276645584996,
+          "spearman": 0.8494757446159349,
+          "top_provider_accuracy": 0.8460634547591069,
+          "within_opportunity_spearman": 0.623899054333837
+        }
+      },
+      "architecture": {
+        "embedding_dim": 64,
+        "gain_hidden_dim": 64,
+        "hidden_dim": 16
+      },
+      "source_validation_gain_db": 1.133145365265486
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_encoder64_head64_seed_02/policy_best_validation.pt": {
+      "additional_holdout": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2440359056780523,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.8655795175418604,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8551236749116607,
+          "pearson": 0.95220306814564,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.8732942177092116,
+          "spearman": 0.8910099629681829,
+          "top_provider_accuracy": 0.8025851938895417,
+          "within_opportunity_spearman": 0.7587488109227238
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0275126473446496,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.8972380553719499,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8633720930232558,
+          "pearson": 0.9124623057693846,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.9504947582828427,
+          "spearman": 0.8364695601614215,
+          "top_provider_accuracy": 0.8307873090481787,
+          "within_opportunity_spearman": 0.5945694141346315
+        }
+      },
+      "architecture": {
+        "embedding_dim": 64,
+        "gain_hidden_dim": 64,
+        "hidden_dim": 16
+      },
+      "source_validation_gain_db": 1.1416639181600299
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h16e64g128_seed_01/policy_best_validation.pt": {
+      "additional_holdout": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2843518140604098,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.8936306568760122,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8711853517507228,
+          "pearson": 0.9581367862636887,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.913610126091569,
+          "spearman": 0.9056936991456525,
+          "top_provider_accuracy": 0.8014101057579318,
+          "within_opportunity_spearman": 0.7640255161994293
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.042011047764257,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9098982563262735,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8774916943521595,
+          "pearson": 0.9198423432204678,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.96499315870245,
+          "spearman": 0.8533232064191751,
+          "top_provider_accuracy": 0.8213866039952996,
+          "within_opportunity_spearman": 0.613023893458676
+        }
+      },
+      "architecture": {
+        "embedding_dim": 64,
+        "gain_hidden_dim": 128,
+        "hidden_dim": 16
+      },
+      "source_validation_gain_db": 1.1495591070786013
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h16e64g128_seed_02/policy_best_validation.pt": {
+      "additional_holdout": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.3094449610504673,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.9110900517102976,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8740764535817539,
+          "pearson": 0.9593163673941423,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.9387032730816265,
+          "spearman": 0.9085956740205047,
+          "top_provider_accuracy": 0.8225616921269095,
+          "within_opportunity_spearman": 0.7688153992501818
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0586662009512282,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9244417632076906,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.882890365448505,
+          "pearson": 0.9205867340587296,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.9816483118894213,
+          "spearman": 0.8537470074685339,
+          "top_provider_accuracy": 0.8460634547591069,
+          "within_opportunity_spearman": 0.6120222707179228
+        }
+      },
+      "architecture": {
+        "embedding_dim": 64,
+        "gain_hidden_dim": 128,
+        "hidden_dim": 16
+      },
+      "source_validation_gain_db": 1.1431000441693573
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h32e128g256_seed_01/policy_best_validation.pt": {
+      "additional_holdout": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2839002927767469,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.8933164958674038,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8772887889495663,
+          "pearson": 0.9618328312336984,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.913158604807906,
+          "spearman": 0.9049884772643965,
+          "top_provider_accuracy": 0.8096357226792009,
+          "within_opportunity_spearman": 0.7714313692574561
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0386693597407226,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9069802487750828,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8787375415282392,
+          "pearson": 0.9238097847799772,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.9616514706789157,
+          "spearman": 0.8505233280514557,
+          "top_provider_accuracy": 0.8284371327849589,
+          "within_opportunity_spearman": 0.6037351015611886
+        }
+      },
+      "architecture": {
+        "embedding_dim": 128,
+        "gain_hidden_dim": 256,
+        "hidden_dim": 32
+      },
+      "source_validation_gain_db": 1.1535034685920318
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h32e128g256_seed_02/policy_best_validation.pt": {
+      "additional_holdout": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2905227929609708,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.897924321484187,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8821072920012849,
+          "pearson": 0.960345265479547,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.91978110499213,
+          "spearman": 0.9105740884099418,
+          "top_provider_accuracy": 0.8260869565217391,
+          "within_opportunity_spearman": 0.7958899893682503
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0606748739297247,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.92619576384385,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.885797342192691,
+          "pearson": 0.9213498139678532,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.9836569848679177,
+          "spearman": 0.8569048975097533,
+          "top_provider_accuracy": 0.8519388954171563,
+          "within_opportunity_spearman": 0.63044317609535
+        }
+      },
+      "architecture": {
+        "embedding_dim": 128,
+        "gain_hidden_dim": 256,
+        "hidden_dim": 32
+      },
+      "source_validation_gain_db": 1.1433717668025605
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h32e256g512_seed_01/policy_best_validation.pt": {
+      "additional_holdout": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2560743572357942,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.8739556721558397,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8560873755220045,
+          "pearson": 0.9580380636148047,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.8853326692669534,
+          "spearman": 0.8923342255820264,
+          "top_provider_accuracy": 0.8049353701527615,
+          "within_opportunity_spearman": 0.74960830395613
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.03256597271462,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9016506879948485,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8633720930232558,
+          "pearson": 0.9195311111934265,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.955548083652813,
+          "spearman": 0.8380847806654427,
+          "top_provider_accuracy": 0.8343125734430082,
+          "within_opportunity_spearman": 0.5954255497733759
+        }
+      },
+      "architecture": {
+        "embedding_dim": 256,
+        "gain_hidden_dim": 512,
+        "hidden_dim": 32
+      },
+      "source_validation_gain_db": 1.1704125412221738
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h32e256g512_seed_02/policy_best_validation.pt": {
+      "additional_holdout": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2921290121550295,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.8990419021172814,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8805011243173787,
+          "pearson": 0.9588839298985014,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.9213873241861887,
+          "spearman": 0.9061770278151959,
+          "top_provider_accuracy": 0.827262044653349,
+          "within_opportunity_spearman": 0.7916848525544177
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.058720851014514,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9244894843881892,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8891196013289037,
+          "pearson": 0.9193215735719649,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.981702961952707,
+          "spearman": 0.8536574259328494,
+          "top_provider_accuracy": 0.8531139835487661,
+          "within_opportunity_spearman": 0.6370488500923283
+        }
+      },
+      "architecture": {
+        "embedding_dim": 256,
+        "gain_hidden_dim": 512,
+        "hidden_dim": 32
+      },
+      "source_validation_gain_db": 1.1575088647492222
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h8e32g64_seed_01/policy_best_validation.pt": {
+      "additional_holdout": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2950046740880143,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.9010427399204394,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8621908127208481,
+          "pearson": 0.9577550476314083,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.9242629861191736,
+          "spearman": 0.9092936043346841,
+          "top_provider_accuracy": 0.8108108108108109,
+          "within_opportunity_spearman": 0.7640115270550053
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0509886798841213,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9177376471171198,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8700166112956811,
+          "pearson": 0.9198978693593759,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.9739707908223143,
+          "spearman": 0.8507216199952121,
+          "top_provider_accuracy": 0.8331374853113983,
+          "within_opportunity_spearman": 0.604171562867215
+        }
+      },
+      "architecture": {
+        "embedding_dim": 32,
+        "gain_hidden_dim": 64,
+        "hidden_dim": 8
+      },
+      "source_validation_gain_db": 1.1308486885282447
+    },
+    "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h8e32g64_seed_02/policy_best_validation.pt": {
+      "additional_holdout": {
+        "deployable_geometry_alpha": {
+          "gain_over_random_db": 1.2780178661447978,
+          "oracle_gain_db": 3.0664872210642216,
+          "oracle_gap_closed": 0.8892236011343674,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8686154834564729,
+          "pearson": 0.9508376441337867,
+          "random_gain_db": 1.6292583120311592,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 2.907276178175957,
+          "spearman": 0.8985573356992672,
+          "top_provider_accuracy": 0.8155111633372503,
+          "within_opportunity_spearman": 0.7729897599462816
+        },
+        "oracle_provider_audit": {
+          "gain_over_random_db": 1.0596387893483419,
+          "oracle_gain_db": 4.0681772363485775,
+          "oracle_gap_closed": 0.9252910406587845,
+          "pairs": 2880,
+          "pairwise_order_accuracy": 0.8808139534883721,
+          "pearson": 0.912526568510986,
+          "random_gain_db": 2.922982110938193,
+          "rankable_opportunities": 851,
+          "selected_gain_db": 3.982620900286535,
+          "spearman": 0.8476665744558467,
+          "top_provider_accuracy": 0.8460634547591069,
+          "within_opportunity_spearman": 0.6319931732975211
+        }
+      },
+      "architecture": {
+        "embedding_dim": 32,
+        "gain_hidden_dim": 64,
+        "hidden_dim": 8
+      },
+      "source_validation_gain_db": 1.1441007286899023
+    }
+  },
+  "architecture_source_validation": [
+    {
+      "architecture": [
+        8,
+        32,
+        128
+      ],
+      "candidates": [
+        "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_encoder32_head128_seed_01/policy_best_validation.pt",
+        "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_encoder32_head128_seed_02/policy_best_validation.pt"
+      ],
+      "source_validation_mean_db": 1.116826476608108
+    },
+    {
+      "architecture": [
+        16,
+        64,
+        64
+      ],
+      "candidates": [
+        "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_encoder64_head64_seed_01/policy_best_validation.pt",
+        "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_encoder64_head64_seed_02/policy_best_validation.pt"
+      ],
+      "source_validation_mean_db": 1.137404641712758
+    },
+    {
+      "architecture": [
+        16,
+        64,
+        128
+      ],
+      "candidates": [
+        "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h16e64g128_seed_01/policy_best_validation.pt",
+        "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h16e64g128_seed_02/policy_best_validation.pt"
+      ],
+      "source_validation_mean_db": 1.1463295756239793
+    },
+    {
+      "architecture": [
+        32,
+        128,
+        256
+      ],
+      "candidates": [
+        "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h32e128g256_seed_01/policy_best_validation.pt",
+        "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h32e128g256_seed_02/policy_best_validation.pt"
+      ],
+      "source_validation_mean_db": 1.1484376176972961
+    },
+    {
+      "architecture": [
+        32,
+        256,
+        512
+      ],
+      "candidates": [
+        "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h32e256g512_seed_01/policy_best_validation.pt",
+        "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h32e256g512_seed_02/policy_best_validation.pt"
+      ],
+      "source_validation_mean_db": 1.163960702985698
+    },
+    {
+      "architecture": [
+        8,
+        32,
+        64
+      ],
+      "candidates": [
+        "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h8e32g64_seed_01/policy_best_validation.pt",
+        "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h8e32g64_seed_02/policy_best_validation.pt"
+      ],
+      "source_validation_mean_db": 1.1374747086090735
+    }
+  ],
+  "complexity_selected_architecture": {
+    "architecture": [
+      16,
+      64,
+      128
+    ],
+    "candidates": [
+      "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h16e64g128_seed_01/policy_best_validation.pt",
+      "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h16e64g128_seed_02/policy_best_validation.pt"
+    ],
+    "source_validation_mean_db": 1.1463295756239793
+  },
+  "complexity_selected_checkpoint": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_aligned_reward_encoder_sweep_v1/trained_policy_h16e64g128_seed_01/policy_best_validation.pt",
+  "complexity_selected_result": {
+    "additional_holdout": {
+      "deployable_geometry_alpha": {
+        "gain_over_random_db": 1.2843518140604098,
+        "oracle_gain_db": 3.0664872210642216,
+        "oracle_gap_closed": 0.8936306568760122,
+        "pairs": 2880,
+        "pairwise_order_accuracy": 0.8711853517507228,
+        "pearson": 0.9581367862636887,
+        "random_gain_db": 1.6292583120311592,
+        "rankable_opportunities": 851,
+        "selected_gain_db": 2.913610126091569,
+        "spearman": 0.9056936991456525,
+        "top_provider_accuracy": 0.8014101057579318,
+        "within_opportunity_spearman": 0.7640255161994293
+      },
+      "oracle_provider_audit": {
+        "gain_over_random_db": 1.042011047764257,
+        "oracle_gain_db": 4.0681772363485775,
+        "oracle_gap_closed": 0.9098982563262735,
+        "pairs": 2880,
+        "pairwise_order_accuracy": 0.8774916943521595,
+        "pearson": 0.9198423432204678,
+        "random_gain_db": 2.922982110938193,
+        "rankable_opportunities": 851,
+        "selected_gain_db": 3.96499315870245,
+        "spearman": 0.8533232064191751,
+        "top_provider_accuracy": 0.8213866039952996,
+        "within_opportunity_spearman": 0.613023893458676
+      }
+    },
+    "architecture": {
+      "embedding_dim": 64,
+      "gain_hidden_dim": 128,
+      "hidden_dim": 16
+    },
+    "source_validation_gain_db": 1.1495591070786013
+  },
+  "protocol": {
+    "maps": [
+      "source_test_00_cross_core",
+      "source_test_01_sparse_campus",
+      "source_test_02_dense_irregular"
+    ],
+    "maps_used_for_fitting_or_selection": false,
+    "selection_rule": "smallest architecture within 0.02 dB of best two-seed artificial-validation mean; best source-validation seed within architecture",
+    "target_labels_used": false
+  }
+}

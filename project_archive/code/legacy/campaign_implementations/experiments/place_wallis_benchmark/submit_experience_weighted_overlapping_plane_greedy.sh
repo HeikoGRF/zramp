@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+#SBATCH --job-name=wallis-overlap-exp
+#SBATCH --account=disco-med
+#SBATCH --partition=cpu.normal
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32G
+#SBATCH --time=2-00:00:00
+
+set -euo pipefail
+
+REPO_ROOT=${REPO_ROOT:-/home/hgraef/zramp-workspace}
+PYTHON_BIN=${PYTHON_BIN:-/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/miniforge3/envs/sionna-trace/bin/python}
+RESULTS_DIR=${RESULTS_DIR:-${REPO_ROOT}/artifacts/place_wallis_benchmark/methods/experience_weighted_overlapping_plane_greedy_eval50_tail10x25}
+
+mkdir -p "${RESULTS_DIR}"
+export OMP_NUM_THREADS="${SLURM_CPUS_PER_TASK}"
+export OPENBLAS_NUM_THREADS="${SLURM_CPUS_PER_TASK}"
+export MKL_NUM_THREADS="${SLURM_CPUS_PER_TASK}"
+
+cd "${REPO_ROOT}"
+RUN_ARGS=(
+    --results-dir "${RESULTS_DIR}"
+    --checkpoint-every "${CHECKPOINT_EVERY:-50}"
+    --tail-eval-count "${TAIL_EVAL_COUNT:-10}"
+    --tail-eval-stride "${TAIL_EVAL_STRIDE:-25}"
+    --progress-every "${PROGRESS_EVERY:-10}"
+    --angle-deg "${PLANE_ANGLE_DEG:-7}"
+    --lateral-merge-m "${PLANE_LATERAL_GAP_M:-1}"
+    --longitudinal-gap-m "${PLANE_LONGITUDINAL_GAP_M:-3}"
+    --initial-half-width-m "${PLANE_INITIAL_HALF_WIDTH_M:-1.75}"
+    --experience-weighted
+    --binary-support
+    --resume-if-exists
+    --quiet
+)
+if [[ "${LAZY_SUPPORT_REBUILD:-0}" == "1" ]]; then
+    RUN_ARGS+=(--lazy-support-rebuild)
+    RUN_ARGS+=(--support-rebuild-workers "${SUPPORT_REBUILD_WORKERS:-1}")
+fi
+if [[ -n "${SIM_STEPS:-}" ]]; then
+    RUN_ARGS+=(--sim-steps "${SIM_STEPS}")
+fi
+"${PYTHON_BIN}" experiments/place_wallis_benchmark/run_overlapping_plane_greedy.py "${RUN_ARGS[@]}"

@@ -1,0 +1,39 @@
+{
+  "created_at_utc": "2026-08-07T15:26:51.495077+00:00",
+  "evaluation": {
+    "noise_floor_dbm": -100.0,
+    "predicted_feasible_fraction": 0.0,
+    "predicted_feasible_samples": 0,
+    "prediction_dbm": -100.0,
+    "true_feasible_rule": "rssi_dbm > -100",
+    "true_non_feasible_rule": "rssi_dbm <= -100"
+  },
+  "method": {
+    "description": "Predict -100 dBm for every sender-receiver query.",
+    "id": "noise_floor",
+    "name": "Noise-floor baseline",
+    "trainable_parameters": 0,
+    "training_steps": 0
+  },
+  "metrics_db": {
+    "feasible_bias": -40.15663382217419,
+    "feasible_mae": 40.15663382217419,
+    "feasible_rmse": 41.98401944350767,
+    "non_feasible_bias": 0.0,
+    "non_feasible_mae": 0.0,
+    "non_feasible_rmse": 0.0,
+    "overall_bias": -15.022596712875366,
+    "overall_mae": 15.022596712875366,
+    "overall_rmse": 25.67898588608089
+  },
+  "schema": "place_wallis_benchmark_result_v1",
+  "testset": {
+    "buildings_opaque": true,
+    "dynamic_vehicle_blockers": false,
+    "feasible_samples": 3741,
+    "non_feasible_samples": 6259,
+    "path": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/place_wallis_300m_30min_opaque_buildings_no_vehicle_blockers/testset/place_wallis_street_pairs_10000_opaque_no_vehicle_blockers_static_floor100.npz",
+    "samples": 10000,
+    "sha256": "ffac92c862f9182295c1971ae139c549445bc6dcb719d3fad58c973ef9c2701e"
+  }
+}

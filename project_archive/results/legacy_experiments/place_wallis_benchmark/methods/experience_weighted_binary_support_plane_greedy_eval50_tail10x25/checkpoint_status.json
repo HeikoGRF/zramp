@@ -1,0 +1,110 @@
+{
+  "experienced_models": 148,
+  "format": "place_wallis_support_plane_greedy_checkpoint_v4",
+  "latest_fidelity": {
+    "eval_is_final": 0,
+    "eval_n_pairs_per_zone": 10000,
+    "greedy_active_experienced_models": 39,
+    "greedy_coverage_at_0_5": 0.7999666666666667,
+    "greedy_feasible_coverage_at_0_5": 0.9475253428741801,
+    "greedy_feasible_rmse": 14.691246879979888,
+    "greedy_infeasible_leakage_at_0_5": 0.711770947271826,
+    "greedy_infeasible_rmse": 27.621882302628517,
+    "greedy_max_capsules": 169,
+    "greedy_mean_capsules": 152.56410256410257,
+    "greedy_mean_confidence": 0.7999666666666667,
+    "greedy_non_feasible_false_positive_rate": 0.7114145374250822,
+    "greedy_predicted_feasible_fraction": 0.7997435897435897,
+    "greedy_total": 23.628053960797512,
+    "step": 150
+  },
+  "max_capsules": 169,
+  "mean_capsules": 152.56410256410257,
+  "path": "/home/hgraef/zramp-workspace/artifacts/place_wallis_benchmark/methods/experience_weighted_binary_support_plane_greedy_eval50_tail10x25/checkpoint_latest.pt",
+  "step": 150,
+  "support_temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": false,
+    "evaluation_steps": [
+      1574,
+      1599,
+      1624,
+      1649,
+      1674,
+      1699,
+      1724,
+      1749,
+      1774,
+      1799
+    ],
+    "expected_evaluations": 10,
+    "mean": {
+      "greedy_coverage_at_0_5": null,
+      "greedy_feasible_coverage_at_0_5": null,
+      "greedy_infeasible_leakage_at_0_5": null,
+      "greedy_max_capsules": null,
+      "greedy_mean_capsules": null,
+      "greedy_mean_confidence": null
+    },
+    "observed_evaluations": 0,
+    "observed_steps": [],
+    "period_start_step": 1549,
+    "standard_deviation": {
+      "greedy_coverage_at_0_5": null,
+      "greedy_feasible_coverage_at_0_5": null,
+      "greedy_infeasible_leakage_at_0_5": null,
+      "greedy_max_capsules": null,
+      "greedy_mean_capsules": null,
+      "greedy_mean_confidence": null
+    },
+    "values": {
+      "greedy_coverage_at_0_5": [],
+      "greedy_feasible_coverage_at_0_5": [],
+      "greedy_infeasible_leakage_at_0_5": [],
+      "greedy_max_capsules": [],
+      "greedy_mean_capsules": [],
+      "greedy_mean_confidence": []
+    }
+  },
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": false,
+    "evaluation_steps": [
+      1574,
+      1599,
+      1624,
+      1649,
+      1674,
+      1699,
+      1724,
+      1749,
+      1774,
+      1799
+    ],
+    "expected_evaluations": 10,
+    "mean": {
+      "greedy_feasible_rmse": null,
+      "greedy_infeasible_rmse": null,
+      "greedy_non_feasible_false_positive_rate": null,
+      "greedy_predicted_feasible_fraction": null,
+      "greedy_total": null
+    },
+    "observed_evaluations": 0,
+    "observed_steps": [],
+    "period_start_step": 1549,
+    "standard_deviation": {
+      "greedy_feasible_rmse": null,
+      "greedy_infeasible_rmse": null,
+      "greedy_non_feasible_false_positive_rate": null,
+      "greedy_predicted_feasible_fraction": null,
+      "greedy_total": null
+    },
+    "values": {
+      "greedy_feasible_rmse": [],
+      "greedy_infeasible_rmse": [],
+      "greedy_non_feasible_false_positive_rate": [],
+      "greedy_predicted_feasible_fraction": [],
+      "greedy_total": []
+    }
+  }
+}

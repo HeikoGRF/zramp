@@ -1,0 +1,3 @@
+step,pending_transitions,pull_updates_this_step,queued_transitions,train_updates_this_step
+1,0,0,0,0
+2,0,0,0,0

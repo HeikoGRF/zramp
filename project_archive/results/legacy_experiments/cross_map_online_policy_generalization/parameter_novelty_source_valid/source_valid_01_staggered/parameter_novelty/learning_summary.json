@@ -1,0 +1,17 @@
+{
+  "attempts": 447,
+  "decision_opportunities": 4501,
+  "gain_prediction_mae": 0.37027824683533606,
+  "gain_prediction_pearson": 0.03693039360590861,
+  "gain_prediction_rmse": 0.3878258700137938,
+  "gain_sign_accuracy": 0.8389261744966443,
+  "prediction_target_pairs": 447,
+  "selected_predicted_top_fraction": 1.0,
+  "selection_mode": "novelty",
+  "timing_reason_counts": {
+    "novelty_ranked": 447,
+    "random_wait": 2286,
+    "token_spent": 1768
+  },
+  "token_window_steps": 10
+}

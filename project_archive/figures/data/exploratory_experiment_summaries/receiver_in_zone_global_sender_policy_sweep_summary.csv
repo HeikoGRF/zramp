@@ -1,0 +1,17 @@
+pulls_per_receiver_step,token_window_steps,method,attempted_runs,completed_runs,incomplete_runs,final_rmse_mean_db,final_rmse_sample_sd_db,paired_mean_delta_vs_uninformed_db,paired_seeds_with_lower_rmse
+1,1,learned_policy,2,2,0,32.600178,0.010458,-1.009882,2
+1,1,uninformed_selection,2,2,0,33.610060,1.115298,,
+1,2,learned_policy,2,2,0,31.982354,0.152428,-0.385265,1
+1,2,uninformed_selection,2,2,0,32.367620,1.561609,,
+1,5,learned_policy,2,2,0,31.699697,0.173523,0.493649,1
+1,5,uninformed_selection,2,2,0,31.206048,1.730431,,
+1,10,learned_policy,2,2,0,31.209576,0.301411,0.375853,1
+1,10,uninformed_selection,2,2,0,30.833723,1.901780,,
+1,25,learned_policy,2,2,0,30.058710,0.370362,0.677304,1
+1,25,uninformed_selection,2,2,0,29.381405,1.409208,,
+1,50,learned_policy,2,2,0,29.459585,1.169567,0.814809,0
+1,50,uninformed_selection,2,2,0,28.644776,2.176801,,
+2,1,learned_policy,2,2,0,34.249441,0.639065,-0.874333,2
+2,1,uninformed_selection,2,2,0,35.123774,1.459302,,
+4,1,learned_policy,2,0,2,,,,
+4,1,uninformed_selection,2,2,0,36.011974,1.237080,,

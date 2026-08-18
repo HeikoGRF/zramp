@@ -1,0 +1,101 @@
+{
+  "checkpoint": {
+    "final_step": 5,
+    "step": 5
+  },
+  "evaluation": {
+    "noise_floor_dbm": -100.0,
+    "non_feasible_false_positive_rate": 1.0,
+    "predicted_feasible_fraction": 1.0,
+    "true_feasible_rule": "rssi_dbm > -100"
+  },
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "greedy_active_experienced_models": 25,
+    "greedy_feasible_recall": 1.0,
+    "greedy_feasible_rmse": 46.678539432162104,
+    "greedy_infeasible_rmse": 85.19468576143905,
+    "greedy_max_local_experience": 115,
+    "greedy_mean_local_experience": 94.4,
+    "greedy_mean_model_rmse": 59.552127532958984,
+    "greedy_non_feasible_false_positive_rate": 1.0,
+    "greedy_predicted_feasible_fraction": 1.0,
+    "greedy_total": 59.55440913987813,
+    "step": 5
+  },
+  "method": {
+    "id": "equal_greedy_smoke_ungated_equal_greedy",
+    "model": "4-64-64-1 MLP",
+    "name": "Ungated equal-weight greedy sharing (smoke_ungated_equal_greedy)"
+  },
+  "metrics_db": {
+    "feasible_rmse": 46.678539432162104,
+    "non_feasible_rmse": 85.19468576143905,
+    "overall_rmse": 59.55440913987813
+  },
+  "metrics_db_standard_deviation": {
+    "feasible_rmse": 0.0,
+    "non_feasible_rmse": 0.0,
+    "overall_rmse": 0.0
+  },
+  "schema": "place_wallis_benchmark_result_v1",
+  "status": "complete",
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      5
+    ],
+    "expected_evaluations": 1,
+    "mean": {
+      "greedy_feasible_rmse": 46.678539432162104,
+      "greedy_infeasible_rmse": 85.19468576143905,
+      "greedy_non_feasible_false_positive_rate": 1.0,
+      "greedy_predicted_feasible_fraction": 1.0,
+      "greedy_total": 59.55440913987813
+    },
+    "observed_evaluations": 1,
+    "observed_steps": [
+      5
+    ],
+    "period_start_step": 4,
+    "standard_deviation": {
+      "greedy_feasible_rmse": 0.0,
+      "greedy_infeasible_rmse": 0.0,
+      "greedy_non_feasible_false_positive_rate": 0.0,
+      "greedy_predicted_feasible_fraction": 0.0,
+      "greedy_total": 0.0
+    },
+    "values": {
+      "greedy_feasible_rmse": [
+        46.678539432162104
+      ],
+      "greedy_infeasible_rmse": [
+        85.19468576143905
+      ],
+      "greedy_non_feasible_false_positive_rate": [
+        1.0
+      ],
+      "greedy_predicted_feasible_fraction": [
+        1.0
+      ],
+      "greedy_total": [
+        59.55440913987813
+      ]
+    }
+  },
+  "testset": {
+    "path": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/factor_b1_v1_300m_30min_opaque_buildings_no_vehicle_blockers/testset/factor_b1_v1_300m_street_pairs_10000_opaque_no_vehicle_blockers_static_floor100.npz",
+    "samples": 10000
+  },
+  "training": {
+    "full_dataset_epochs": 1,
+    "gradient_clip_norm": 1.0,
+    "new_data_epochs": 2,
+    "recent_replay_batches": 4,
+    "recent_window": 512,
+    "replay_batches": 8,
+    "replay_capacity": 0
+  }
+}

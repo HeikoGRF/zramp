@@ -1,0 +1,17 @@
+{
+  "eval_is_final": 1,
+  "eval_n_pairs_per_zone": 10000,
+  "greedy_active_experienced_models": 28,
+  "greedy_coverage_at_0_5": 0.16598214285714286,
+  "greedy_feasible_coverage_at_0_5": 0.40351128422499716,
+  "greedy_feasible_rmse": 31.943911290180356,
+  "greedy_infeasible_leakage_at_0_5": 0.024011138246639127,
+  "greedy_infeasible_rmse": 8.640427858162655,
+  "greedy_max_capsules": 166,
+  "greedy_mean_capsules": 152.71428571428572,
+  "greedy_mean_confidence": 0.16598214285714286,
+  "greedy_non_feasible_false_positive_rate": 0.024011138246639127,
+  "greedy_predicted_feasible_fraction": 0.16598214285714286,
+  "greedy_total": 20.69938383313447,
+  "step": 5
+}

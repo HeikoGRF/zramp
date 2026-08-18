@@ -1,0 +1,63 @@
+{
+  "architecture": {
+    "embedding_dim": 256,
+    "gain_hidden_dim": 512,
+    "group_widths": [
+      5,
+      129,
+      129,
+      129
+    ],
+    "hidden_dim": 32,
+    "model_input_representation": "delta",
+    "pair_feature_mode": "relational",
+    "trajectory_dim": 8
+  },
+  "best_epoch": 120,
+  "best_validation_uplift": 1.1575088647492222,
+  "deployment_map_excluded": "single_zone_urban_220,kirchberg_north",
+  "format": "exact_deployment_source_policy_report_v1",
+  "policy_input": "initialization-relative exact model state plus remotely encoded private history",
+  "source_maps": [
+    "source_train_00_dense_grid",
+    "source_train_01_two_corridors",
+    "source_train_02_open_campus",
+    "source_train_03_irregular_blocks"
+  ],
+  "target_labels_used": false,
+  "train_cases": 8,
+  "train_pairs": 7680,
+  "training": {
+    "gain_over_random_db": 1.2571792691898531,
+    "oracle_gain_db": 3.1256474513946966,
+    "oracle_gap_closed": 0.9334223898032216,
+    "pairwise_order_accuracy": 0.8882660687593423,
+    "pearson": 0.9761209524859267,
+    "random_gain_db": 1.778798176164772,
+    "selected_gain_db": 3.035977445354625,
+    "spearman": 0.924972268713375,
+    "top_provider_accuracy": 0.8259144997796386,
+    "within_opportunity_spearman": 0.7809618250120673
+  },
+  "training_target": "oracle-geometry-alpha",
+  "validation": {
+    "gain_over_random_db": 1.1575088647492222,
+    "oracle_gain_db": 3.1584344307397463,
+    "oracle_gap_closed": 0.8888930429371641,
+    "pairs": 1920,
+    "pairwise_order_accuracy": 0.8590887740723344,
+    "pearson": 0.9666266241889575,
+    "random_gain_db": 1.8562430434334936,
+    "rankable_opportunities": 549,
+    "selected_gain_db": 3.0137519081827158,
+    "spearman": 0.8827680363004654,
+    "top_provider_accuracy": 0.8032786885245902,
+    "within_opportunity_spearman": 0.7688698065747246
+  },
+  "validation_cases": 2,
+  "validation_maps": [
+    "source_valid_00_ring_spokes",
+    "source_valid_01_staggered"
+  ],
+  "validation_pairs": 1920
+}

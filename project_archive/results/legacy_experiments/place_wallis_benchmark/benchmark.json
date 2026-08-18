@@ -1,0 +1,36 @@
+{
+  "schema": "place_wallis_benchmark_v1",
+  "name": "Place Wallis 300 m definitive benchmark",
+  "map_bounds_local_xy_m": [
+    0.0,
+    0.0,
+    300.0,
+    300.0
+  ],
+  "source_bounds_sumo_xy_m": [
+    7350.0,
+    5900.0,
+    7650.0,
+    6200.0
+  ],
+  "noise_floor_dbm": -100.0,
+  "true_feasible_rule": "rssi_dbm > -100",
+  "true_non_feasible_rule": "rssi_dbm <= -100",
+  "testset": {
+    "path": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/place_wallis_300m_30min_opaque_buildings_no_vehicle_blockers/testset/place_wallis_street_pairs_10000_opaque_no_vehicle_blockers_static_floor100.npz",
+    "sha256": "ffac92c862f9182295c1971ae139c549445bc6dcb719d3fad58c973ef9c2701e",
+    "samples": 10000,
+    "feasible_samples": 3741,
+    "non_feasible_samples": 6259
+  },
+  "trace": {
+    "path": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/place_wallis_300m_30min_opaque_buildings_no_vehicle_blockers/rssi/place_wallis_vehicles_0745_0815_1s_opaque_no_vehicle_blockers_ge-100dbm_r20k_d3_llvm.npz",
+    "buildings_opaque": true,
+    "dynamic_vehicle_blockers": false
+  },
+  "primary_metrics": [
+    "overall_rmse_db",
+    "feasible_rmse_db",
+    "non_feasible_rmse_db"
+  ]
+}

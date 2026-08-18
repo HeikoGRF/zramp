@@ -1,0 +1,203 @@
+{
+  "checkpoint": {
+    "final_step": 100,
+    "step": 100
+  },
+  "evaluation": {
+    "noise_floor_dbm": -100.0,
+    "non_feasible_false_positive_rate": 0.09240308881632513,
+    "predicted_feasible_fraction": 0.39836521739130437,
+    "true_feasible_rule": "rssi_dbm > -100"
+  },
+  "expert_bank": {
+    "advertisement": "model key and one summed-intensity scalar",
+    "advertisement_cached_per_receiver": true,
+    "capacity_including_local": 1,
+    "coverage_recalculations_latest": 0,
+    "deployment_probe_set": false,
+    "deterministic_model_id_prefilter": true,
+    "full_support_shared_only_after_pull": true,
+    "gain_grid_layout": "regular",
+    "gain_grid_points": 90000,
+    "gain_grid_resolution": 300,
+    "gain_validation_points_are_map_independent": true,
+    "gain_validation_uses_deployment_positions": false,
+    "geometric_dominance": false,
+    "internal_expanded_advertisement_dim": 14401,
+    "iterative_pull_until_no_positive_candidate": false,
+    "mean_size_tail": 1.0,
+    "model_merge": "summed-grid-intensity-weighted parameter average",
+    "model_transfers_latest": 772,
+    "patch_codebook_groups": 4,
+    "post_pull_exact_validation": false,
+    "post_pull_gain_measure": null,
+    "post_pull_gain_threshold": null,
+    "post_pull_grid_validation": "none",
+    "pruning": "remove an expert only when its removal leaves the pointwise grid maximum unchanged",
+    "pull_budget_per_receiver_step": 1,
+    "routing": "maximum support intensity",
+    "sampled_gain_validation": false,
+    "selection": "advertised summed grid intensity",
+    "transfer_cost": 0.0,
+    "unique_coverage_threshold": null
+  },
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "expert_bank_coverage_recalculations": 0,
+    "expert_bank_manifest_records": 22179,
+    "expert_bank_max_size": 1,
+    "expert_bank_mean_size": 1.0,
+    "expert_bank_model_transfers": 772,
+    "expert_bank_unique_versions": 46,
+    "greedy_active_experienced_models": 46,
+    "greedy_coverage_at_0_5": 0.3986304347826087,
+    "greedy_feasible_coverage_at_0_5": 0.7134379329515271,
+    "greedy_feasible_rmse": 21.287155720054596,
+    "greedy_infeasible_leakage_at_0_5": 0.09288303807883166,
+    "greedy_infeasible_rmse": 8.300834439760747,
+    "greedy_max_capsules": 39351,
+    "greedy_max_experience": 3402,
+    "greedy_mean_capsules": 38693.02173913043,
+    "greedy_mean_confidence": 0.3986304347826087,
+    "greedy_mean_experience": 3368.6739130434785,
+    "greedy_mean_model_rmse": 16.06843668481578,
+    "greedy_non_feasible_false_positive_rate": 0.09240308881632513,
+    "greedy_predicted_feasible_fraction": 0.39836521739130437,
+    "greedy_total": 16.06917801460975,
+    "step": 100
+  },
+  "method": {
+    "id": "cell_grid_weighted_single_model_intensity_top1_every5_min3_smoke",
+    "model": "bank of 4-64-64-1 MLP experts",
+    "name": "Cell-grid weighted single model (intensity_top1_every5_min3_smoke)"
+  },
+  "metrics_db": {
+    "feasible_rmse": 21.287155720054596,
+    "non_feasible_rmse": 8.300834439760747,
+    "overall_rmse": 16.06917801460975
+  },
+  "metrics_db_standard_deviation": {
+    "feasible_rmse": 0.0,
+    "non_feasible_rmse": 0.0,
+    "overall_rmse": 0.0
+  },
+  "schema": "place_wallis_benchmark_result_v1",
+  "status": "complete",
+  "support": {
+    "gate": "all query-traversed cells reach the minimum intensity",
+    "intensity_aggregation": "pointwise maximum",
+    "minimum_cell_intensity": 3.0,
+    "prediction_confidence": "binary",
+    "resolution": 300,
+    "semantics": "normalized_square_cell_traversal_v1"
+  },
+  "support_plane_params": {
+    "angle_deg": 7.0,
+    "initial_half_width_m": 1.75,
+    "lateral_merge_m": 1.0,
+    "link_length_margin_m": 0.0,
+    "longitudinal_gap_m": 3.0,
+    "mass_scale": 3.0,
+    "max_corridor_width_m": 12.0,
+    "max_envelope_inflation": 1.2
+  },
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      100
+    ],
+    "expected_evaluations": 1,
+    "mean": {
+      "expert_bank_mean_size": 1.0,
+      "greedy_coverage_at_0_5": 0.3986304347826087,
+      "greedy_feasible_coverage_at_0_5": 0.7134379329515271,
+      "greedy_feasible_rmse": 21.287155720054596,
+      "greedy_infeasible_leakage_at_0_5": 0.09288303807883166,
+      "greedy_infeasible_rmse": 8.300834439760747,
+      "greedy_mean_capsules": 38693.02173913043,
+      "greedy_mean_confidence": 0.3986304347826087,
+      "greedy_non_feasible_false_positive_rate": 0.09240308881632513,
+      "greedy_predicted_feasible_fraction": 0.39836521739130437,
+      "greedy_total": 16.06917801460975
+    },
+    "observed_evaluations": 1,
+    "observed_steps": [
+      100
+    ],
+    "period_start_step": 99,
+    "standard_deviation": {
+      "expert_bank_mean_size": 0.0,
+      "greedy_coverage_at_0_5": 0.0,
+      "greedy_feasible_coverage_at_0_5": 0.0,
+      "greedy_feasible_rmse": 0.0,
+      "greedy_infeasible_leakage_at_0_5": 0.0,
+      "greedy_infeasible_rmse": 0.0,
+      "greedy_mean_capsules": 0.0,
+      "greedy_mean_confidence": 0.0,
+      "greedy_non_feasible_false_positive_rate": 0.0,
+      "greedy_predicted_feasible_fraction": 0.0,
+      "greedy_total": 0.0
+    },
+    "values": {
+      "expert_bank_mean_size": [
+        1.0
+      ],
+      "greedy_coverage_at_0_5": [
+        0.3986304347826087
+      ],
+      "greedy_feasible_coverage_at_0_5": [
+        0.7134379329515271
+      ],
+      "greedy_feasible_rmse": [
+        21.287155720054596
+      ],
+      "greedy_infeasible_leakage_at_0_5": [
+        0.09288303807883166
+      ],
+      "greedy_infeasible_rmse": [
+        8.300834439760747
+      ],
+      "greedy_mean_capsules": [
+        38693.02173913043
+      ],
+      "greedy_mean_confidence": [
+        0.3986304347826087
+      ],
+      "greedy_non_feasible_false_positive_rate": [
+        0.09240308881632513
+      ],
+      "greedy_predicted_feasible_fraction": [
+        0.39836521739130437
+      ],
+      "greedy_total": [
+        16.06917801460975
+      ]
+    }
+  },
+  "testset": {
+    "path": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/factor_b2_v2_300m_30min_opaque_buildings_no_vehicle_blockers/testset/factor_b2_v2_300m_street_pairs_10000_opaque_no_vehicle_blockers_static_floor100.npz",
+    "samples": 10000
+  },
+  "training": {
+    "full_dataset_epochs": 1,
+    "gradient_clip_norm": 1.0,
+    "new_data_epochs": 2,
+    "recent_replay_batches": 4,
+    "recent_window": 512,
+    "replay_batches": 8,
+    "replay_capacity": 0
+  },
+  "weighted_single_model": {
+    "advertisement": "one summed-intensity scalar per model version",
+    "merge": "summed-grid-intensity-weighted parameter average",
+    "optimizer_reset": true,
+    "post_pull_rejection": false,
+    "pull_interval_steps": 5,
+    "pull_schedule_anchor": "first active step after vehicle entry",
+    "pulls": 772,
+    "pulls_per_receiver_per_step": 1,
+    "selection": "advertised summed grid intensity"
+  }
+}

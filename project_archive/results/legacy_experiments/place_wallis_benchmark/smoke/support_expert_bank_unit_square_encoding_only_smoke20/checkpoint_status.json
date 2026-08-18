@@ -1,0 +1,121 @@
+{
+  "bank_capacity": null,
+  "checkpoint_kind": "metrics-only",
+  "coverage_recalculations": 12117,
+  "experienced_models": 52,
+  "format": "place_wallis_learned_acquisition_expert_bank_checkpoint_v1",
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "expert_bank_coverage_recalculations": 12117,
+    "expert_bank_manifest_records": 105767,
+    "expert_bank_max_size": 11,
+    "expert_bank_mean_size": 9.733333333333333,
+    "expert_bank_model_transfers": 12117,
+    "expert_bank_unique_versions": 46,
+    "greedy_active_experienced_models": 45,
+    "greedy_coverage_at_0_5": 0.23386888888888888,
+    "greedy_feasible_coverage_at_0_5": 0.5438236953874483,
+    "greedy_feasible_rmse": 28.21909690227702,
+    "greedy_infeasible_leakage_at_0_5": 0.048609113986969876,
+    "greedy_infeasible_rmse": 10.518475097517346,
+    "greedy_max_capsules": 506,
+    "greedy_max_experience": 3664,
+    "greedy_mean_capsules": 387.3333333333333,
+    "greedy_mean_confidence": 0.23062251069556267,
+    "greedy_mean_experience": 3032.4,
+    "greedy_mean_model_rmse": 19.12962120903863,
+    "greedy_non_feasible_false_positive_rate": 0.05096305764144077,
+    "greedy_predicted_feasible_fraction": 0.23909555555555556,
+    "greedy_total": 19.16118137450472,
+    "step": 20
+  },
+  "learned_acquisition": {
+    "accepted_pulls": 6424,
+    "bundle": "/home/hgraef/zramp-workspace/artifacts/support_acquisition_pretraining/unit_square_gain_smoke/bundle.pt",
+    "pretraining_step": 2,
+    "pull_attempts": 12117,
+    "rejected_pulls": 5693,
+    "relative_gain_penalty": 0.15,
+    "variant": "shared_frame_encoding_only_relative_gain"
+  },
+  "live_expert_versions": 98,
+  "minimum_unique_coverage": 0.005,
+  "minimum_unique_probes": 3,
+  "path": null,
+  "step": 20,
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      20
+    ],
+    "expected_evaluations": 1,
+    "mean": {
+      "expert_bank_mean_size": 9.733333333333333,
+      "greedy_coverage_at_0_5": 0.23386888888888888,
+      "greedy_feasible_coverage_at_0_5": 0.5438236953874483,
+      "greedy_feasible_rmse": 28.21909690227702,
+      "greedy_infeasible_leakage_at_0_5": 0.048609113986969876,
+      "greedy_infeasible_rmse": 10.518475097517346,
+      "greedy_mean_capsules": 387.3333333333333,
+      "greedy_mean_confidence": 0.23062251069556267,
+      "greedy_non_feasible_false_positive_rate": 0.05096305764144077,
+      "greedy_predicted_feasible_fraction": 0.23909555555555556,
+      "greedy_total": 19.16118137450472
+    },
+    "observed_evaluations": 1,
+    "observed_steps": [
+      20
+    ],
+    "period_start_step": 19,
+    "standard_deviation": {
+      "expert_bank_mean_size": 0.0,
+      "greedy_coverage_at_0_5": 0.0,
+      "greedy_feasible_coverage_at_0_5": 0.0,
+      "greedy_feasible_rmse": 0.0,
+      "greedy_infeasible_leakage_at_0_5": 0.0,
+      "greedy_infeasible_rmse": 0.0,
+      "greedy_mean_capsules": 0.0,
+      "greedy_mean_confidence": 0.0,
+      "greedy_non_feasible_false_positive_rate": 0.0,
+      "greedy_predicted_feasible_fraction": 0.0,
+      "greedy_total": 0.0
+    },
+    "values": {
+      "expert_bank_mean_size": [
+        9.733333333333333
+      ],
+      "greedy_coverage_at_0_5": [
+        0.23386888888888888
+      ],
+      "greedy_feasible_coverage_at_0_5": [
+        0.5438236953874483
+      ],
+      "greedy_feasible_rmse": [
+        28.21909690227702
+      ],
+      "greedy_infeasible_leakage_at_0_5": [
+        0.048609113986969876
+      ],
+      "greedy_infeasible_rmse": [
+        10.518475097517346
+      ],
+      "greedy_mean_capsules": [
+        387.3333333333333
+      ],
+      "greedy_mean_confidence": [
+        0.23062251069556267
+      ],
+      "greedy_non_feasible_false_positive_rate": [
+        0.05096305764144077
+      ],
+      "greedy_predicted_feasible_fraction": [
+        0.23909555555555556
+      ],
+      "greedy_total": [
+        19.16118137450472
+      ]
+    }
+  }
+}

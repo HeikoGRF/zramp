@@ -1,0 +1,164 @@
+{
+  "checkpoint": {
+    "final_step": 1799,
+    "step": 1799
+  },
+  "evaluation": {
+    "noise_floor_dbm": -100.0,
+    "non_feasible_false_positive_rate": 1.0,
+    "predicted_feasible_fraction": 1.0,
+    "true_feasible_rule": "rssi_dbm > -100"
+  },
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "greedy_active_experienced_models": 46,
+    "greedy_feasible_recall": 1.0,
+    "greedy_feasible_rmse": 6.108283945748361,
+    "greedy_infeasible_rmse": 38.44365707324683,
+    "greedy_max_local_experience": 2437,
+    "greedy_mean_local_experience": 772.1739130434783,
+    "greedy_mean_model_rmse": 22.041585092959195,
+    "greedy_non_feasible_false_positive_rate": 1.0,
+    "greedy_predicted_feasible_fraction": 1.0,
+    "greedy_total": 22.066343950144685,
+    "step": 1799
+  },
+  "method": {
+    "id": "equal_greedy_ci_rep2_ungated_equal_greedy",
+    "model": "4-64-64-1 MLP",
+    "name": "Ungated equal-weight greedy sharing (ci_rep2_ungated_equal_greedy)"
+  },
+  "metrics_db": {
+    "feasible_rmse": 6.571694807970789,
+    "non_feasible_rmse": 36.66457067914778,
+    "overall_rmse": 21.20005913023967
+  },
+  "metrics_db_standard_deviation": {
+    "feasible_rmse": 0.5212999431963055,
+    "non_feasible_rmse": 1.3836248416968062,
+    "overall_rmse": 0.7768635644886843
+  },
+  "schema": "place_wallis_benchmark_result_v1",
+  "status": "complete",
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      1574,
+      1599,
+      1624,
+      1649,
+      1674,
+      1699,
+      1724,
+      1749,
+      1774,
+      1799
+    ],
+    "expected_evaluations": 10,
+    "mean": {
+      "greedy_feasible_rmse": 6.571694807970789,
+      "greedy_infeasible_rmse": 36.66457067914778,
+      "greedy_non_feasible_false_positive_rate": 1.0,
+      "greedy_predicted_feasible_fraction": 1.0,
+      "greedy_total": 21.20005913023967
+    },
+    "observed_evaluations": 10,
+    "observed_steps": [
+      1574,
+      1599,
+      1624,
+      1649,
+      1674,
+      1699,
+      1724,
+      1749,
+      1774,
+      1799
+    ],
+    "period_start_step": 1549,
+    "standard_deviation": {
+      "greedy_feasible_rmse": 0.5212999431963055,
+      "greedy_infeasible_rmse": 1.3836248416968062,
+      "greedy_non_feasible_false_positive_rate": 0.0,
+      "greedy_predicted_feasible_fraction": 0.0,
+      "greedy_total": 0.7768635644886843
+    },
+    "values": {
+      "greedy_feasible_rmse": [
+        6.526568350991039,
+        6.353655650449734,
+        6.434684700002092,
+        6.124446177745448,
+        6.10459835360088,
+        7.94143874546455,
+        6.471290600317783,
+        6.808459877151202,
+        6.843521678236803,
+        6.108283945748361
+      ],
+      "greedy_infeasible_rmse": [
+        36.30096643037025,
+        36.5471505418716,
+        35.97309960399696,
+        35.76432037105687,
+        36.448009779989796,
+        38.52678123332593,
+        38.83846350024227,
+        34.6918820963277,
+        35.11137616104959,
+        38.44365707324683
+      ],
+      "greedy_non_feasible_false_positive_rate": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "greedy_predicted_feasible_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "greedy_total": [
+        20.989873794834423,
+        21.086487358920902,
+        20.79326716809577,
+        20.615655750837444,
+        20.982061939053693,
+        22.50860841069938,
+        22.35145255005949,
+        20.186836366801014,
+        20.42000401294987,
+        22.066343950144685
+      ]
+    }
+  },
+  "testset": {
+    "path": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/factor_b1_v2_300m_30min_opaque_buildings_no_vehicle_blockers/testset/factor_b1_v2_300m_street_pairs_10000_opaque_no_vehicle_blockers_static_floor100.npz",
+    "samples": 10000
+  },
+  "training": {
+    "full_dataset_epochs": 1,
+    "gradient_clip_norm": 1.0,
+    "new_data_epochs": 2,
+    "recent_replay_batches": 4,
+    "recent_window": 512,
+    "replay_batches": 8,
+    "replay_capacity": 0
+  }
+}

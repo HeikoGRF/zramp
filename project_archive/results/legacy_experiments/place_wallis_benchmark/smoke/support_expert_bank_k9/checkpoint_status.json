@@ -1,0 +1,122 @@
+{
+  "bank_capacity": 9,
+  "coverage_recalculations": 1710,
+  "experienced_models": 41,
+  "format": "place_wallis_support_expert_bank_checkpoint_v1",
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "expert_bank_coverage_recalculations": 1710,
+    "expert_bank_manifest_records": 21097,
+    "expert_bank_max_size": 9,
+    "expert_bank_mean_size": 8.526315789473685,
+    "expert_bank_model_transfers": 1710,
+    "expert_bank_unique_versions": 73,
+    "greedy_active_experienced_models": 38,
+    "greedy_coverage_at_0_5": 0.20463947368421054,
+    "greedy_feasible_coverage_at_0_5": 0.49022918161482293,
+    "greedy_feasible_rmse": 31.50764454489373,
+    "greedy_infeasible_leakage_at_0_5": 0.03394270145726995,
+    "greedy_infeasible_rmse": 7.952511017958955,
+    "greedy_max_capsules": 204,
+    "greedy_max_experience": 1024,
+    "greedy_mean_capsules": 163.28947368421052,
+    "greedy_mean_confidence": 0.20385517658821753,
+    "greedy_mean_experience": 797.8684210526316,
+    "greedy_mean_model_rmse": 20.228313897785387,
+    "greedy_non_feasible_false_positive_rate": 0.03443882913867189,
+    "greedy_predicted_feasible_fraction": 0.2064657894736842,
+    "greedy_total": 20.272255719916423,
+    "step": 10
+  },
+  "live_expert_versions": 87,
+  "path": "/home/hgraef/zramp-workspace/artifacts/place_wallis_benchmark/smoke/support_expert_bank_k9/checkpoint_latest.pt",
+  "step": 10,
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      9,
+      10
+    ],
+    "expected_evaluations": 2,
+    "mean": {
+      "expert_bank_mean_size": 8.078947368421053,
+      "greedy_coverage_at_0_5": 0.18755,
+      "greedy_feasible_coverage_at_0_5": 0.4510052195444505,
+      "greedy_feasible_rmse": 32.78655023530315,
+      "greedy_infeasible_leakage_at_0_5": 0.030082996274837917,
+      "greedy_infeasible_rmse": 7.357847024878496,
+      "greedy_mean_capsules": 151.9736842105263,
+      "greedy_mean_confidence": 0.18701701751338895,
+      "greedy_non_feasible_false_positive_rate": 0.0305475904171677,
+      "greedy_predicted_feasible_fraction": 0.1894763157894737,
+      "greedy_total": 20.892002838129564
+    },
+    "observed_evaluations": 2,
+    "observed_steps": [
+      9,
+      10
+    ],
+    "period_start_step": 8,
+    "standard_deviation": {
+      "expert_bank_mean_size": 0.44736842105263186,
+      "greedy_coverage_at_0_5": 0.01708947368421053,
+      "greedy_feasible_coverage_at_0_5": 0.0392239620703724,
+      "greedy_feasible_rmse": 1.2789056904094238,
+      "greedy_infeasible_leakage_at_0_5": 0.0038597051824320328,
+      "greedy_infeasible_rmse": 0.5946639930804585,
+      "greedy_mean_capsules": 11.315789473684205,
+      "greedy_mean_confidence": 0.016838159074828593,
+      "greedy_non_feasible_false_positive_rate": 0.0038912387215041915,
+      "greedy_predicted_feasible_fraction": 0.016989473684210527,
+      "greedy_total": 0.6197471182131427
+    },
+    "values": {
+      "expert_bank_mean_size": [
+        7.631578947368421,
+        8.526315789473685
+      ],
+      "greedy_coverage_at_0_5": [
+        0.17046052631578948,
+        0.20463947368421054
+      ],
+      "greedy_feasible_coverage_at_0_5": [
+        0.4117812574740781,
+        0.49022918161482293
+      ],
+      "greedy_feasible_rmse": [
+        34.06545592571258,
+        31.50764454489373
+      ],
+      "greedy_infeasible_leakage_at_0_5": [
+        0.026223291092405884,
+        0.03394270145726995
+      ],
+      "greedy_infeasible_rmse": [
+        6.763183031798038,
+        7.952511017958955
+      ],
+      "greedy_mean_capsules": [
+        140.6578947368421,
+        163.28947368421052
+      ],
+      "greedy_mean_confidence": [
+        0.17017885843856034,
+        0.20385517658821753
+      ],
+      "greedy_non_feasible_false_positive_rate": [
+        0.026656351695663508,
+        0.03443882913867189
+      ],
+      "greedy_predicted_feasible_fraction": [
+        0.17248684210526316,
+        0.2064657894736842
+      ],
+      "greedy_total": [
+        21.511749956342708,
+        20.272255719916423
+      ]
+    }
+  }
+}

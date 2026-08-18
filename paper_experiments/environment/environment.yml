@@ -1,0 +1,10 @@
+name: zramp-archive
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.20
+  - pip
+  - pip:
+      - -r requirements-lock.txt
+
+# Create from this directory with: conda env create -f environment.yml

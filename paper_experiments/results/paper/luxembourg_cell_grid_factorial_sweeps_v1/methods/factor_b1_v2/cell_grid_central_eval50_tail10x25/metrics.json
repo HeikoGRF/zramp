@@ -1,0 +1,293 @@
+{
+  "baseline": {
+    "central_experience": 2250623,
+    "communication": "ideal centralized access to every measurement",
+    "prediction": "one central model with support from every sample",
+    "type": "upper"
+  },
+  "checkpoint": {
+    "final_step": 1799,
+    "step": 1799
+  },
+  "evaluation": {
+    "noise_floor_dbm": -100.0,
+    "non_feasible_false_positive_rate": 0.5322012175584749,
+    "predicted_feasible_fraction": 0.82944,
+    "true_feasible_rule": "rssi_dbm > -100"
+  },
+  "expert_bank": {
+    "capacity_including_local": 1,
+    "coverage_recalculation": "after every accepted pull",
+    "coverage_recalculations_latest": 0,
+    "mean_size_tail": 1.0,
+    "model_transfers_latest": 0,
+    "routing": "maximum support intensity",
+    "selection": "greedy marginal support-intensity coverage",
+    "selection_probe_count": 512,
+    "transfer_cost": 0.0
+  },
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "expert_bank_coverage_recalculations": 0,
+    "expert_bank_manifest_records": 0,
+    "expert_bank_max_size": 1,
+    "expert_bank_mean_size": 1.0,
+    "expert_bank_model_transfers": 0,
+    "expert_bank_unique_versions": 1,
+    "greedy_active_experienced_models": 1,
+    "greedy_coverage_at_0_5": 0.8334,
+    "greedy_feasible_coverage_at_0_5": 0.9646750981247274,
+    "greedy_feasible_rmse": 7.685123225122525,
+    "greedy_infeasible_leakage_at_0_5": 0.544056392181993,
+    "greedy_infeasible_rmse": 20.575690013824996,
+    "greedy_max_capsules": 31698,
+    "greedy_max_experience": 2250623,
+    "greedy_mean_capsules": 31698.0,
+    "greedy_mean_confidence": 0.8334,
+    "greedy_mean_experience": 2250623.0,
+    "greedy_mean_model_rmse": 13.143762588500977,
+    "greedy_non_feasible_false_positive_rate": 0.5366869593079141,
+    "greedy_predicted_feasible_fraction": 0.8309,
+    "greedy_total": 13.143762779356603,
+    "step": 1799
+  },
+  "method": {
+    "id": "cell_grid_central_cell_grid_central",
+    "model": "one map-wide 4-64-64-1 cell-grid-gated MLP",
+    "name": "Central cell-grid support-gated MLP (cell_grid_central)"
+  },
+  "metrics_db": {
+    "feasible_rmse": 7.687585021995524,
+    "non_feasible_rmse": 20.27722673896011,
+    "overall_rmse": 12.999351350950704
+  },
+  "metrics_db_standard_deviation": {
+    "feasible_rmse": 0.02240180086102198,
+    "non_feasible_rmse": 0.24092001608024127,
+    "overall_rmse": 0.11994042077654599
+  },
+  "schema": "place_wallis_benchmark_result_v1",
+  "status": "complete",
+  "support": {
+    "gate": "all query-traversed cells reach the minimum intensity",
+    "minimum_cell_intensity": 1.0,
+    "prediction_confidence": "binary",
+    "resolution": 300,
+    "semantics": "normalized_square_cell_traversal_v1"
+  },
+  "support_plane_params": {
+    "angle_deg": 7.0,
+    "initial_half_width_m": 1.75,
+    "lateral_merge_m": 1.0,
+    "link_length_margin_m": 0.0,
+    "longitudinal_gap_m": 3.0,
+    "mass_scale": 3.0,
+    "max_corridor_width_m": 12.0,
+    "max_envelope_inflation": 1.2
+  },
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      1574,
+      1599,
+      1624,
+      1649,
+      1674,
+      1699,
+      1724,
+      1749,
+      1774,
+      1799
+    ],
+    "expected_evaluations": 10,
+    "mean": {
+      "expert_bank_mean_size": 1.0,
+      "greedy_coverage_at_0_5": 0.83253,
+      "greedy_feasible_coverage_at_0_5": 0.9646750981247274,
+      "greedy_feasible_rmse": 7.687585021995524,
+      "greedy_infeasible_leakage_at_0_5": 0.5412688240948414,
+      "greedy_infeasible_rmse": 20.27722673896011,
+      "greedy_mean_capsules": 31675.6,
+      "greedy_mean_confidence": 0.83253,
+      "greedy_non_feasible_false_positive_rate": 0.5322012175584749,
+      "greedy_predicted_feasible_fraction": 0.82944,
+      "greedy_total": 12.999351350950704
+    },
+    "observed_evaluations": 10,
+    "observed_steps": [
+      1574,
+      1599,
+      1624,
+      1649,
+      1674,
+      1699,
+      1724,
+      1749,
+      1774,
+      1799
+    ],
+    "period_start_step": 1549,
+    "standard_deviation": {
+      "expert_bank_mean_size": 0.0,
+      "greedy_coverage_at_0_5": 0.0008025584090893426,
+      "greedy_feasible_coverage_at_0_5": 0.0,
+      "greedy_feasible_rmse": 0.02240180086102198,
+      "greedy_infeasible_leakage_at_0_5": 0.0025714784014397207,
+      "greedy_infeasible_rmse": 0.24092001608024127,
+      "greedy_mean_capsules": 20.905501668221216,
+      "greedy_mean_confidence": 0.0008025584090893426,
+      "greedy_non_feasible_false_positive_rate": 0.0036979270865116283,
+      "greedy_predicted_feasible_fraction": 0.0011447270417003497,
+      "greedy_total": 0.11994042077654599
+    },
+    "values": {
+      "expert_bank_mean_size": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "greedy_coverage_at_0_5": [
+        0.8314,
+        0.8314,
+        0.832,
+        0.832,
+        0.832,
+        0.8331,
+        0.8332,
+        0.8334,
+        0.8334,
+        0.8334
+      ],
+      "greedy_feasible_coverage_at_0_5": [
+        0.9646750981247274,
+        0.9646750981247274,
+        0.9646750981247274,
+        0.9646750981247274,
+        0.9646750981247274,
+        0.9646750981247274,
+        0.9646750981247274,
+        0.9646750981247274,
+        0.9646750981247274,
+        0.9646750981247274
+      ],
+      "greedy_feasible_rmse": [
+        7.711022552398947,
+        7.653886863439461,
+        7.661674466661071,
+        7.68070689896448,
+        7.733000620064072,
+        7.677634845968342,
+        7.681857197602745,
+        7.707513471877574,
+        7.683430077856017,
+        7.685123225122525
+      ],
+      "greedy_infeasible_leakage_at_0_5": [
+        0.5376481896827939,
+        0.5376481896827939,
+        0.5395706504325537,
+        0.5395706504325537,
+        0.5395706504325537,
+        0.5430951618071131,
+        0.543415571932073,
+        0.544056392181993,
+        0.544056392181993,
+        0.544056392181993
+      ],
+      "greedy_infeasible_rmse": [
+        20.219363318260907,
+        20.089873365832215,
+        19.839964691870993,
+        20.22440788114458,
+        20.351713590628577,
+        20.755219036909867,
+        20.166240772678336,
+        20.19567249288627,
+        20.354122225564378,
+        20.575690013824996
+      ],
+      "greedy_mean_capsules": [
+        31649.0,
+        31649.0,
+        31651.0,
+        31664.0,
+        31664.0,
+        31691.0,
+        31694.0,
+        31698.0,
+        31698.0,
+        31698.0
+      ],
+      "greedy_mean_confidence": [
+        0.8314,
+        0.8314,
+        0.832,
+        0.832,
+        0.832,
+        0.8331,
+        0.8332,
+        0.8334,
+        0.8334,
+        0.8334
+      ],
+      "greedy_non_feasible_false_positive_rate": [
+        0.5264338353091957,
+        0.5267542454341557,
+        0.5277154758090356,
+        0.5344440884331945,
+        0.5328420378083948,
+        0.5344440884331945,
+        0.531560397308555,
+        0.5354053188080743,
+        0.5357257289330343,
+        0.5366869593079141
+      ],
+      "greedy_predicted_feasible_fraction": [
+        0.8276,
+        0.8278,
+        0.8281,
+        0.8302,
+        0.8296,
+        0.8302,
+        0.8292,
+        0.8303,
+        0.8305,
+        0.8309
+      ],
+      "greedy_total": [
+        12.980599947614131,
+        12.894303005591267,
+        12.776177538685035,
+        12.970685698913531,
+        13.053940018247363,
+        13.22857371374556,
+        12.94285855211282,
+        12.967650134083662,
+        13.034962121157085,
+        13.143762779356603
+      ]
+    }
+  },
+  "testset": {
+    "path": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/factor_b1_v2_300m_30min_opaque_buildings_no_vehicle_blockers/testset/factor_b1_v2_300m_street_pairs_10000_opaque_no_vehicle_blockers_static_floor100.npz",
+    "samples": 10000
+  },
+  "training": {
+    "full_dataset_epochs": 1,
+    "gradient_clip_norm": 1.0,
+    "new_data_epochs": 2,
+    "recent_replay_batches": 4,
+    "recent_window": 512,
+    "replay_batches": 8,
+    "replay_capacity": 0
+  }
+}

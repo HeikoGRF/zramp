@@ -1,0 +1,123 @@
+{
+  "bank_capacity": 3,
+  "checkpoint_kind": "metrics-only",
+  "coverage_recalculations": 1357,
+  "experienced_models": 52,
+  "format": "place_wallis_support_expert_bank_checkpoint_v1",
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "expert_bank_coverage_recalculations": 1357,
+    "expert_bank_manifest_records": 36070,
+    "expert_bank_max_size": 3,
+    "expert_bank_mean_size": 3.0,
+    "expert_bank_model_transfers": 1357,
+    "expert_bank_unique_versions": 60,
+    "greedy_active_experienced_models": 45,
+    "greedy_coverage_at_0_5": 0.15784666666666666,
+    "greedy_feasible_coverage_at_0_5": 0.38489411624936887,
+    "greedy_feasible_rmse": 31.849577702222586,
+    "greedy_infeasible_leakage_at_0_5": 0.02214056203511388,
+    "greedy_infeasible_rmse": 7.131774963770902,
+    "greedy_max_capsules": 186,
+    "greedy_max_experience": 1119,
+    "greedy_mean_capsules": 133.3111111111111,
+    "greedy_mean_confidence": 0.1531652042130882,
+    "greedy_mean_experience": 820.0444444444445,
+    "greedy_mean_model_rmse": 20.276496929592557,
+    "greedy_non_feasible_false_positive_rate": 0.023780866663116223,
+    "greedy_predicted_feasible_fraction": 0.1634511111111111,
+    "greedy_total": 20.281026888860108,
+    "step": 20
+  },
+  "live_expert_versions": 77,
+  "path": null,
+  "step": 20,
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      19,
+      20
+    ],
+    "expected_evaluations": 2,
+    "mean": {
+      "expert_bank_mean_size": 3.0,
+      "greedy_coverage_at_0_5": 0.1584244696969697,
+      "greedy_feasible_coverage_at_0_5": 0.38765798860025,
+      "greedy_feasible_rmse": 31.751338720849958,
+      "greedy_infeasible_leakage_at_0_5": 0.02141175293436038,
+      "greedy_infeasible_rmse": 7.0148838117640056,
+      "greedy_mean_capsules": 130.93964646464644,
+      "greedy_mean_confidence": 0.15357257253856796,
+      "greedy_non_feasible_false_positive_rate": 0.022950869939206732,
+      "greedy_predicted_feasible_fraction": 0.16395282828282828,
+      "greedy_total": 20.19784355338315
+    },
+    "observed_evaluations": 2,
+    "observed_steps": [
+      19,
+      20
+    ],
+    "period_start_step": 18,
+    "standard_deviation": {
+      "expert_bank_mean_size": 0.0,
+      "greedy_coverage_at_0_5": 0.0005778030303030257,
+      "greedy_feasible_coverage_at_0_5": 0.002763872350881158,
+      "greedy_feasible_rmse": 0.09823898137262965,
+      "greedy_infeasible_leakage_at_0_5": 0.0007288091007534997,
+      "greedy_infeasible_rmse": 0.1168911520068967,
+      "greedy_mean_capsules": 2.371464646464645,
+      "greedy_mean_confidence": 0.00040736832547974555,
+      "greedy_non_feasible_false_positive_rate": 0.0008299967239094892,
+      "greedy_predicted_feasible_fraction": 0.0005017171717171809,
+      "greedy_total": 0.08318333547695467
+    },
+    "values": {
+      "expert_bank_mean_size": [
+        3.0,
+        3.0
+      ],
+      "greedy_coverage_at_0_5": [
+        0.15900227272727271,
+        0.15784666666666666
+      ],
+      "greedy_feasible_coverage_at_0_5": [
+        0.3904218609511312,
+        0.38489411624936887
+      ],
+      "greedy_feasible_rmse": [
+        31.653099739477327,
+        31.849577702222586
+      ],
+      "greedy_infeasible_leakage_at_0_5": [
+        0.02068294383360688,
+        0.02214056203511388
+      ],
+      "greedy_infeasible_rmse": [
+        6.897992659757109,
+        7.131774963770902
+      ],
+      "greedy_mean_capsules": [
+        128.5681818181818,
+        133.3111111111111
+      ],
+      "greedy_mean_confidence": [
+        0.1539799408640477,
+        0.1531652042130882
+      ],
+      "greedy_non_feasible_false_positive_rate": [
+        0.022120873215297245,
+        0.023780866663116223
+      ],
+      "greedy_predicted_feasible_fraction": [
+        0.16445454545454546,
+        0.1634511111111111
+      ],
+      "greedy_total": [
+        20.1146602179062,
+        20.281026888860108
+      ]
+    }
+  }
+}

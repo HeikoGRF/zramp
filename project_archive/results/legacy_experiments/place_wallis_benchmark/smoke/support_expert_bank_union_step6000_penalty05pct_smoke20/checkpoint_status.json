@@ -1,0 +1,121 @@
+{
+  "bank_capacity": null,
+  "checkpoint_kind": "metrics-only",
+  "coverage_recalculations": 12473,
+  "experienced_models": 52,
+  "format": "place_wallis_learned_acquisition_expert_bank_checkpoint_v1",
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "expert_bank_coverage_recalculations": 12473,
+    "expert_bank_manifest_records": 106756,
+    "expert_bank_max_size": 10,
+    "expert_bank_mean_size": 9.6,
+    "expert_bank_model_transfers": 12473,
+    "expert_bank_unique_versions": 42,
+    "greedy_active_experienced_models": 45,
+    "greedy_coverage_at_0_5": 0.23918666666666666,
+    "greedy_feasible_coverage_at_0_5": 0.5572960289880899,
+    "greedy_feasible_rmse": 27.679524182796403,
+    "greedy_infeasible_leakage_at_0_5": 0.04905291935168912,
+    "greedy_infeasible_rmse": 10.600483278371343,
+    "greedy_max_capsules": 445,
+    "greedy_max_experience": 3225,
+    "greedy_mean_capsules": 408.0,
+    "greedy_mean_confidence": 0.2351774102528984,
+    "greedy_mean_experience": 2903.4222222222224,
+    "greedy_mean_model_rmse": 18.860899183485245,
+    "greedy_non_feasible_false_positive_rate": 0.051864870142550284,
+    "greedy_predicted_feasible_fraction": 0.2452711111111111,
+    "greedy_total": 18.893160593776315,
+    "step": 20
+  },
+  "learned_acquisition": {
+    "accepted_pulls": 6334,
+    "bundle": "/home/hgraef/zramp-workspace/artifacts/support_acquisition_pretraining/synthetic_union_gain_v1_excessive/checkpoints/step_6000/bundle.pt",
+    "pretraining_step": 6000,
+    "pull_attempts": 12473,
+    "rejected_pulls": 6139,
+    "relative_gain_penalty": 0.05,
+    "variant": "union_scalar_relative_gain"
+  },
+  "live_expert_versions": 92,
+  "minimum_unique_coverage": 0.005,
+  "minimum_unique_probes": 3,
+  "path": null,
+  "step": 20,
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      20
+    ],
+    "expected_evaluations": 1,
+    "mean": {
+      "expert_bank_mean_size": 9.6,
+      "greedy_coverage_at_0_5": 0.23918666666666666,
+      "greedy_feasible_coverage_at_0_5": 0.5572960289880899,
+      "greedy_feasible_rmse": 27.679524182796403,
+      "greedy_infeasible_leakage_at_0_5": 0.04905291935168912,
+      "greedy_infeasible_rmse": 10.600483278371343,
+      "greedy_mean_capsules": 408.0,
+      "greedy_mean_confidence": 0.2351774102528984,
+      "greedy_non_feasible_false_positive_rate": 0.051864870142550284,
+      "greedy_predicted_feasible_fraction": 0.2452711111111111,
+      "greedy_total": 18.893160593776315
+    },
+    "observed_evaluations": 1,
+    "observed_steps": [
+      20
+    ],
+    "period_start_step": 19,
+    "standard_deviation": {
+      "expert_bank_mean_size": 0.0,
+      "greedy_coverage_at_0_5": 0.0,
+      "greedy_feasible_coverage_at_0_5": 0.0,
+      "greedy_feasible_rmse": 0.0,
+      "greedy_infeasible_leakage_at_0_5": 0.0,
+      "greedy_infeasible_rmse": 0.0,
+      "greedy_mean_capsules": 0.0,
+      "greedy_mean_confidence": 0.0,
+      "greedy_non_feasible_false_positive_rate": 0.0,
+      "greedy_predicted_feasible_fraction": 0.0,
+      "greedy_total": 0.0
+    },
+    "values": {
+      "expert_bank_mean_size": [
+        9.6
+      ],
+      "greedy_coverage_at_0_5": [
+        0.23918666666666666
+      ],
+      "greedy_feasible_coverage_at_0_5": [
+        0.5572960289880899
+      ],
+      "greedy_feasible_rmse": [
+        27.679524182796403
+      ],
+      "greedy_infeasible_leakage_at_0_5": [
+        0.04905291935168912
+      ],
+      "greedy_infeasible_rmse": [
+        10.600483278371343
+      ],
+      "greedy_mean_capsules": [
+        408.0
+      ],
+      "greedy_mean_confidence": [
+        0.2351774102528984
+      ],
+      "greedy_non_feasible_false_positive_rate": [
+        0.051864870142550284
+      ],
+      "greedy_predicted_feasible_fraction": [
+        0.2452711111111111
+      ],
+      "greedy_total": [
+        18.893160593776315
+      ]
+    }
+  }
+}

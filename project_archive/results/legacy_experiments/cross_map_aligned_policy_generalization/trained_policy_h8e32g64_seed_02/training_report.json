@@ -1,0 +1,63 @@
+{
+  "architecture": {
+    "embedding_dim": 32,
+    "gain_hidden_dim": 64,
+    "group_widths": [
+      5,
+      129,
+      129,
+      129
+    ],
+    "hidden_dim": 8,
+    "model_input_representation": "delta",
+    "pair_feature_mode": "relational",
+    "trajectory_dim": 8
+  },
+  "best_epoch": 160,
+  "best_validation_uplift": 1.1441007286899023,
+  "deployment_map_excluded": "single_zone_urban_220,kirchberg_north",
+  "format": "exact_deployment_source_policy_report_v1",
+  "policy_input": "initialization-relative exact model state plus remotely encoded private history",
+  "source_maps": [
+    "source_train_00_dense_grid",
+    "source_train_01_two_corridors",
+    "source_train_02_open_campus",
+    "source_train_03_irregular_blocks"
+  ],
+  "target_labels_used": false,
+  "train_cases": 8,
+  "train_pairs": 7680,
+  "training": {
+    "gain_over_random_db": 1.2706736917226726,
+    "oracle_gain_db": 3.1256474513946966,
+    "oracle_gap_closed": 0.9434416419801334,
+    "pairwise_order_accuracy": 0.8937468858993523,
+    "pearson": 0.975200487097317,
+    "random_gain_db": 1.778798176164772,
+    "selected_gain_db": 3.0494718678874446,
+    "spearman": 0.9236858312595935,
+    "top_provider_accuracy": 0.8435434111943587,
+    "within_opportunity_spearman": 0.8082436147663119
+  },
+  "training_target": "oracle-geometry-alpha",
+  "validation": {
+    "gain_over_random_db": 1.1441007286899023,
+    "oracle_gain_db": 3.1584344307397463,
+    "oracle_gap_closed": 0.8785964489111076,
+    "pairs": 1920,
+    "pairwise_order_accuracy": 0.8388914983560357,
+    "pearson": 0.9644757516005473,
+    "random_gain_db": 1.8562430434334936,
+    "rankable_opportunities": 549,
+    "selected_gain_db": 3.000343772123396,
+    "spearman": 0.868608859553727,
+    "top_provider_accuracy": 0.7704918032786885,
+    "within_opportunity_spearman": 0.7226602480700842
+  },
+  "validation_cases": 2,
+  "validation_maps": [
+    "source_valid_00_ring_spokes",
+    "source_valid_01_staggered"
+  ],
+  "validation_pairs": 1920
+}

@@ -1,0 +1,21 @@
+{
+  "format": "place_wallis_expert_corridor_video_v1",
+  "method": "updated support-driven expert bank K=6",
+  "target_node": 12,
+  "entry_step": 1,
+  "capture_start": 1,
+  "capture_end": 5,
+  "plateau_rule": "stop five seconds after running-maximum street-link probe coverage improves by less than 0.01 over 30 seconds, after 45 seconds",
+  "corridor_style": "transparent blue; dark blue local; cyan newly pulled",
+  "video": "/home/hgraef/zramp-workspace/artifacts/place_wallis_benchmark/visualizations/expert_corridor_growth_smoke/expert_corridor_growth_k6_vehicle517.mp4",
+  "poster": "/home/hgraef/zramp-workspace/artifacts/place_wallis_benchmark/visualizations/expert_corridor_growth_smoke/expert_corridor_growth_k6_vehicle517_poster.png",
+  "capture": "/home/hgraef/zramp-workspace/artifacts/place_wallis_benchmark/visualizations/expert_corridor_growth_smoke/vehicle517_corridors.json.gz",
+  "rendered_frames": 5,
+  "video_duration_s": 5,
+  "output_fps": 10,
+  "plateau_step": null,
+  "final_step": 5,
+  "final_coverage": 0.142578125,
+  "final_corridors": 64,
+  "maximum_visible_corridors": 61
+}

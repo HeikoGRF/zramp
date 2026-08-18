@@ -1,0 +1,73 @@
+{
+  "bridge_deck_edge_ids": [],
+  "bridge_deck_lane_count": 0,
+  "bridge_deck_mesh": "",
+  "bridge_deck_mesh_included": false,
+  "bridge_deck_mesh_triangles": 0,
+  "bridge_deck_mesh_vertices": 0,
+  "bridge_deck_source": "LuST3D lanes whose edge type contains bridge",
+  "bridge_deck_thickness_m": 1.0,
+  "building_base_elevation_max_m": 296.59714545249494,
+  "building_base_elevation_median_m": 282.4631232554666,
+  "building_base_elevation_min_m": 250.3215439358885,
+  "building_base_method": "bilinear interpolation of official terrain grid at footprint centroid",
+  "building_count": 966,
+  "building_height_max_m": 72.66964304739076,
+  "building_height_median_m": 15.438702751534208,
+  "building_height_min_m": 0.8104535755007873,
+  "building_mesh": "gare_bonnevoie_balanced_buildings_buffer200m.ply",
+  "crop": "gare_bonnevoie_balanced",
+  "format": "radiodiff_luxembourg_sionna_scene_v2",
+  "geometry_bounds_local_xy_m": [
+    -200.0,
+    -200.0,
+    1000.0,
+    1000.0
+  ],
+  "lane_elevation_max_m": 296.23,
+  "lane_elevation_median_m": 282.5,
+  "lane_elevation_min_m": 250.96,
+  "measurement_bounds_local_xy_m": [
+    0.0,
+    0.0,
+    800.0,
+    800.0
+  ],
+  "mesh_triangles": 21974,
+  "mesh_vertices": 53022,
+  "pilot_limitations": "Terrain/ground uses the official Luxembourg 2024 DTM and the deck uses LuST3D bridge-lane elevations. Bridge piers, railings, vegetation, and spatially varying road-surface materials are not modeled.",
+  "radio_bounds_net": "gare_bonnevoie_balanced_radio_bounds.net.xml",
+  "road_conditioned_terrain_vertices": 4642,
+  "road_conditioning_clearance_m": 0.5,
+  "road_conditioning_method": "minimum nearby densified non-bridge LuST3D lane elevation",
+  "road_conditioning_radius_m": 10.0,
+  "scene_xml": "gare_bonnevoie_balanced_scene.xml",
+  "source_bounds_sumo_xy_m": [
+    7200.0,
+    5100.0,
+    8000.0,
+    5900.0
+  ],
+  "terrain_elevation_max_m": 299.6774597167969,
+  "terrain_elevation_median_m": 282.99513244628906,
+  "terrain_elevation_min_m": 247.57203674316406,
+  "terrain_grid_shape": [
+    120,
+    120
+  ],
+  "terrain_grid_spacing_m": [
+    10.0,
+    10.0
+  ],
+  "terrain_material": "itu_medium_dry_ground",
+  "terrain_mesh": "gare_bonnevoie_balanced_terrain_ground_buffer200m.ply",
+  "terrain_mesh_included": true,
+  "terrain_mesh_triangles": 28322,
+  "terrain_mesh_vertices": 14400,
+  "terrain_source_url": "https://download.data.public.lu/resources/bd-l-lidar2024-releve-3d-du-territoire-luxembourgeois/20241223-093912/MNT_Lidar2024.tif",
+  "terrain_source_xyz": "../terrain/gare_bonnevoie_buffer200m_dtm_2024_10m_utm32.xyz",
+  "terrain_unconditioned_elevation_max_m": 299.6774597167969,
+  "terrain_unconditioned_elevation_median_m": 283.1014709472656,
+  "terrain_unconditioned_elevation_min_m": 247.57203674316406,
+  "z_reference_m": 230.0
+}

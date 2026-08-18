@@ -1,0 +1,21 @@
+{
+  "decision_rows": 0,
+  "elapsed_s": 1.391254186630249,
+  "fidelity_rows": 1,
+  "latest_fidelity_step": 5,
+  "local_policy_initial_accepts": {},
+  "local_policy_initial_decisions": {},
+  "local_policy_initial_pull": "byte-match",
+  "local_policy_initial_pull_probability": 1.0,
+  "local_policy_pending_transitions": 0,
+  "local_policy_pull_updates": {},
+  "local_policy_rows": 5,
+  "local_policy_share": false,
+  "local_policy_train_updates": {},
+  "modes": [],
+  "reason": "completed",
+  "requested_steps": 5,
+  "sharing_rows": 5,
+  "step": 5,
+  "zramp_policy_mode": "local"
+}

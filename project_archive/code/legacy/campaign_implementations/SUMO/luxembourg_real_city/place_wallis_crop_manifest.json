@@ -1,0 +1,16 @@
+{
+  "format": "radiodiff_luxembourg_crop_manifest_v1",
+  "selected_crop": "place_wallis_300m",
+  "crops": {
+    "place_wallis_300m": {
+      "bounds_sumo_xy_m": [
+        7350.0,
+        5900.0,
+        7650.0,
+        6200.0
+      ],
+      "map_height_m": 300.0,
+      "map_width_m": 300.0
+    }
+  }
+}

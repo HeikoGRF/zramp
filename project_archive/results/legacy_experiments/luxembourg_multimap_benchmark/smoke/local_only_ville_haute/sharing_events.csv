@@ -1,0 +1,3 @@
+step,capsule_max_operational_count,capsule_support_origin_records_sent,capsule_support_payload_bytes,capsule_support_records_sent,contact_threshold_rx_power_dbm,contact_threshold_snr_db,equal_weight_model_transfers,feasible_contact_decisions,feasible_contact_pairs,greedy_comm_bytes,greedy_comm_cumulative_mb,greedy_comm_mb,greedy_events,local_policy_initial_pull_probability,model_payload_bytes,model_transfer_snr_min_db,noise_floor_dbm,propagation_loss_contact_threshold_db,rssi_gossip_threshold_dbm,snr_min_db,synchronous_greedy_receivers
+1,0,0,0,0,-100.0,0.0,0,0,0,0,0.0,0.0,0,1.0,0,0.0,-100.0,123.0,-100.0,0.0,0
+2,0,0,0,0,-100.0,0.0,0,0,0,0,0.0,0.0,0,1.0,0,0.0,-100.0,123.0,-100.0,0.0,0

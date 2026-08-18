@@ -1,0 +1,14 @@
+variant,seeds,final_rmse_mean_db,final_rmse_sample_sd_db
+current_b1,3,19.760195,0.719547
+current_b2,3,19.760874,0.972594
+current_b5,3,18.472861,0.866145
+old_beta_0,3,18.115949,0.761824
+old_beta_0p1,3,18.153076,1.060127
+old_beta_0p25,3,18.009798,1.046857
+old_beta_1,3,17.954553,1.019645
+signed-top-b_b1,3,20.829469,0.920413
+signed-top-b_b2,3,20.914588,0.848857
+signed-top-b_b5,3,19.937638,0.851983
+unsigned-top-b_b1,3,19.174801,0.830665
+unsigned-top-b_b2,3,18.308453,0.349081
+unsigned-top-b_b5,3,16.914454,1.066120

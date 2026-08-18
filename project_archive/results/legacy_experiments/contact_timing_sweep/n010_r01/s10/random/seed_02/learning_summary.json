@@ -1,0 +1,12 @@
+{
+  "attempts": 927,
+  "decision_opportunities": 7441,
+  "selection_mode": "random",
+  "timing_reason_counts": {
+    "network_half_duplex_conflict": 115,
+    "network_scheduled": 927,
+    "random_wait": 3261,
+    "token_spent": 3138
+  },
+  "token_window_steps": 10
+}

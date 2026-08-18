@@ -1,0 +1,17 @@
+source_crop	density_factor	stage	method	penalty_pct	job_id	dependency	results_dir
+factor_b2_v2_200m	2	augment	-	-	2200677	-	-
+factor_b2_v2_200m	2	rssi_chunks	-	-	2200678	2200677	-
+factor_b2_v2_200m	2	merge	-	-	2200679	2200678	-
+factor_b2_v2_200m	2	simulation	expert-bank	2	2200680	afterok:2200679	/home/hgraef/zramp-workspace/artifacts/luxembourg_density_benchmark_v1/methods/factor_b2_v2_200m_density2x/support_expert_bank_pq4x256_s3650_density2x_zero_width_kappa2_angle12_eval50_tail10x25
+factor_b2_v2_200m	2	simulation	expert-bank	10	2200681	afterok:2200679	/home/hgraef/zramp-workspace/artifacts/luxembourg_density_benchmark_v1/methods/factor_b2_v2_200m_density2x/support_expert_bank_pq4x256_s3650_density2x_zero_width_kappa10_angle12_eval50_tail10x25
+factor_b2_v2_200m	2	simulation	expert-bank	50	2200682	afterok:2200679	/home/hgraef/zramp-workspace/artifacts/luxembourg_density_benchmark_v1/methods/factor_b2_v2_200m_density2x/support_expert_bank_pq4x256_s3650_density2x_zero_width_kappa50_angle12_eval50_tail10x25
+factor_b2_v2_200m	2	simulation	local-only	-	2200683	afterok:2200679	/home/hgraef/zramp-workspace/artifacts/luxembourg_density_benchmark_v1/methods/factor_b2_v2_200m_density2x/baseline_local_only_density2x_zero_width_angle12_eval50_tail10x25
+factor_b2_v2_200m	2	simulation	central	-	2200684	afterok:2200679	/home/hgraef/zramp-workspace/artifacts/luxembourg_density_benchmark_v1/methods/factor_b2_v2_200m_density2x/baseline_central_density2x_zero_width_angle12_eval50_tail10x25
+factor_b2_v2_200m	4	augment	-	-	2200685	-	-
+factor_b2_v2_200m	4	rssi_chunks	-	-	2200686	2200685	-
+factor_b2_v2_200m	4	merge	-	-	2200687	2200686	-
+factor_b2_v2_200m	4	simulation	expert-bank	2	2200688	afterok:2200687	/home/hgraef/zramp-workspace/artifacts/luxembourg_density_benchmark_v1/methods/factor_b2_v2_200m_density4x/support_expert_bank_pq4x256_s3650_density4x_zero_width_kappa2_angle12_eval50_tail10x25
+factor_b2_v2_200m	4	simulation	expert-bank	10	2200689	afterok:2200687	/home/hgraef/zramp-workspace/artifacts/luxembourg_density_benchmark_v1/methods/factor_b2_v2_200m_density4x/support_expert_bank_pq4x256_s3650_density4x_zero_width_kappa10_angle12_eval50_tail10x25
+factor_b2_v2_200m	4	simulation	expert-bank	50	2200690	afterok:2200687	/home/hgraef/zramp-workspace/artifacts/luxembourg_density_benchmark_v1/methods/factor_b2_v2_200m_density4x/support_expert_bank_pq4x256_s3650_density4x_zero_width_kappa50_angle12_eval50_tail10x25
+factor_b2_v2_200m	4	simulation	local-only	-	2200691	afterok:2200687	/home/hgraef/zramp-workspace/artifacts/luxembourg_density_benchmark_v1/methods/factor_b2_v2_200m_density4x/baseline_local_only_density4x_zero_width_angle12_eval50_tail10x25
+factor_b2_v2_200m	4	simulation	central	-	2200692	afterok:2200687	/home/hgraef/zramp-workspace/artifacts/luxembourg_density_benchmark_v1/methods/factor_b2_v2_200m_density4x/baseline_central_density4x_zero_width_angle12_eval50_tail10x25

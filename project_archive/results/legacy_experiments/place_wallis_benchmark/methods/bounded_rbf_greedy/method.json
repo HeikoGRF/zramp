@@ -1,0 +1,37 @@
+{
+  "schema": "place_wallis_benchmark_method_v1",
+  "id": "bounded_rbf_greedy",
+  "name": "Bounded pair-RBF greedy sharing",
+  "status": "running",
+  "slurm_job_id": 2166321,
+  "model": "4-64-64-1 MLP",
+  "aggregation": {
+    "frequency": "once per second",
+    "model_members": "self plus all currently feasible neighbours",
+    "model_weights": "equal",
+    "support_merge": "newest stable-ID union followed by geometric deduplication and deterministic k-centre reduction",
+    "optimizer_state_after_aggregation": "reset"
+  },
+  "support": {
+    "space": "reciprocal four-dimensional sender-receiver pair space",
+    "budget_per_vehicle": 512,
+    "local_merge_radius_m": 2.5,
+    "maturity_scale": 3.0,
+    "evaluated_bandwidths_m": [
+      3.0,
+      5.0,
+      8.0
+    ],
+    "primary_bandwidth_m": 5.0
+  },
+  "shared_data": [
+    "MLP parameters",
+    "bounded RBF prototype summaries"
+  ],
+  "not_shared": [
+    "raw measurements",
+    "replay samples",
+    "experience counts",
+    "Adam optimizer state"
+  ]
+}

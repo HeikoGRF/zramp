@@ -1,0 +1,17 @@
+{
+  "format": "radiodiff_luxembourg_crop_manifest_v1",
+  "selected_crop": "gare_bonnevoie_balanced",
+  "crops": {
+    "gare_bonnevoie_balanced": {
+      "bounds_sumo_xy_m": [
+        7200.0,
+        5100.0,
+        8000.0,
+        5900.0
+      ],
+      "map_height_m": 800.0,
+      "map_width_m": 800.0
+    }
+  }
+}
+ 

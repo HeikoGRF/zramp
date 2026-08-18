@@ -1,0 +1,262 @@
+{
+  "cases": [
+    {
+      "case_id": 1,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_train_00_dense_grid/seed_01/audit",
+      "rows": 960,
+      "split": "train"
+    },
+    {
+      "case_id": 2,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_train_00_dense_grid/seed_02/audit",
+      "rows": 960,
+      "split": "train"
+    },
+    {
+      "case_id": 3,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_train_01_two_corridors/seed_01/audit",
+      "rows": 960,
+      "split": "train"
+    },
+    {
+      "case_id": 4,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_train_01_two_corridors/seed_02/audit",
+      "rows": 960,
+      "split": "train"
+    },
+    {
+      "case_id": 5,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_train_02_open_campus/seed_01/audit",
+      "rows": 960,
+      "split": "train"
+    },
+    {
+      "case_id": 6,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_train_02_open_campus/seed_02/audit",
+      "rows": 960,
+      "split": "train"
+    },
+    {
+      "case_id": 7,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_train_03_irregular_blocks/seed_01/audit",
+      "rows": 960,
+      "split": "train"
+    },
+    {
+      "case_id": 8,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_train_03_irregular_blocks/seed_02/audit",
+      "rows": 960,
+      "split": "train"
+    },
+    {
+      "case_id": 9,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_valid_00_ring_spokes/seed_01/audit",
+      "rows": 960,
+      "split": "validation"
+    },
+    {
+      "case_id": 10,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_valid_01_staggered/seed_01/audit",
+      "rows": 960,
+      "split": "validation"
+    },
+    {
+      "case_id": 11,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_test_00_cross_core/seed_01/audit",
+      "rows": 960,
+      "split": "additional"
+    },
+    {
+      "case_id": 12,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_test_01_sparse_campus/seed_01/audit",
+      "rows": 960,
+      "split": "additional"
+    },
+    {
+      "case_id": 13,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/radiodiff_grid_9z_dynamic1000_methods_x86gpu/data/cross_map_exact_deployment_policy_v1/sources/source_test_02_dense_irregular/seed_01/audit",
+      "rows": 960,
+      "split": "additional"
+    },
+    {
+      "case_id": 14,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/cross_map_trainable_encoder_fast_v1/source_tiny/seed_01",
+      "rows": 120,
+      "split": "tiny"
+    },
+    {
+      "case_id": 15,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/cross_map_trainable_encoder_fast_v1/source_tiny/seed_02",
+      "rows": 120,
+      "split": "tiny"
+    },
+    {
+      "case_id": 16,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/cross_map_trainable_encoder_fast_v1/target_kirchberg/seed_01",
+      "rows": 120,
+      "split": "kirchberg"
+    },
+    {
+      "case_id": 17,
+      "path": "/usr/itetnas04/data-scratch-01/hgraef/data/cross_map_trainable_encoder_fast_v1/target_kirchberg/seed_02",
+      "rows": 120,
+      "split": "kirchberg"
+    }
+  ],
+  "methods": {
+    "exact_layer_geometry_mlp": {
+      "additional": {
+        "global_pearson": 0.951732547061402,
+        "groups": 1162,
+        "oracle_gain_db": 2.738737081846807,
+        "positive_selection_fraction": 0.7125645438898451,
+        "random_action_gain_db": 1.6861709875377395,
+        "regret_db": 0.21248776421357327,
+        "selected_gain_db": 2.5262493176332335,
+        "top1_fraction": 0.7814113597246127,
+        "within_group_spearman": 0.6001342957864697
+      },
+      "kirchberg": {
+        "global_pearson": 0.9297929418124179,
+        "groups": 191,
+        "oracle_gain_db": 2.1024468942750203,
+        "positive_selection_fraction": 0.6544502617801047,
+        "random_action_gain_db": 1.9330540092879889,
+        "regret_db": 0.0795242915786575,
+        "selected_gain_db": 2.022922602696363,
+        "top1_fraction": 0.9319371727748691,
+        "within_group_spearman": 0.4358974358974359
+      },
+      "tiny": {
+        "global_pearson": 0.8934682703051354,
+        "groups": 167,
+        "oracle_gain_db": 1.6093547524563538,
+        "positive_selection_fraction": 0.6167664670658682,
+        "random_action_gain_db": 1.378583994230187,
+        "regret_db": 0.18592598101304209,
+        "selected_gain_db": 1.4234287714433116,
+        "top1_fraction": 0.8323353293413174,
+        "within_group_spearman": 0.11851851851851852
+      },
+      "validation": {
+        "global_pearson": 0.9621219907723908,
+        "groups": 783,
+        "oracle_gain_db": 3.176284811176932,
+        "positive_selection_fraction": 0.7471264367816092,
+        "random_action_gain_db": 2.2632540683530076,
+        "regret_db": 0.2183043455917044,
+        "selected_gain_db": 2.9579804655852273,
+        "top1_fraction": 0.7535121328224776,
+        "within_group_spearman": 0.5532353196287623
+      }
+    },
+    "exact_layer_geometry_ridge": {
+      "additional": {
+        "global_pearson": 0.8850124488856185,
+        "groups": 1162,
+        "oracle_gain_db": 2.738737081846807,
+        "positive_selection_fraction": 0.7091222030981067,
+        "random_action_gain_db": 1.6861709875377395,
+        "regret_db": 0.2937811716209049,
+        "selected_gain_db": 2.4449559102259024,
+        "top1_fraction": 0.7693631669535284,
+        "within_group_spearman": 0.5977197694588999
+      },
+      "kirchberg": {
+        "global_pearson": 0.8689163801106833,
+        "groups": 191,
+        "oracle_gain_db": 2.1024468942750203,
+        "positive_selection_fraction": 0.6596858638743456,
+        "random_action_gain_db": 1.9330540092879889,
+        "regret_db": 0.08195207348361945,
+        "selected_gain_db": 2.0204948207914013,
+        "top1_fraction": 0.9476439790575916,
+        "within_group_spearman": 0.5256410256410257
+      },
+      "tiny": {
+        "global_pearson": 0.898634721995007,
+        "groups": 167,
+        "oracle_gain_db": 1.6093547524563538,
+        "positive_selection_fraction": 0.6467065868263473,
+        "random_action_gain_db": 1.378583994230187,
+        "regret_db": 0.06203614018253532,
+        "selected_gain_db": 1.5473186122738183,
+        "top1_fraction": 0.8922155688622755,
+        "within_group_spearman": 0.5351851851851852
+      },
+      "validation": {
+        "global_pearson": 0.9066632932109054,
+        "groups": 783,
+        "oracle_gain_db": 3.176284811176932,
+        "positive_selection_fraction": 0.7522349936143039,
+        "random_action_gain_db": 2.2632540683530076,
+        "regret_db": 0.21292212142549233,
+        "selected_gain_db": 2.9633626897514396,
+        "top1_fraction": 0.7854406130268199,
+        "within_group_spearman": 0.5651053864168618
+      }
+    }
+  },
+  "protocol": {
+    "feature_dimensions": 202,
+    "features": "exact per-layer and global receiver/provider/aggregate parameter geometry plus model-update stability history",
+    "fit_and_selection": "artificial maps only",
+    "positions_measurements_sample_counts_or_validation_data": false,
+    "post_pull_only": true,
+    "targets": "evaluation only"
+  },
+  "rows": {
+    "additional": 2880,
+    "kirchberg": 240,
+    "tiny": 240,
+    "train": 7680,
+    "validation": 1920
+  },
+  "selected_on_artificial_validation": "exact_layer_geometry_ridge",
+  "selected_result": {
+    "additional": {
+      "global_pearson": 0.8850124488856185,
+      "groups": 1162,
+      "oracle_gain_db": 2.738737081846807,
+      "positive_selection_fraction": 0.7091222030981067,
+      "random_action_gain_db": 1.6861709875377395,
+      "regret_db": 0.2937811716209049,
+      "selected_gain_db": 2.4449559102259024,
+      "top1_fraction": 0.7693631669535284,
+      "within_group_spearman": 0.5977197694588999
+    },
+    "kirchberg": {
+      "global_pearson": 0.8689163801106833,
+      "groups": 191,
+      "oracle_gain_db": 2.1024468942750203,
+      "positive_selection_fraction": 0.6596858638743456,
+      "random_action_gain_db": 1.9330540092879889,
+      "regret_db": 0.08195207348361945,
+      "selected_gain_db": 2.0204948207914013,
+      "top1_fraction": 0.9476439790575916,
+      "within_group_spearman": 0.5256410256410257
+    },
+    "tiny": {
+      "global_pearson": 0.898634721995007,
+      "groups": 167,
+      "oracle_gain_db": 1.6093547524563538,
+      "positive_selection_fraction": 0.6467065868263473,
+      "random_action_gain_db": 1.378583994230187,
+      "regret_db": 0.06203614018253532,
+      "selected_gain_db": 1.5473186122738183,
+      "top1_fraction": 0.8922155688622755,
+      "within_group_spearman": 0.5351851851851852
+    },
+    "validation": {
+      "global_pearson": 0.9066632932109054,
+      "groups": 783,
+      "oracle_gain_db": 3.176284811176932,
+      "positive_selection_fraction": 0.7522349936143039,
+      "random_action_gain_db": 2.2632540683530076,
+      "regret_db": 0.21292212142549233,
+      "selected_gain_db": 2.9633626897514396,
+      "top1_fraction": 0.7854406130268199,
+      "within_group_spearman": 0.5651053864168618
+    }
+  }
+}

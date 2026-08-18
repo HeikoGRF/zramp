@@ -1,0 +1,22 @@
+Zone comparison (same simulation data; multiple metrics)
+steps=100, eval_last=20
+obs_every_k_steps=1, obs_keep_prob=1.0
+
+Generated figures:
+  - zone_compare_cum_rmse.png
+  - zone_compare_step_rmse.png
+  - zone_compare_comm_curve.png
+  - zone_compare_eval_rmse.png
+  - zone_compare_tradeoff.png
+
+Eval RMSE (mean per-step RMSE over last window):
+Adapter strategy:
+  FSPL               13.783
+  Local LoRA         11.633
+  Greedy LoRA        10.897
+  Centralized LoRA   11.059
+Full fine-tuning strategy:
+  FSPL               13.783
+  Local FullFT       11.449
+  Greedy FullShare   11.151
+  Centralized FullFT   11.157

@@ -1,0 +1,7 @@
+{
+  "beta": 0.05,
+  "format": "kirchberg_penalty_calibration_v1",
+  "gross_reward_count": 6451,
+  "positive_gross_reward_count": 5169,
+  "warmup_steps": 200
+}

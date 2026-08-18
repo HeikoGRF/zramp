@@ -1,0 +1,42 @@
+Zone-based Benchmark — Munich 3D  |  4 zones  |  100 steps  |  109 zone transitions
+Sharing gate: same zone + ≤30.0m + RSSI > -100.0 dBm
+===============================================================================================
+Strategy                       Eval RMSE  Eval MAE  Size (KB)  Comm (MB)  Shareable
+-----------------------------------------------------------------------------------------------
+FSPL                               13.00      6.07        0.0      0.000        Yes
+Local LoRA                         10.02      5.18       94.6      0.000        Yes
+Greedy LoRA                         9.01      4.98       94.6    127.522        Yes
+Centralized                         9.10      5.11      696.0      1.595         No
+===============================================================================================
+
+── Per-zone RMSE ──
+Strategy                           Z0 SW     Z1 SE     Z2 NW     Z3 NE
+FSPL                               33.91      8.77      7.38      2.49
+Local LoRA                         25.09      8.16      5.99      2.50
+Greedy LoRA                        21.51      7.50      5.91      3.21
+Centralized                        21.37      8.22      6.01      3.16
+
+── Error CDF percentiles (abs error in dB) ──
+Strategy                           P50     P75     P90     P95
+FSPL                              2.31    7.01   13.34   19.51
+Local LoRA                        2.81    5.85   10.52   15.41
+Greedy LoRA                       2.79    5.59   10.82   16.38
+Centralized                       2.95    5.91   10.48   16.46
+
+── LOS vs NLOS mean abs error ──
+Strategy                             LOS      NLOS
+FSPL                                 nan      6.07
+Local LoRA                           nan      5.18
+Greedy LoRA                          nan      4.98
+Centralized                          nan      5.11
+
+── Gain of Greedy LoRA ──
+  vs FSPL:       +3.99 dB
+  vs Local LoRA: +1.01 dB  ← benefit of sharing
+  vs Centralized:-0.10 dB  ← gap to server oracle
+
+── Communication ──
+  Greedy adapter swaps: 127.522 MB
+  Centralized uploads:  1.595 MB
+  Ratio: 0.01× more for centralized
+  Zone transitions: 109

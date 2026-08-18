@@ -1,0 +1,4 @@
+seed,method,status,completion_reason,completed_step,requested_steps,final_rmse_db,original_campaign_id,original_run_suffix
+1,learned_policy,complete,completed,1799,1799,21.172000638307832,floating_structure_private_reward_v1,seed_01/policy
+2,learned_policy,complete,completed,1799,1799,20.466624077315732,floating_structure_private_reward_v1,seed_02/policy
+3,learned_policy,complete,completed,1799,1799,22.68542643716116,floating_structure_private_reward_v1,seed_03/policy

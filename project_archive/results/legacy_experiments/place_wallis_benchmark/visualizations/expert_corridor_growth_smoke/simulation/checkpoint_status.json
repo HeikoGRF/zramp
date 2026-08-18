@@ -1,0 +1,7 @@
+{
+  "captured_frames": 5,
+  "checkpoint_kind": "metrics-only",
+  "format": "place_wallis_vehicle_corridor_visualization_v1",
+  "step": 5,
+  "target_node": 12
+}

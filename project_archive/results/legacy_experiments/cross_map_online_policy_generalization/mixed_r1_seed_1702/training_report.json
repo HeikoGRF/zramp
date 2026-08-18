@@ -1,0 +1,93 @@
+{
+  "architecture": {
+    "embedding_dim": 64,
+    "gain_hidden_dim": 128,
+    "group_widths": [
+      5,
+      129,
+      129,
+      129
+    ],
+    "hidden_dim": 16,
+    "model_input_representation": "delta",
+    "pair_feature_mode": "relational",
+    "trajectory_dim": 8
+  },
+  "best_epoch": 170,
+  "best_validation_uplift": 1.2146220101195222,
+  "format": "onpolicy_augmented_source_policy_report_v1",
+  "metrics": {
+    "combined_validation": {
+      "gain_over_random_db": 1.2146220101195222,
+      "oracle_gain_db": 3.3279264324499747,
+      "oracle_gap_closed": 0.8893302742911124,
+      "pairs": 3840,
+      "pairwise_order_accuracy": 0.8525129168623767,
+      "pearson": 0.969568586311215,
+      "random_gain_db": 1.9621548566563802,
+      "rankable_opportunities": 1098,
+      "selected_gain_db": 3.1767768667759024,
+      "spearman": 0.8848879945890976,
+      "top_provider_accuracy": 0.7950819672131147,
+      "within_opportunity_spearman": 0.7295559025067221
+    },
+    "onpolicy_training": {
+      "gain_over_random_db": 1.45307478006515,
+      "oracle_gain_db": 3.532771515631029,
+      "oracle_gap_closed": 0.9452452997799505,
+      "pairwise_order_accuracy": 0.898355754857997,
+      "pearson": 0.9764168687008756,
+      "random_gain_db": 1.995525278698224,
+      "selected_gain_db": 3.448600058763374,
+      "spearman": 0.9270307180960885,
+      "top_provider_accuracy": 0.8457470251211988,
+      "within_opportunity_spearman": 0.8048857268777938
+    },
+    "onpolicy_validation": {
+      "gain_over_random_db": 1.259239582413139,
+      "oracle_gain_db": 3.4974184341602026,
+      "oracle_gap_closed": 0.8809864820411264,
+      "pairwise_order_accuracy": 0.8459370596524189,
+      "pearson": 0.9719211439611235,
+      "random_gain_db": 2.0680666698792667,
+      "selected_gain_db": 3.3273062522924057,
+      "spearman": 0.8842267209816407,
+      "top_provider_accuracy": 0.7814207650273224,
+      "within_opportunity_spearman": 0.7005724694249286
+    },
+    "random_training": {
+      "gain_over_random_db": 1.2643387461731355,
+      "oracle_gain_db": 3.1256474513946966,
+      "oracle_gap_closed": 0.9387381122934462,
+      "pairwise_order_accuracy": 0.8958644743398106,
+      "pearson": 0.9763965910623328,
+      "random_gain_db": 1.778798176164772,
+      "selected_gain_db": 3.0431369223379074,
+      "spearman": 0.9317863833465388,
+      "top_provider_accuracy": 0.8364918466284706,
+      "within_opportunity_spearman": 0.7927658502801738
+    },
+    "random_validation": {
+      "gain_over_random_db": 1.1700044378259051,
+      "oracle_gain_db": 3.1584344307397463,
+      "oracle_gap_closed": 0.8984888467479477,
+      "pairwise_order_accuracy": 0.8590887740723344,
+      "pearson": 0.9673334838725798,
+      "random_gain_db": 1.8562430434334936,
+      "selected_gain_db": 3.0262474812593987,
+      "spearman": 0.8870641410493002,
+      "top_provider_accuracy": 0.8087431693989071,
+      "within_opportunity_spearman": 0.7585393355885159
+    }
+  },
+  "protocol": {
+    "deployment_map_used": false,
+    "fit_and_selection": "artificial maps only",
+    "onpolicy_repeats": 1,
+    "random_training_included": true,
+    "training_target": "oracle gain at metadata-selected alpha"
+  },
+  "seed": 1702,
+  "train_pairs": 15360,
+  "validation_pairs": 3840
+}

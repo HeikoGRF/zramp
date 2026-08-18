@@ -1,0 +1,51 @@
+{
+  "checkpoint": {
+    "final_step": 1799,
+    "step": 1799
+  },
+  "evaluation": {
+    "noise_floor_dbm": -100.0,
+    "non_feasible_false_positive_rate": 0.9996671459764606,
+    "predicted_feasible_fraction": 0.9997916666666666,
+    "true_feasible_rule": "rssi_dbm > -100"
+  },
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "greedy_active_experienced_models": 36,
+    "greedy_feasible_recall": 1.0,
+    "greedy_feasible_rmse": 11.267136934927883,
+    "greedy_infeasible_rmse": 31.163198241545253,
+    "greedy_max_local_experience": 3329,
+    "greedy_mean_local_experience": 1615.7222222222222,
+    "greedy_mean_model_rmse": 25.509536001417374,
+    "greedy_non_feasible_false_positive_rate": 0.9996671459764606,
+    "greedy_predicted_feasible_fraction": 0.9997916666666666,
+    "greedy_total": 25.599433424719905,
+    "step": 1799
+  },
+  "method": {
+    "id": "equal_greedy",
+    "model": "4-64-64-1 MLP",
+    "name": "Equal-weight greedy sharing"
+  },
+  "metrics_db": {
+    "feasible_rmse": 11.267136934927883,
+    "non_feasible_rmse": 31.163198241545253,
+    "overall_rmse": 25.599433424719905
+  },
+  "schema": "place_wallis_benchmark_result_v1",
+  "status": "complete",
+  "testset": {
+    "path": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/place_wallis_300m_30min_opaque_buildings_no_vehicle_blockers/testset/place_wallis_street_pairs_10000_opaque_no_vehicle_blockers_static_floor100.npz",
+    "samples": 10000
+  },
+  "training": {
+    "gradient_clip_norm": 1.0,
+    "new_data_epochs": 2,
+    "recent_replay_batches": 4,
+    "recent_window": 512,
+    "replay_batches": 8,
+    "replay_capacity": 4096
+  }
+}

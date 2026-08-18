@@ -1,0 +1,84 @@
+{
+  "checkpoint": {
+    "final_step": 5,
+    "step": 5
+  },
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "greedy_active_experienced_models": 28,
+    "greedy_coverage_at_0_5": 0.0009142857142857143,
+    "greedy_feasible_rmse": 39.71227540026738,
+    "greedy_infeasible_rmse": 1.6923509808417212,
+    "greedy_max_prototypes": 512,
+    "greedy_mean_local_experience": 60.07142857142857,
+    "greedy_mean_prototypes": 501.17857142857144,
+    "greedy_total": 24.326375676853893,
+    "sigma_3m_coverage_at_0_5": 5e-05,
+    "sigma_3m_feasible_coverage_at_0_5": 0.00013365410318096765,
+    "sigma_3m_feasible_rmse": 41.26454504833852,
+    "sigma_3m_infeasible_leakage_at_0_5": 0.0,
+    "sigma_3m_infeasible_rmse": 0.7343884759115961,
+    "sigma_3m_mean_confidence": 0.006680590670449393,
+    "sigma_3m_overall_rmse": 25.24561496577178,
+    "sigma_5m_coverage_at_0_5": 0.0009142857142857143,
+    "sigma_5m_feasible_coverage_at_0_5": 0.0019093443311566807,
+    "sigma_5m_feasible_rmse": 39.71227540026738,
+    "sigma_5m_infeasible_leakage_at_0_5": 0.00031953986259785906,
+    "sigma_5m_infeasible_rmse": 1.6923509808417212,
+    "sigma_5m_mean_confidence": 0.022071124921526228,
+    "sigma_5m_overall_rmse": 24.326375676853893,
+    "sigma_8m_coverage_at_0_5": 0.002975,
+    "sigma_8m_feasible_coverage_at_0_5": 0.006119448581357162,
+    "sigma_8m_feasible_rmse": 37.16469543042184,
+    "sigma_8m_infeasible_leakage_at_0_5": 0.0010955652431926598,
+    "sigma_8m_infeasible_rmse": 3.2950101996474466,
+    "sigma_8m_mean_confidence": 0.050162528228759766,
+    "sigma_8m_overall_rmse": 22.880293493684537,
+    "step": 5
+  },
+  "method": {
+    "id": "bounded_rbf_greedy",
+    "model": "4-64-64-1 MLP",
+    "name": "Bounded pair-RBF greedy sharing"
+  },
+  "metrics_db": {
+    "feasible_rmse": 39.71227540026738,
+    "non_feasible_rmse": 1.6923509808417212,
+    "overall_rmse": 24.326375676853893
+  },
+  "primary_bandwidth_m": 5.0,
+  "rbf_params": {
+    "bandwidths_m": [
+      3.0,
+      5.0,
+      8.0
+    ],
+    "confidence_threshold": 0.5,
+    "local_merge_radius_m": 2.5,
+    "maturity_scale": 3.0,
+    "primary_bandwidth_m": 5.0,
+    "support_budget": 512,
+    "tree_neighbours": 8
+  },
+  "schema": "place_wallis_benchmark_result_v1",
+  "status": "complete",
+  "support": {
+    "budget": 512,
+    "max_prototypes": 512,
+    "mean_prototypes": 501.17857142857144,
+    "primary_coverage_at_0_5": 0.0009142857142857143
+  },
+  "testset": {
+    "path": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/place_wallis_300m_30min_opaque_buildings_no_vehicle_blockers/testset/place_wallis_street_pairs_10000_opaque_no_vehicle_blockers_static_floor100.npz",
+    "samples": 10000
+  },
+  "training": {
+    "gradient_clip_norm": 1.0,
+    "new_data_epochs": 2,
+    "recent_replay_batches": 4,
+    "recent_window": 512,
+    "replay_batches": 8,
+    "replay_capacity": 4096
+  }
+}

@@ -1,0 +1,11 @@
+step,capsule_payload_bytes,capsule_scalar_values_sent,contact_threshold_rx_power_dbm,contact_threshold_snr_db,expert_bank_coverage_recalculations,expert_bank_manifest_records,expert_bank_model_messages,feasible_contact_decisions,feasible_contact_pairs,greedy_comm_bytes,greedy_comm_cumulative_mb,greedy_comm_mb,greedy_events,local_policy_initial_pull_probability,model_transfer_snr_min_db,noise_floor_dbm,propagation_loss_contact_threshold_db,rssi_gossip_threshold_dbm,snr_min_db
+1,0,0,-100.0,0.0,0,0,0,522,261,0,0.0,0.0,0,1.0,0.0,-100.0,123.0,-100.0,0.0
+2,0,0,-100.0,0.0,0,0,0,452,226,0,0.0,0.0,0,1.0,0.0,-100.0,123.0,-100.0,0.0
+3,0,0,-100.0,0.0,0,0,0,502,251,0,0.0,0.0,0,1.0,0.0,-100.0,123.0,-100.0,0.0
+4,0,0,-100.0,0.0,0,0,0,506,253,0,0.0,0.0,0,1.0,0.0,-100.0,123.0,-100.0,0.0
+5,0,0,-100.0,0.0,0,0,0,420,210,0,0.0,0.0,0,1.0,0.0,-100.0,123.0,-100.0,0.0
+6,0,0,-100.0,0.0,0,0,0,452,226,0,0.0,0.0,0,1.0,0.0,-100.0,123.0,-100.0,0.0
+7,0,0,-100.0,0.0,0,0,0,444,222,0,0.0,0.0,0,1.0,0.0,-100.0,123.0,-100.0,0.0
+8,0,0,-100.0,0.0,0,0,0,458,229,0,0.0,0.0,0,1.0,0.0,-100.0,123.0,-100.0,0.0
+9,0,0,-100.0,0.0,0,0,0,484,242,0,0.0,0.0,0,1.0,0.0,-100.0,123.0,-100.0,0.0
+10,0,0,-100.0,0.0,0,0,0,488,244,0,0.0,0.0,0,1.0,0.0,-100.0,123.0,-100.0,0.0

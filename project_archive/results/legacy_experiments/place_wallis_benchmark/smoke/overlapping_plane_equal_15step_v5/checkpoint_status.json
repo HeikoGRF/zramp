@@ -1,0 +1,133 @@
+{
+  "experienced_models": 48,
+  "format": "place_wallis_overlapping_plane_greedy_checkpoint_v1",
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "greedy_active_experienced_models": 43,
+    "greedy_coverage_at_0_5": 0.4273953488372093,
+    "greedy_feasible_coverage_at_0_5": 0.8551686839111542,
+    "greedy_feasible_rmse": 23.209097323655545,
+    "greedy_infeasible_leakage_at_0_5": 0.17171552034837276,
+    "greedy_infeasible_rmse": 18.073273526904128,
+    "greedy_max_capsules": 156,
+    "greedy_mean_capsules": 146.7674418604651,
+    "greedy_mean_confidence": 0.4273953488372093,
+    "greedy_non_feasible_false_positive_rate": 0.1667960926962848,
+    "greedy_predicted_feasible_fraction": 0.41217906976744184,
+    "greedy_total": 20.148436966903965,
+    "step": 15
+  },
+  "max_capsules": 156,
+  "mean_capsules": 146.7674418604651,
+  "path": "/home/hgraef/zramp-workspace/artifacts/place_wallis_benchmark/smoke/overlapping_plane_equal_15step_v5/checkpoint_latest.pt",
+  "step": 15,
+  "support_temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      14,
+      15
+    ],
+    "expected_evaluations": 2,
+    "mean": {
+      "greedy_coverage_at_0_5": 0.41831585623678647,
+      "greedy_feasible_coverage_at_0_5": 0.8478141055093182,
+      "greedy_infeasible_leakage_at_0_5": 0.1616050477164891,
+      "greedy_max_capsules": 154.5,
+      "greedy_mean_capsules": 144.53144820295984,
+      "greedy_mean_confidence": 0.41831585623678647
+    },
+    "observed_evaluations": 2,
+    "observed_steps": [
+      14,
+      15
+    ],
+    "period_start_step": 13,
+    "standard_deviation": {
+      "greedy_coverage_at_0_5": 0.009079492600422845,
+      "greedy_feasible_coverage_at_0_5": 0.007354578401836009,
+      "greedy_infeasible_leakage_at_0_5": 0.010110472631883652,
+      "greedy_max_capsules": 1.5,
+      "greedy_mean_capsules": 2.23599365750529,
+      "greedy_mean_confidence": 0.009079492600422845
+    },
+    "values": {
+      "greedy_coverage_at_0_5": [
+        0.4092363636363636,
+        0.4273953488372093
+      ],
+      "greedy_feasible_coverage_at_0_5": [
+        0.8404595271074822,
+        0.8551686839111542
+      ],
+      "greedy_infeasible_leakage_at_0_5": [
+        0.15149457508460545,
+        0.17171552034837276
+      ],
+      "greedy_max_capsules": [
+        153.0,
+        156.0
+      ],
+      "greedy_mean_capsules": [
+        142.29545454545453,
+        146.7674418604651
+      ],
+      "greedy_mean_confidence": [
+        0.4092363636363636,
+        0.4273953488372093
+      ]
+    }
+  },
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      14,
+      15
+    ],
+    "expected_evaluations": 2,
+    "mean": {
+      "greedy_feasible_rmse": 23.40623797915913,
+      "greedy_infeasible_rmse": 17.209762937065946,
+      "greedy_non_feasible_false_positive_rate": 0.15757123695367042,
+      "greedy_predicted_feasible_fraction": 0.40497248942917546,
+      "greedy_total": 19.765178906467575
+    },
+    "observed_evaluations": 2,
+    "observed_steps": [
+      14,
+      15
+    ],
+    "period_start_step": 13,
+    "standard_deviation": {
+      "greedy_feasible_rmse": 0.19714065550358306,
+      "greedy_infeasible_rmse": 0.8635105898381834,
+      "greedy_non_feasible_false_positive_rate": 0.009224855742614349,
+      "greedy_predicted_feasible_fraction": 0.007206580338266377,
+      "greedy_total": 0.38325806043638977
+    },
+    "values": {
+      "greedy_feasible_rmse": [
+        23.60337863466271,
+        23.209097323655545
+      ],
+      "greedy_infeasible_rmse": [
+        16.34625234722776,
+        18.073273526904128
+      ],
+      "greedy_non_feasible_false_positive_rate": [
+        0.1483463812110561,
+        0.1667960926962848
+      ],
+      "greedy_predicted_feasible_fraction": [
+        0.3977659090909091,
+        0.41217906976744184
+      ],
+      "greedy_total": [
+        19.381920846031186,
+        20.148436966903965
+      ]
+    }
+  }
+}

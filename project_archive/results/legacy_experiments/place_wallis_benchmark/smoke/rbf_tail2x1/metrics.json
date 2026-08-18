@@ -1,0 +1,260 @@
+{
+  "checkpoint": {
+    "final_step": 3,
+    "step": 3
+  },
+  "latest_fidelity": {
+    "eval_is_final": 1,
+    "eval_n_pairs_per_zone": 10000,
+    "greedy_active_experienced_models": 26,
+    "greedy_coverage_at_0_5": 0.0002,
+    "greedy_feasible_rmse": 39.7116197529726,
+    "greedy_infeasible_rmse": 1.7559282004971695,
+    "greedy_max_prototypes": 321,
+    "greedy_mean_local_experience": 40.03846153846154,
+    "greedy_mean_prototypes": 274.9230769230769,
+    "greedy_total": 24.328795498022817,
+    "sigma_3m_coverage_at_0_5": 0.0,
+    "sigma_3m_feasible_coverage_at_0_5": 0.0,
+    "sigma_3m_feasible_rmse": 41.345430410093186,
+    "sigma_3m_infeasible_leakage_at_0_5": 0.0,
+    "sigma_3m_infeasible_rmse": 0.7132212055366447,
+    "sigma_3m_mean_confidence": 0.0039113880304189825,
+    "sigma_3m_overall_rmse": 25.29469532408844,
+    "sigma_5m_coverage_at_0_5": 0.0002,
+    "sigma_5m_feasible_coverage_at_0_5": 0.00028787037608208417,
+    "sigma_5m_feasible_rmse": 39.7116197529726,
+    "sigma_5m_infeasible_leakage_at_0_5": 0.00014747993658362728,
+    "sigma_5m_infeasible_rmse": 1.7559282004971695,
+    "sigma_5m_mean_confidence": 0.01476156956599309,
+    "sigma_5m_overall_rmse": 24.328795498022817,
+    "sigma_8m_coverage_at_0_5": 0.0006384615384615385,
+    "sigma_8m_feasible_coverage_at_0_5": 0.0012954166923693788,
+    "sigma_8m_feasible_rmse": 36.71500945209329,
+    "sigma_8m_infeasible_leakage_at_0_5": 0.00024579989430604545,
+    "sigma_8m_infeasible_rmse": 3.436417646686301,
+    "sigma_8m_mean_confidence": 0.03666783658541166,
+    "sigma_8m_overall_rmse": 22.620234177186788,
+    "step": 3
+  },
+  "method": {
+    "id": "bounded_rbf_greedy",
+    "model": "4-64-64-1 MLP",
+    "name": "Bounded pair-RBF greedy sharing"
+  },
+  "metrics_db": {
+    "feasible_rmse": 40.11210850473406,
+    "non_feasible_rmse": 1.605585991201326,
+    "overall_rmse": 24.567268326329078
+  },
+  "metrics_db_standard_deviation": {
+    "feasible_rmse": 0.4004887517614577,
+    "non_feasible_rmse": 0.15034220929584363,
+    "overall_rmse": 0.2384728283062607
+  },
+  "primary_bandwidth_m": 5.0,
+  "rbf_params": {
+    "bandwidths_m": [
+      3.0,
+      5.0,
+      8.0
+    ],
+    "confidence_threshold": 0.5,
+    "local_merge_radius_m": 2.5,
+    "maturity_scale": 3.0,
+    "primary_bandwidth_m": 5.0,
+    "support_budget": 512,
+    "tree_neighbours": 8
+  },
+  "schema": "place_wallis_benchmark_result_v1",
+  "status": "complete",
+  "support": {
+    "budget": 512,
+    "max_prototypes": 321,
+    "mean_prototypes": 274.9230769230769,
+    "primary_coverage_at_0_5": 0.00010576923076923077
+  },
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": true,
+    "evaluation_steps": [
+      2,
+      3
+    ],
+    "expected_evaluations": 2,
+    "mean": {
+      "greedy_coverage_at_0_5": 0.00010576923076923077,
+      "greedy_feasible_rmse": 40.11210850473406,
+      "greedy_infeasible_rmse": 1.605585991201326,
+      "greedy_total": 24.567268326329078,
+      "sigma_3m_coverage_at_0_5": 0.0,
+      "sigma_3m_feasible_coverage_at_0_5": 0.0,
+      "sigma_3m_feasible_rmse": 41.48641049156069,
+      "sigma_3m_infeasible_leakage_at_0_5": 0.0,
+      "sigma_3m_infeasible_rmse": 0.6370795182279974,
+      "sigma_3m_mean_confidence": 0.002928945889839759,
+      "sigma_3m_overall_rmse": 25.379710406550533,
+      "sigma_5m_coverage_at_0_5": 0.00010576923076923077,
+      "sigma_5m_feasible_coverage_at_0_5": 0.0001490757304710793,
+      "sigma_5m_feasible_rmse": 40.11210850473406,
+      "sigma_5m_infeasible_leakage_at_0_5": 7.988496564946478e-05,
+      "sigma_5m_infeasible_rmse": 1.605585991201326,
+      "sigma_5m_mean_confidence": 0.011533604508179885,
+      "sigma_5m_overall_rmse": 24.567268326329078,
+      "sigma_8m_coverage_at_0_5": 0.0003423076923076923,
+      "sigma_8m_feasible_coverage_at_0_5": 0.0006836921431949499,
+      "sigma_8m_feasible_rmse": 37.459001524722616,
+      "sigma_8m_infeasible_leakage_at_0_5": 0.00013826244054715057,
+      "sigma_8m_infeasible_rmse": 3.1443253035819003,
+      "sigma_8m_mean_confidence": 0.02965359769967886,
+      "sigma_8m_overall_rmse": 23.047654014069842
+    },
+    "observed_evaluations": 2,
+    "observed_steps": [
+      2,
+      3
+    ],
+    "period_start_step": 1,
+    "standard_deviation": {
+      "greedy_coverage_at_0_5": 9.423076923076924e-05,
+      "greedy_feasible_rmse": 0.4004887517614577,
+      "greedy_infeasible_rmse": 0.15034220929584363,
+      "greedy_total": 0.2384728283062607,
+      "sigma_3m_coverage_at_0_5": 0.0,
+      "sigma_3m_feasible_coverage_at_0_5": 0.0,
+      "sigma_3m_feasible_rmse": 0.1409800814675073,
+      "sigma_3m_infeasible_leakage_at_0_5": 0.0,
+      "sigma_3m_infeasible_rmse": 0.07614168730864729,
+      "sigma_3m_mean_confidence": 0.0009824421405792234,
+      "sigma_3m_overall_rmse": 0.08501508246209255,
+      "sigma_5m_coverage_at_0_5": 9.423076923076924e-05,
+      "sigma_5m_feasible_coverage_at_0_5": 0.00013879464561100487,
+      "sigma_5m_feasible_rmse": 0.4004887517614577,
+      "sigma_5m_infeasible_leakage_at_0_5": 6.75949709341625e-05,
+      "sigma_5m_infeasible_rmse": 0.15034220929584363,
+      "sigma_5m_mean_confidence": 0.003227965057813205,
+      "sigma_5m_overall_rmse": 0.2384728283062607,
+      "sigma_8m_coverage_at_0_5": 0.00029615384615384616,
+      "sigma_8m_feasible_coverage_at_0_5": 0.0006117245491744289,
+      "sigma_8m_feasible_rmse": 0.7439920726293252,
+      "sigma_8m_infeasible_leakage_at_0_5": 0.00010753745375889489,
+      "sigma_8m_infeasible_rmse": 0.29209234310440046,
+      "sigma_8m_mean_confidence": 0.007014238885732797,
+      "sigma_8m_overall_rmse": 0.42741983688305396
+    },
+    "values": {
+      "greedy_coverage_at_0_5": [
+        1.1538461538461538e-05,
+        0.0002
+      ],
+      "greedy_feasible_rmse": [
+        40.51259725649552,
+        39.7116197529726
+      ],
+      "greedy_infeasible_rmse": [
+        1.4552437819054822,
+        1.7559282004971695
+      ],
+      "greedy_total": [
+        24.80574115463534,
+        24.328795498022817
+      ],
+      "sigma_3m_coverage_at_0_5": [
+        0.0,
+        0.0
+      ],
+      "sigma_3m_feasible_coverage_at_0_5": [
+        0.0,
+        0.0
+      ],
+      "sigma_3m_feasible_rmse": [
+        41.6273905730282,
+        41.345430410093186
+      ],
+      "sigma_3m_infeasible_leakage_at_0_5": [
+        0.0,
+        0.0
+      ],
+      "sigma_3m_infeasible_rmse": [
+        0.5609378309193501,
+        0.7132212055366447
+      ],
+      "sigma_3m_mean_confidence": [
+        0.0019465037492605356,
+        0.0039113880304189825
+      ],
+      "sigma_3m_overall_rmse": [
+        25.464725489012626,
+        25.29469532408844
+      ],
+      "sigma_5m_coverage_at_0_5": [
+        1.1538461538461538e-05,
+        0.0002
+      ],
+      "sigma_5m_feasible_coverage_at_0_5": [
+        1.0281084860074436e-05,
+        0.00028787037608208417
+      ],
+      "sigma_5m_feasible_rmse": [
+        40.51259725649552,
+        39.7116197529726
+      ],
+      "sigma_5m_infeasible_leakage_at_0_5": [
+        1.2289994715302273e-05,
+        0.00014747993658362728
+      ],
+      "sigma_5m_infeasible_rmse": [
+        1.4552437819054822,
+        1.7559282004971695
+      ],
+      "sigma_5m_mean_confidence": [
+        0.00830563945036668,
+        0.01476156956599309
+      ],
+      "sigma_5m_overall_rmse": [
+        24.80574115463534,
+        24.328795498022817
+      ],
+      "sigma_8m_coverage_at_0_5": [
+        4.615384615384615e-05,
+        0.0006384615384615385
+      ],
+      "sigma_8m_feasible_coverage_at_0_5": [
+        7.196759402052104e-05,
+        0.0012954166923693788
+      ],
+      "sigma_8m_feasible_rmse": [
+        38.20299359735194,
+        36.71500945209329
+      ],
+      "sigma_8m_infeasible_leakage_at_0_5": [
+        3.072498678825568e-05,
+        0.00024579989430604545
+      ],
+      "sigma_8m_infeasible_rmse": [
+        2.8522329604775,
+        3.436417646686301
+      ],
+      "sigma_8m_mean_confidence": [
+        0.022639358813946065,
+        0.03666783658541166
+      ],
+      "sigma_8m_overall_rmse": [
+        23.475073850952896,
+        22.620234177186788
+      ]
+    }
+  },
+  "testset": {
+    "path": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/place_wallis_300m_30min_opaque_buildings_no_vehicle_blockers/testset/place_wallis_street_pairs_10000_opaque_no_vehicle_blockers_static_floor100.npz",
+    "samples": 10000
+  },
+  "training": {
+    "gradient_clip_norm": 1.0,
+    "new_data_epochs": 2,
+    "recent_replay_batches": 4,
+    "recent_window": 512,
+    "replay_batches": 8,
+    "replay_capacity": 4096
+  }
+}

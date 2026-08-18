@@ -1,0 +1,118 @@
+{
+  "architecture": {
+    "acquisition_head": "candidate and bank encodings to one scalar",
+    "bank_encoder": "same encoder over the union plane set",
+    "hidden_dim": 128,
+    "latent_dim": 64,
+    "plane_encoder": "shared MLP plus mean/max pooling"
+  },
+  "artifacts": {
+    "acquisition": "/home/hgraef/zramp-workspace/artifacts/support_acquisition_pretraining/synthetic_regular_grid300_gain_v2_optimized_fast/acquisition.pt",
+    "bundle": "/home/hgraef/zramp-workspace/artifacts/support_acquisition_pretraining/synthetic_regular_grid300_gain_v2_optimized_fast/bundle.pt",
+    "encoder": "/home/hgraef/zramp-workspace/artifacts/support_acquisition_pretraining/synthetic_regular_grid300_gain_v2_optimized_fast/encoder.pt"
+  },
+  "best_validation": {
+    "examples": 8192,
+    "gain_log_mae": 0.08162935823202133,
+    "gain_log_rmse": 0.17220304906368256,
+    "gain_prediction_bias_log": -0.009473351761698723,
+    "gain_relative_mae": 19.82553482055664,
+    "gain_relative_rmse": 514.982666015625,
+    "groups": 512,
+    "mean_selection_regret_log": 0.04142841281282017,
+    "plane_count_max": 1255,
+    "plane_count_mean": 64.97392003676471,
+    "plane_count_min": 1,
+    "positive_target_fraction": 0.9573974609375,
+    "top1_accuracy": 0.6875
+  },
+  "data_generation": "continuous artificial unit-square scenes",
+  "early_stopping": {
+    "best_step": 19900,
+    "best_validation_rmse_log_gain": 0.17220304906368256,
+    "enabled": true,
+    "minimum_delta": 1e-05,
+    "minimum_steps": 5000,
+    "patience_validations": 75,
+    "triggered": false,
+    "validation_every_steps": 100
+  },
+  "feature_schema": [
+    "midpoint_x_unit_square",
+    "midpoint_y_unit_square",
+    "axis_cos_2theta",
+    "axis_sin_2theta",
+    "length_unit_square",
+    "low_start_unit_square",
+    "high_start_unit_square",
+    "low_end_unit_square",
+    "high_end_unit_square",
+    "log1p_sample_count",
+    "max_link_length_unit_square",
+    "angle_spread_fraction_pi"
+  ],
+  "gain_grid": {
+    "aggregation": "pointwise maximum raw plane sample count",
+    "frame": "fixed normalized unit square",
+    "layout": "regular cell-centred square lattice",
+    "points": 90000,
+    "resolution": 300,
+    "zero_width_plane_support": 0
+  },
+  "holdout_validation": {
+    "examples": 8192,
+    "gain_log_mae": 0.09657655656337738,
+    "gain_log_rmse": 0.2472279667854309,
+    "gain_prediction_bias_log": -0.028372887521982193,
+    "gain_relative_mae": 1124.6654052734375,
+    "gain_relative_rmse": 36060.171875,
+    "groups": 512,
+    "mean_selection_regret_log": 0.04106474473155686,
+    "plane_count_max": 1092,
+    "plane_count_mean": 64.12235753676471,
+    "plane_count_min": 1,
+    "positive_target_fraction": 0.9632568359375,
+    "top1_accuracy": 0.70703125
+  },
+  "map_data_used": false,
+  "max_sample_count": 4096,
+  "optimization": {
+    "actual_steps": 20000,
+    "elapsed_seconds": 12834.241062207031,
+    "gradient_clip_norm": 1.0,
+    "groups_per_batch": 8,
+    "learning_rate": 0.0002,
+    "max_steps": 20000,
+    "optimizer": "Adam",
+    "target_workers": 32,
+    "training_examples_generated": 2560000
+  },
+  "probability_output": false,
+  "radio_measurements_used": false,
+  "schema": "synthetic_unit_square_grid_gain_pretraining_v2",
+  "status": "complete",
+  "synthetic_config": {
+    "candidates_per_bank": 16,
+    "grid_layout": "regular",
+    "grid_resolution": 300,
+    "max_axes": 48,
+    "max_bank_size": 15,
+    "max_planes": 256,
+    "min_axes": 6,
+    "min_bank_size": 1,
+    "min_planes": 1
+  },
+  "training_loss": "mean squared error only",
+  "training_target": "one scalar log1p relative intensity-weighted point-grid gain",
+  "validation_config": {
+    "candidates_per_bank": 16,
+    "grid_layout": "regular",
+    "grid_resolution": 300,
+    "max_axes": 48,
+    "max_bank_size": 15,
+    "max_planes": 256,
+    "min_axes": 6,
+    "min_bank_size": 1,
+    "min_planes": 1
+  }
+}

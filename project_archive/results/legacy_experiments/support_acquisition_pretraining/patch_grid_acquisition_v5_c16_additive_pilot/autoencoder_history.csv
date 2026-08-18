@@ -1,0 +1,2 @@
+step,training_loss,selection_reconstruction_rmse,matched_relative_rmse,stress_relative_rmse
+1,0.14025749266147614,0.3191114419510393,0.3369861636529348,0.30017419988170285

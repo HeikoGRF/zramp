@@ -1,0 +1,19 @@
+Benchmark Comparison — Munich 3D, 200 steps (obs_range=250.0m, share_range=30.0m)
+==========================================================================================
+Strategy                          Eval RMSE  Eval MAE  Size (KB)  Comm (MB)  Shareable
+------------------------------------------------------------------------------------------
+FSPL Baseline                        33.17     20.30        0.0      0.000        Yes
+Local LoRA (no sharing)              21.69     13.45       94.6      0.000        Yes
+Greedy Flooding LoRA (ours)          21.79     13.77       94.6   2186.725        Yes
+Centralized Large MLP                21.46     12.31      696.0      3.189         No
+==========================================================================================
+
+Accuracy gains (Greedy LoRA as pivot):
+  vs FSPL Baseline:    +11.39 dB
+  vs Local-only LoRA:  -0.09 dB  ← value of greedy sharing
+  vs Centralized MLP:  +0.33 dB  ← gap vs server oracle
+
+Communication cost:
+  Greedy LoRA (adapter swaps ≤30m):  2186.725 MB
+  Centralized MLP (all obs uploaded):          3.189 MB
+  Centralized uses 0.0× more bandwidth

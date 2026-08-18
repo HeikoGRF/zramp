@@ -1,0 +1,17 @@
+{
+  "attempts": 489,
+  "decision_opportunities": 4501,
+  "gain_prediction_mae": 0.23620935650827804,
+  "gain_prediction_pearson": 0.5697679720126142,
+  "gain_prediction_rmse": 0.3809206517329456,
+  "gain_sign_accuracy": 0.9795501022494888,
+  "prediction_target_pairs": 489,
+  "selected_predicted_top_fraction": 0.9406952965235174,
+  "selection_mode": "policy",
+  "timing_reason_counts": {
+    "policy_wait": 693,
+    "token_spent": 3319,
+    "wait": 489
+  },
+  "token_window_steps": 10
+}

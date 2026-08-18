@@ -1,0 +1,23 @@
+{
+  "decision_rows": 3862,
+  "elapsed_s": 21.67686128616333,
+  "fidelity_rows": 3,
+  "latest_fidelity_step": 300,
+  "local_policy_initial_accepts": {},
+  "local_policy_initial_decisions": {},
+  "local_policy_initial_pull": "best-score-random-fallback-during-online-warmup",
+  "local_policy_initial_pull_probability": 0.0,
+  "local_policy_pending_transitions": 0,
+  "local_policy_pull_updates": {},
+  "local_policy_rows": 300,
+  "local_policy_share": false,
+  "local_policy_train_updates": {},
+  "modes": [
+    "t2_b0"
+  ],
+  "reason": "completed",
+  "requested_steps": 300,
+  "sharing_rows": 300,
+  "step": 300,
+  "zramp_policy_mode": "bidirectional-private-cv-exact-single-policy-sequential"
+}

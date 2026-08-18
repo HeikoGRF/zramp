@@ -1,0 +1,157 @@
+{
+  "checkpoint": {
+    "final_step": 1799,
+    "step": 100
+  },
+  "latest_fidelity": {},
+  "method": {
+    "id": "bounded_rbf_greedy",
+    "model": "4-64-64-1 MLP",
+    "name": "Bounded pair-RBF greedy sharing"
+  },
+  "metrics_db": {
+    "feasible_rmse": null,
+    "non_feasible_rmse": null,
+    "overall_rmse": null
+  },
+  "metrics_db_standard_deviation": {
+    "feasible_rmse": null,
+    "non_feasible_rmse": null,
+    "overall_rmse": null
+  },
+  "primary_bandwidth_m": 5.0,
+  "rbf_params": {
+    "bandwidths_m": [
+      3.0,
+      5.0,
+      8.0
+    ],
+    "confidence_threshold": 0.5,
+    "local_merge_radius_m": 2.5,
+    "maturity_scale": 3.0,
+    "primary_bandwidth_m": 5.0,
+    "support_budget": 512,
+    "tree_neighbours": 8
+  },
+  "schema": "place_wallis_benchmark_result_v1",
+  "status": "running",
+  "support": {
+    "budget": 512,
+    "max_prototypes": null,
+    "mean_prototypes": null,
+    "primary_coverage_at_0_5": null
+  },
+  "temporal_evaluation": {
+    "aggregation": "arithmetic mean over equally weighted evaluation times",
+    "complete": false,
+    "evaluation_steps": [
+      1574,
+      1599,
+      1624,
+      1649,
+      1674,
+      1699,
+      1724,
+      1749,
+      1774,
+      1799
+    ],
+    "expected_evaluations": 10,
+    "mean": {
+      "greedy_coverage_at_0_5": null,
+      "greedy_feasible_rmse": null,
+      "greedy_infeasible_rmse": null,
+      "greedy_total": null,
+      "sigma_3m_coverage_at_0_5": null,
+      "sigma_3m_feasible_coverage_at_0_5": null,
+      "sigma_3m_feasible_rmse": null,
+      "sigma_3m_infeasible_leakage_at_0_5": null,
+      "sigma_3m_infeasible_rmse": null,
+      "sigma_3m_mean_confidence": null,
+      "sigma_3m_overall_rmse": null,
+      "sigma_5m_coverage_at_0_5": null,
+      "sigma_5m_feasible_coverage_at_0_5": null,
+      "sigma_5m_feasible_rmse": null,
+      "sigma_5m_infeasible_leakage_at_0_5": null,
+      "sigma_5m_infeasible_rmse": null,
+      "sigma_5m_mean_confidence": null,
+      "sigma_5m_overall_rmse": null,
+      "sigma_8m_coverage_at_0_5": null,
+      "sigma_8m_feasible_coverage_at_0_5": null,
+      "sigma_8m_feasible_rmse": null,
+      "sigma_8m_infeasible_leakage_at_0_5": null,
+      "sigma_8m_infeasible_rmse": null,
+      "sigma_8m_mean_confidence": null,
+      "sigma_8m_overall_rmse": null
+    },
+    "observed_evaluations": 0,
+    "observed_steps": [],
+    "period_start_step": 1549,
+    "standard_deviation": {
+      "greedy_coverage_at_0_5": null,
+      "greedy_feasible_rmse": null,
+      "greedy_infeasible_rmse": null,
+      "greedy_total": null,
+      "sigma_3m_coverage_at_0_5": null,
+      "sigma_3m_feasible_coverage_at_0_5": null,
+      "sigma_3m_feasible_rmse": null,
+      "sigma_3m_infeasible_leakage_at_0_5": null,
+      "sigma_3m_infeasible_rmse": null,
+      "sigma_3m_mean_confidence": null,
+      "sigma_3m_overall_rmse": null,
+      "sigma_5m_coverage_at_0_5": null,
+      "sigma_5m_feasible_coverage_at_0_5": null,
+      "sigma_5m_feasible_rmse": null,
+      "sigma_5m_infeasible_leakage_at_0_5": null,
+      "sigma_5m_infeasible_rmse": null,
+      "sigma_5m_mean_confidence": null,
+      "sigma_5m_overall_rmse": null,
+      "sigma_8m_coverage_at_0_5": null,
+      "sigma_8m_feasible_coverage_at_0_5": null,
+      "sigma_8m_feasible_rmse": null,
+      "sigma_8m_infeasible_leakage_at_0_5": null,
+      "sigma_8m_infeasible_rmse": null,
+      "sigma_8m_mean_confidence": null,
+      "sigma_8m_overall_rmse": null
+    },
+    "values": {
+      "greedy_coverage_at_0_5": [],
+      "greedy_feasible_rmse": [],
+      "greedy_infeasible_rmse": [],
+      "greedy_total": [],
+      "sigma_3m_coverage_at_0_5": [],
+      "sigma_3m_feasible_coverage_at_0_5": [],
+      "sigma_3m_feasible_rmse": [],
+      "sigma_3m_infeasible_leakage_at_0_5": [],
+      "sigma_3m_infeasible_rmse": [],
+      "sigma_3m_mean_confidence": [],
+      "sigma_3m_overall_rmse": [],
+      "sigma_5m_coverage_at_0_5": [],
+      "sigma_5m_feasible_coverage_at_0_5": [],
+      "sigma_5m_feasible_rmse": [],
+      "sigma_5m_infeasible_leakage_at_0_5": [],
+      "sigma_5m_infeasible_rmse": [],
+      "sigma_5m_mean_confidence": [],
+      "sigma_5m_overall_rmse": [],
+      "sigma_8m_coverage_at_0_5": [],
+      "sigma_8m_feasible_coverage_at_0_5": [],
+      "sigma_8m_feasible_rmse": [],
+      "sigma_8m_infeasible_leakage_at_0_5": [],
+      "sigma_8m_infeasible_rmse": [],
+      "sigma_8m_mean_confidence": [],
+      "sigma_8m_overall_rmse": []
+    }
+  },
+  "testset": {
+    "path": "/usr/itetnas04/data-scratch-01/hgraef/data/luxembourg_real_city/place_wallis_300m_30min_opaque_buildings_no_vehicle_blockers/testset/place_wallis_street_pairs_10000_opaque_no_vehicle_blockers_static_floor100.npz",
+    "samples": 0
+  },
+  "training": {
+    "gradient_clip_norm": 1.0,
+    "new_data_epochs": 2,
+    "recent_replay_batches": 4,
+    "recent_window": 512,
+    "replay_batches": 8,
+    "replay_capacity": 4096
+  }
+}
